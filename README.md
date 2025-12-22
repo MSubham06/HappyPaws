@@ -36,12 +36,12 @@ The system is designed to manage veterinary clinic operations including owners, 
 ### Backend
 - Java v17 
 - Spring Boot v3.9.5 
-- Spring MVC  
-- Spring Data JPA  
+- Spring MVC v6.1.x 
+- Spring Data JPA  v3.2.x
 - Spring Security  
 
 ### Database
-- MySQL  
+- MySQL v8.0.x 
 
 ### Tools
 - VS Code  
