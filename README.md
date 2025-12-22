@@ -99,18 +99,18 @@ The application follows a Client–Server Architecture model:
 
 ## Team Members
 
-- M Subham – https://github.com/MSubham06  
-- Abhishek Kumar (Team Leader) – https://github.com/Amazeabhi/  
-- B Girinath Reddy – https://github.com/Girinath3318  
-- Chapala Praveen – https://github.com/MSubham06  
-- Gudipati Jayasimha Vardhan – https://github.com/jayasimha-vardhan  
+- M Subham – ([Click here to open repository](https://github.com/MSubham06))
+- Abhishek Kumar (Team Leader) – ([Click here to open repository](https://github.com/Amazeabhi/))  
+- B Girinath Reddy – ([Click here to open repository](https://github.com/Girinath3318)) 
+- Chapala Praveen – ([Click here to open repository](https://github.com/praveenchapala))
+- Gudipati Jayasimha Vardhan – ([Click here to open repository](https://github.com/jayasimha-vardhan))
+
 
 ---
 
 ## Project Documentation
 
-Project Report (PDF):  
-https://github.com/MSubham06/HappyPaws/blob/main/Project%20Report%20Spring%20PetClinic%20Application.pdf
+Project Report (PDF): ([Click here to open final year project pdf](https://github.com/MSubham06/HappyPaws/blob/main/Project%20Report%20Spring%20PetClinic%20Application.pdf))
 
 ---
 
