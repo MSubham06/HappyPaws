@@ -28,14 +28,14 @@ The system is designed to manage veterinary clinic operations including owners, 
 ## Technology Stack
 
 ### Frontend
-- React.js  
+- React.js  v18.2.0   
 - HTML5  
 - CSS3  
 - JavaScript (ES6+)  
 
 ### Backend
-- Java  
-- Spring Boot  
+- Java v17 
+- Spring Boot v3.9.5 
 - Spring MVC  
 - Spring Data JPA  
 - Spring Security  
