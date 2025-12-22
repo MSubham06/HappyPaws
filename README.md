@@ -44,10 +44,10 @@ The system is designed to manage veterinary clinic operations including owners, 
 - MySQL v8.0.x 
 
 ### Tools
-- VS Code  
-- Maven  
-- Git and GitHub  
-- Postman  
+- VS Code v1.107 
+- Maven v3.9.5 
+- Git and GitHub v2.40+ 
+- Postman v10+ 
 
 ---
 
