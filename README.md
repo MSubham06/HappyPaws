@@ -1,5 +1,6 @@
 # HappyPaws – Spring PetClinic Application
-Care for Every Paw!
+Care for Every Paw!🐾🤝
+
 
 HappyPaws is a full-stack web application developed using React and Spring Boot, based on the modern Spring PetClinic architecture. The project demonstrates real-world enterprise application development practices such as layered architecture, RESTful APIs, database persistence, and role-based security.
 
