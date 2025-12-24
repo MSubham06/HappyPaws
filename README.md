@@ -142,7 +142,7 @@ Project Report (PDF): [Click here to open final year project pdf](https://github
 
 - **Supertails Clinic**  🔗 [Open Website](https://supertails.com/pages/supertails-clinic)
 
-- **Zigly Pet Care (Sindhi Colony, Hyderabad)**  🔗 [Open Website](https://stores.zigly.com/locations/hyderabad/sindhi-colony/zigly-pet-care-vet-clinic-pet-grooming-pet-products-in-sindhi-colony-hyderabad--1a1pg8/home)
+- **Zigly Pet Care**  🔗 [Open Website](https://stores.zigly.com/locations/hyderabad/sindhi-colony/zigly-pet-care-vet-clinic-pet-grooming-pet-products-in-sindhi-colony-hyderabad--1a1pg8/home)
 ---
 
 ## Conclusion
