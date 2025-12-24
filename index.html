@@ -15,6 +15,7 @@
             --glass: rgba(255, 255, 255, 0.08);
         }
 
+        /* RESET: Critical for handling widths correctly */
         * {
             margin: 0;
             padding: 0;
@@ -22,21 +23,26 @@
             font-family: 'Poppins', sans-serif;
         }
 
+        html, body {
+            width: 100%;
+            overflow-x: hidden; /* Prevents side-scrolling */
+            min-height: 100vh;
+        }
+
         body {
             background: var(--dark-bg);
             color: white;
-            height: 100vh;
-            width: 100vw;
             display: flex;
-            justify-content: center; /* Horizontally centered */
-            align-items: center;     /* Vertically centered */
-            overflow: hidden;
+            justify-content: center;
+            align-items: center;
             position: relative;
+            padding: 20px 0; /* Vertical breathing room */
         }
 
         .bg-glow {
             position: absolute;
-            width: 500px;
+            width: 80%; /* Relative width */
+            max-width: 500px;
             height: 500px;
             background: radial-gradient(circle, rgba(255, 71, 71, 0.15) 0%, transparent 70%);
             top: -100px;
@@ -44,28 +50,33 @@
             z-index: -1;
         }
 
-        /* The main hero card */
+        /* --- MAIN CONTAINER --- */
         .hero-container {
-            width: 92%;
+            /* Desktop Default: 90% width capped at 1100px */
+            width: 90%; 
             max-width: 1100px;
+            
             background: var(--glass);
             backdrop-filter: blur(30px);
             border: 1px solid rgba(255, 255, 255, 0.15);
             border-radius: 40px;
-            padding: 60px; /* Equal gap around the contains */
+            
+            /* Desktop Layout: Grid */
             display: grid;
             grid-template-columns: 1.2fr 0.8fr;
-            gap: 50px; /* Equal gap between columns */
+            gap: 5%; /* Fluid gap */
+            padding: 5%; /* Fluid padding */
+            
             box-shadow: 0 40px 100px rgba(0,0,0,0.5);
-            margin: 20px; /* Margin to ensure it doesn't touch screen edges */
+            margin: auto;
         }
 
-        /* Branding Section Alignment */
+        /* --- CONTENT STYLES --- */
         .logo-group {
             display: flex;
             align-items: center;
-            gap: 20px;
-            margin-bottom: 40px;
+            gap: 15px;
+            margin-bottom: 5%;
         }
 
         .circle-logo {
@@ -76,9 +87,7 @@
             object-fit: cover;
         }
 
-        .main-logo-img {
-            height: 50px;
-        }
+        .main-logo-img { height: 50px; }
 
         .content-left {
             text-align: left;
@@ -105,9 +114,10 @@
             opacity: 0.8;
             margin-bottom: 40px;
             line-height: 1.6;
+            max-width: 100%;
         }
 
-        /* Centered & Interactive Notify Form */
+        /* --- FORM --- */
         .notify-form {
             display: flex;
             gap: 10px;
@@ -116,28 +126,31 @@
             border-radius: 18px;
             border: 1px solid rgba(255, 255, 255, 0.15);
             transition: 0.4s;
+            width: 100%; /* Take full available width */
             max-width: 480px;
         }
 
         input {
             background: transparent;
             border: none;
-            padding: 12px 20px;
+            padding: 12px 15px;
             color: white;
-            flex-grow: 1;
+            flex-grow: 1; /* Fills remaining space */
             outline: none;
             font-size: 1rem;
+            min-width: 0; /* Prevents overflow in flexbox */
         }
 
         button {
             background: var(--primary-red);
             color: white;
             border: none;
-            padding: 14px 30px;
+            padding: 14px 25px;
             border-radius: 12px;
             cursor: pointer;
             font-weight: 600;
             transition: all 0.3s ease;
+            white-space: nowrap; /* Prevents text wrap */
         }
 
         button:hover {
@@ -146,7 +159,6 @@
             box-shadow: 0 10px 20px rgba(255, 71, 71, 0.3);
         }
 
-        /* SUCCESS STATE: Green Sent Message */
         .notify-form.success {
             border-color: var(--success-green);
             background: rgba(46, 204, 113, 0.1);
@@ -157,11 +169,11 @@
             pointer-events: none;
         }
 
-        /* Right Side Content Panel */
+        /* --- RIGHT PANEL --- */
         .right-panel {
             background: rgba(255, 255, 255, 0.03);
             border-radius: 30px;
-            padding: 40px;
+            padding: 8%; /* Percentage padding */
             border: 1px solid rgba(255, 255, 255, 0.05);
             display: flex;
             flex-direction: column;
@@ -186,12 +198,68 @@
             gap: 12px;
         }
 
-        .dot { width: 8px; height: 8px; background: var(--primary-red); border-radius: 50%; }
+        .dot { width: 8px; height: 8px; background: var(--primary-red); border-radius: 50%; flex-shrink: 0; }
 
-        @media (max-width: 900px) {
-            body { height: auto; overflow-y: auto; padding: 40px 0; }
-            .hero-container { grid-template-columns: 1fr; padding: 35px; }
-            h1 { font-size: 2.8rem; }
+        /* --- MOBILE RESPONSIVENESS (Using %) --- */
+        
+        @media (max-width: 960px) {
+            .hero-container {
+                display: flex;
+                flex-direction: column;
+                /* On tablets/mobile: use 95% of screen width */
+                width: 95%; 
+                padding: 8%; /* Larger touch targets */
+                gap: 40px;
+            }
+            
+            h1 { font-size: 3rem; }
+            .content-left { text-align: center; align-items: center; }
+            .description { text-align: center; }
+            .logo-group { justify-content: center; }
+        }
+
+        @media (max-width: 600px) {
+            .hero-container {
+                /* On small phones: almost full width */
+                width: 96%;
+                padding: 6% 5%; /* 6% vertical, 5% horizontal */
+                border-radius: 25px;
+            }
+
+            /* Responsive Font Size using Viewport Width */
+            h1 { font-size: 10vw; } 
+            
+            .description { font-size: 0.95rem; margin-bottom: 30px; }
+
+            .circle-logo { width: 55px; height: 55px; }
+            .main-logo-img { height: 35px; }
+
+            /* Stack Form Elements */
+            .notify-form {
+                flex-direction: column;
+                background: transparent;
+                border: none;
+                padding: 0;
+            }
+
+            .notify-form input {
+                width: 100%;
+                background: rgba(255, 255, 255, 0.05);
+                border: 1px solid rgba(255, 255, 255, 0.15);
+                border-radius: 15px;
+                margin-bottom: 10px;
+                text-align: center;
+                padding: 15px;
+            }
+
+            .notify-form button {
+                width: 100%;
+                padding: 15px;
+            }
+            
+            .right-panel {
+                padding: 8%;
+            }
         }
     </style>
 </head>
@@ -206,7 +274,7 @@
                 <img src="assets/HappyPaws Logo.png" alt="HappyPaws" class="main-logo-img">
             </div>
 
-            <h1>Launching <br><span class="highlight">soon.</span></h1>
+            <h1>Coming <br><span class="highlight">soon.</span></h1>
             
             <p class="description">
                 HappyPaws is a modern Full-Stack PetClinic Application. We utilize React and Spring Boot to ensure that care for every paw is seamless and efficient.
@@ -246,13 +314,11 @@
             const form = document.getElementById('notifyForm');
 
             if (email.value.includes('@')) {
-                // Change style to Success
                 form.classList.add('success');
                 btn.innerHTML = "Sent! ✓";
                 email.disabled = true;
                 email.style.opacity = "0.5";
                 
-                // Trigger mail client
                 const mailtoLink = `mailto:msubham246@gmail.com?subject=Launch Notification&body=Interested user: ${email.value}`;
                 window.location.href = mailtoLink;
             } else {
