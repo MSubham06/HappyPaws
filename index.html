@@ -6,6 +6,9 @@
     <title>HappyPaws | Launching Soon</title>
     <link rel="icon" type="image/png" href="assets/Logo Cir.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+
     <style>
         :root {
             --primary-red: #ff4747;
@@ -15,7 +18,7 @@
             --glass: rgba(255, 255, 255, 0.08);
         }
 
-        /* RESET: Critical for handling widths correctly */
+        /* RESET */
         * {
             margin: 0;
             padding: 0;
@@ -25,7 +28,7 @@
 
         html, body {
             width: 100%;
-            overflow-x: hidden; /* Prevents side-scrolling */
+            overflow-x: hidden;
             min-height: 100vh;
         }
 
@@ -36,12 +39,12 @@
             justify-content: center;
             align-items: center;
             position: relative;
-            padding: 20px 0; /* Vertical breathing room */
+            padding: 20px 0;
         }
 
         .bg-glow {
             position: absolute;
-            width: 80%; /* Relative width */
+            width: 80%;
             max-width: 500px;
             height: 500px;
             background: radial-gradient(circle, rgba(255, 71, 71, 0.15) 0%, transparent 70%);
@@ -52,23 +55,20 @@
 
         /* --- MAIN CONTAINER --- */
         .hero-container {
-            /* Desktop Default: 90% width capped at 1100px */
             width: 90%; 
             max-width: 1100px;
-            
             background: var(--glass);
             backdrop-filter: blur(30px);
             border: 1px solid rgba(255, 255, 255, 0.15);
             border-radius: 40px;
-            
-            /* Desktop Layout: Grid */
             display: grid;
             grid-template-columns: 1.2fr 0.8fr;
-            gap: 5%; /* Fluid gap */
-            padding: 5%; /* Fluid padding */
-            
+            gap: 5%;
+            padding: 5%;
             box-shadow: 0 40px 100px rgba(0,0,0,0.5);
             margin: auto;
+            position: relative;
+            z-index: 10;
         }
 
         /* --- CONTENT STYLES --- */
@@ -126,8 +126,9 @@
             border-radius: 18px;
             border: 1px solid rgba(255, 255, 255, 0.15);
             transition: 0.4s;
-            width: 100%; /* Take full available width */
+            width: 100%;
             max-width: 480px;
+            position: relative;
         }
 
         input {
@@ -135,10 +136,12 @@
             border: none;
             padding: 12px 15px;
             color: white;
-            flex-grow: 1; /* Fills remaining space */
+            flex-grow: 1;
             outline: none;
             font-size: 1rem;
-            min-width: 0; /* Prevents overflow in flexbox */
+            min-width: 0;
+            border-radius: 10px;
+            transition: 0.3s;
         }
 
         button {
@@ -150,7 +153,7 @@
             cursor: pointer;
             font-weight: 600;
             transition: all 0.3s ease;
-            white-space: nowrap; /* Prevents text wrap */
+            white-space: nowrap;
         }
 
         button:hover {
@@ -159,21 +162,60 @@
             box-shadow: 0 10px 20px rgba(255, 71, 71, 0.3);
         }
 
+        /* --- ERROR ANIMATION STYLES --- */
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            75% { transform: translateX(10px); }
+        }
+
+        .error-shake {
+            animation: shake 0.4s ease-in-out;
+            border-color: var(--primary-red) !important;
+            box-shadow: 0 0 15px rgba(255, 71, 71, 0.3);
+        }
+
         .notify-form.success {
             border-color: var(--success-green);
             background: rgba(46, 204, 113, 0.1);
         }
-
         .notify-form.success button {
             background: var(--success-green);
             pointer-events: none;
+        }
+
+        /* --- TOAST NOTIFICATION --- */
+        #toast-box {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            visibility: hidden;
+            opacity: 0;
+            transform: translateY(-20px);
+            background: rgba(51, 55, 67, 0.95);
+            backdrop-filter: blur(10px);
+            color: #f1c40f;
+            border-radius: 12px;
+            padding: 12px 20px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            z-index: 1000;
+            transition: all 0.4s ease;
+        }
+
+        #toast-box.show {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(0);
         }
 
         /* --- RIGHT PANEL --- */
         .right-panel {
             background: rgba(255, 255, 255, 0.03);
             border-radius: 30px;
-            padding: 8%; /* Percentage padding */
+            padding: 8%;
             border: 1px solid rgba(255, 255, 255, 0.05);
             display: flex;
             flex-direction: column;
@@ -200,18 +242,15 @@
 
         .dot { width: 8px; height: 8px; background: var(--primary-red); border-radius: 50%; flex-shrink: 0; }
 
-        /* --- MOBILE RESPONSIVENESS (Using %) --- */
-        
+        /* --- MOBILE RESPONSIVENESS --- */
         @media (max-width: 960px) {
             .hero-container {
                 display: flex;
                 flex-direction: column;
-                /* On tablets/mobile: use 95% of screen width */
                 width: 95%; 
-                padding: 8%; /* Larger touch targets */
+                padding: 8%;
                 gap: 40px;
             }
-            
             h1 { font-size: 3rem; }
             .content-left { text-align: center; align-items: center; }
             .description { text-align: center; }
@@ -220,28 +259,21 @@
 
         @media (max-width: 600px) {
             .hero-container {
-                /* On small phones: almost full width */
                 width: 96%;
-                padding: 6% 5%; /* 6% vertical, 5% horizontal */
+                padding: 6% 5%;
                 border-radius: 25px;
             }
-
-            /* Responsive Font Size using Viewport Width */
             h1 { font-size: 10vw; } 
-            
             .description { font-size: 0.95rem; margin-bottom: 30px; }
-
             .circle-logo { width: 55px; height: 55px; }
             .main-logo-img { height: 35px; }
 
-            /* Stack Form Elements */
             .notify-form {
                 flex-direction: column;
                 background: transparent;
                 border: none;
                 padding: 0;
             }
-
             .notify-form input {
                 width: 100%;
                 background: rgba(255, 255, 255, 0.05);
@@ -251,14 +283,12 @@
                 text-align: center;
                 padding: 15px;
             }
-
-            .notify-form button {
-                width: 100%;
-                padding: 15px;
-            }
+            .notify-form button { width: 100%; padding: 15px; }
             
-            .right-panel {
-                padding: 8%;
+            #toast-box {
+                top: 20px;
+                right: 20px;
+                font-size: 0.8rem;
             }
         }
     </style>
@@ -266,6 +296,10 @@
 <body>
 
     <div class="bg-glow"></div>
+
+    <div id="toast-box">
+        <span id="toast-msg">Invalid email address!</span>
+    </div>
 
     <div class="hero-container">
         <div class="content-left">
@@ -281,8 +315,8 @@
             </p>
 
             <div class="notify-form" id="notifyForm">
-                <input type="email" id="userEmail" placeholder="Enter your email address">
-                <button id="notifyBtn" onclick="handleNotify()">Notify Me</button>
+                <input type="email" id="userEmail" name="email" placeholder="Enter your email address">
+                <button id="notifyBtn" onclick="handleNotify(event)">Notify Me</button>
             </div>
         </div>
 
@@ -308,21 +342,160 @@
     </div>
 
     <script>
-        function handleNotify() {
-            const email = document.getElementById('userEmail');
+        // --- 1. AUDIO SETUP ---
+        const bgm = new Audio('assets/Bgm.mp3');
+        bgm.loop = true; 
+        bgm.volume = 0.5;
+
+        const errorSfx = new Audio('assets/Error.mp3');
+        errorSfx.volume = 0.3;
+
+        // New Pop Sound for Success
+        const popSfx = new Audio('assets/Sentpop.mp3');
+        popSfx.volume = 0.6; 
+
+        // --- 2. INTELLIGENT BGM CONTROLLER ---
+        let inactivityTimeout;
+        const INACTIVITY_LIMIT = 30000; // 30 Seconds
+
+        function startBgm() {
+            if (!document.hidden && bgm.paused) {
+                bgm.play().catch(() => console.log("Waiting for user interaction to play audio."));
+            }
+        }
+
+        function stopBgm() {
+            bgm.pause();
+        }
+
+        function resetActivityTimer() {
+            clearTimeout(inactivityTimeout);
+            startBgm();
+            inactivityTimeout = setTimeout(() => {
+                console.log("User inactive for 30s - Pausing BGM");
+                stopBgm();
+            }, INACTIVITY_LIMIT);
+        }
+
+        ['mousemove', 'keydown', 'click', 'scroll', 'touchstart'].forEach(event => {
+            document.addEventListener(event, resetActivityTimer);
+        });
+
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden) {
+                stopBgm();
+            } else {
+                resetActivityTimer();
+            }
+        });
+
+        window.addEventListener('load', () => {
+            resetActivityTimer();
+        });
+
+
+        // --- 3. UI HELPERS ---
+        function showToast(message) {
+            const toast = document.getElementById("toast-box");
+            const msg = document.getElementById("toast-msg");
+            
+            msg.innerText = message;
+            toast.classList.add("show");
+
+            setTimeout(function(){ 
+                toast.classList.remove("show"); 
+            }, 3000);
+        }
+
+        // --- 4. FIRE CONFETTI ---
+        function triggerConfetti() {
+            // Right Side Blast
+            confetti({
+                particleCount: 200,
+                spread: 90,
+                origin: { x: 1, y: 0.9 },
+                colors: ['#ff4747', '#f1c40f', '#2ecc71', '#ffffff']
+            });
+
+            // Left Side Blast
+            confetti({
+                particleCount: 200,
+                spread: 90,
+                origin: { x: 0, y: 0.9 },
+                colors: ['#ff4747', '#f1c40f', '#2ecc71', '#ffffff']
+            });
+        }
+
+        // --- 5. FORM SUBMISSION ---
+        async function handleNotify(event) {
+            if(event) event.stopPropagation();
+
+            const emailInput = document.getElementById('userEmail');
             const btn = document.getElementById('notifyBtn');
             const form = document.getElementById('notifyForm');
 
-            if (email.value.includes('@')) {
-                form.classList.add('success');
-                btn.innerHTML = "Sent! ✓";
-                email.disabled = true;
-                email.style.opacity = "0.5";
+            form.classList.remove('error-shake');
+
+            if (emailInput.value.includes('@') && emailInput.value.includes('.')) {
                 
-                const mailtoLink = `mailto:msubham246@gmail.com?subject=Launch Notification&body=Interested user: ${email.value}`;
-                window.location.href = mailtoLink;
+                // Set Loading State
+                btn.innerHTML = "Sending...";
+                btn.style.opacity = "0.7";
+                btn.disabled = true;
+
+                try {
+                    const response = await fetch("https://formspree.io/f/xbdrbvbk", {
+                        method: "POST",
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            email: emailInput.value,
+                            message: "HappyPaws Coming Soon: User wants to be notified upon release"
+                        })
+                    });
+
+                    if (response.ok) {
+                        // Success Logic
+                        form.classList.add('success');
+                        btn.innerHTML = "Sent! ✓";
+                        btn.style.opacity = "1";
+                        emailInput.disabled = true;
+                        emailInput.style.opacity = "0.5";
+                        emailInput.value = "Thanks for subscribing!";
+                        
+                        // PLAY POP SOUND
+                        popSfx.currentTime = 0;
+                        popSfx.play();
+
+                        // FIRE CONFETTI CELEBRATION
+                        triggerConfetti();
+
+                    } else {
+                        throw new Error('Server error');
+                    }
+
+                } catch (error) {
+                    btn.innerHTML = "Try Again";
+                    btn.disabled = false;
+                    btn.style.opacity = "1";
+                    
+                    errorSfx.currentTime = 0;
+                    errorSfx.play();
+                    
+                    showToast("Something went wrong. Please check your connection.");
+                }
+
             } else {
-                alert("Please enter a valid email address.");
+                void form.offsetWidth;
+                form.classList.add('error-shake');
+                
+                errorSfx.currentTime = 0;
+                errorSfx.play();
+                
+                showToast("Please enter a valid email!");
+                emailInput.focus();
             }
         }
     </script>
