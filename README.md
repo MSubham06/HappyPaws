@@ -138,14 +138,11 @@ Project Report (PDF): [Click here to open final year project pdf](https://github
 
 ### 🐾 Pet Care & Veterinary Platforms
 
-- **Dr. Pet Online**  
-  🔗 [Open Website](https://drpetonline.in/)
+- **Dr. Pet Online**  🔗 [Open Website](https://drpetonline.in/)
 
-- **Supertails Clinic**  
-  🔗 [Open Website](https://supertails.com/pages/supertails-clinic)
+- **Supertails Clinic**  🔗 [Open Website](https://supertails.com/pages/supertails-clinic)
 
-- **Zigly Pet Care (Sindhi Colony, Hyderabad)**  
-  🔗 [Open Website](https://stores.zigly.com/locations/hyderabad/sindhi-colony/zigly-pet-care-vet-clinic-pet-grooming-pet-products-in-sindhi-colony-hyderabad--1a1pg8/home)
+- **Zigly Pet Care (Sindhi Colony, Hyderabad)**  🔗 [Open Website](https://stores.zigly.com/locations/hyderabad/sindhi-colony/zigly-pet-care-vet-clinic-pet-grooming-pet-products-in-sindhi-colony-hyderabad--1a1pg8/home)
 ---
 
 ## Conclusion
