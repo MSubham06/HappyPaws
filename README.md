@@ -42,7 +42,6 @@ The system is designed to manage veterinary clinic operations including owners, 
 - Spring Boot v3.9.5 
 - Spring MVC v6.1.x 
 - Spring Data JPA  v3.2.x
-- Spring Security  
 
 ### Database
 - MySQL v8.0.x 
