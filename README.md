@@ -25,7 +25,7 @@ The system is designed to manage veterinary clinic operations including owners, 
 - To implement CRUD operations on real-world entities  
 - To follow layered architecture principles  
 - To build RESTful APIs with proper database persistence  
-- To create a clean, maintainable, and easy-to-understand reference project  
+- To create a clean, maintainable, and easy-to-understand the  reference project.  
 
 ---
 
