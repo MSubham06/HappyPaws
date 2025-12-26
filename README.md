@@ -9,7 +9,7 @@ HappyPaws is a full-stack web application developed using React and Spring Boot,
 
 This project is submitted as a Final Year B.Tech project for the Computer Science & Machine Learning (CSM) program at SVCET, Chittoor.
 
----
+--
 
 ## Project Overview
 
