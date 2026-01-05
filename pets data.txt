@@ -1,0 +1,5489 @@
+
+  {
+    "name": "Tiger",
+    "type": "Dog",
+    "breed": "Indian Pariah",
+    "birthDate": "2019-05-15",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 20.0,
+      "currentWeightKg": 21.5,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 4.0,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Alert",
+        "children": "Protective"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 5.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": ["Tick Prevention"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Home Cooked (Chicken & Rice)",
+      "caloricIntakeDaily": 1100,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Running",
+        "durationMinutes": 45,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 101,
+      "firstName": "Arun",
+      "lastName": "Rao",
+      "phone": "+91-9876543210",
+      "email": "arun.rao@example.com",
+      "address": "Jayanagar 4th Block",
+      "city": "Bangalore"
+    }
+  },
+  {
+    "name": "Kitty",
+    "type": "Cat",
+    "breed": "Persian",
+    "birthDate": "2021-08-20",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 4.0,
+      "currentWeightKg": 4.5,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Neutral",
+        "children": "Calm"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["PKD Risk"],
+      "chronicConditions": [],
+      "medications": ["Hairball Gel"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Wet Food",
+      "caloricIntakeDaily": 250,
+      "allergies": ["Fish"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-02",
+        "activityType": "Laser Toy",
+        "durationMinutes": 15,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 101,
+      "firstName": "Arun",
+      "lastName": "Rao",
+      "phone": "+91-9876543210",
+      "email": "arun.rao@example.com",
+      "address": "Jayanagar 4th Block",
+      "city": "Bangalore"
+    }
+  },
+  {
+    "name": "Bruno",
+    "type": "Dog",
+    "breed": "Labrador Retriever",
+    "birthDate": "2020-01-10",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 7,
+      "idealWeightKg": 30.0,
+      "currentWeightKg": 34.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 4.8,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Friendly",
+        "children": "Very Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 2.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Obesity Prone"],
+      "chronicConditions": ["Mild Arthritis"],
+      "medications": ["Joint Supplement"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Diet Dry Food",
+      "caloricIntakeDaily": 900,
+      "allergies": ["Wheat"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-03",
+        "activityType": "Slow Walk",
+        "durationMinutes": 30,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 101,
+      "firstName": "Arun",
+      "lastName": "Rao",
+      "phone": "+91-9876543210",
+      "email": "arun.rao@example.com",
+      "address": "Jayanagar 4th Block",
+      "city": "Bangalore"
+    }
+  },
+  {
+    "name": "Ganga",
+    "type": "Cow",
+    "breed": "Gir",
+    "birthDate": "2016-04-12",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 400.0,
+      "currentWeightKg": 410.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Calm",
+        "cats": "Indifferent",
+        "children": "Gentle"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Hot"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["High Milk Yield"],
+      "chronicConditions": [],
+      "medications": ["Calcium Supplement"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Green Fodder & Oil Cake",
+      "caloricIntakeDaily": 15000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-02-28",
+        "activityType": "Grazing",
+        "durationMinutes": 300,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 102,
+      "firstName": "Sunita",
+      "lastName": "Patil",
+      "phone": "+91-9988776655",
+      "email": "sunita.patil@example.com",
+      "address": "Village Wada",
+      "city": "Pune"
+    }
+  },
+  {
+    "name": "Yamuna",
+    "type": "Cow",
+    "breed": "Red Sindhi",
+    "birthDate": "2018-09-09",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 350.0,
+      "currentWeightKg": 365.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.8,
+      "socialCompatibility": {
+        "dogs": "Cautious",
+        "cats": "Indifferent",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Hot"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": ["Mastitis History"],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Dry Fodder",
+      "caloricIntakeDaily": 14000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-02-28",
+        "activityType": "Grazing",
+        "durationMinutes": 280,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 102,
+      "firstName": "Sunita",
+      "lastName": "Patil",
+      "phone": "+91-9988776655",
+      "email": "sunita.patil@example.com",
+      "address": "Village Wada",
+      "city": "Pune"
+    }
+  },
+  {
+    "name": "Raju",
+    "type": "Goat",
+    "breed": "Osmanabadi",
+    "birthDate": "2022-01-15",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 35.0,
+      "currentWeightKg": 36.5,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.5,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Neutral",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 8.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": ["Dewormer"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Leaves and Grains",
+      "caloricIntakeDaily": 2500,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-02-29",
+        "activityType": "Climbing",
+        "durationMinutes": 45,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 102,
+      "firstName": "Sunita",
+      "lastName": "Patil",
+      "phone": "+91-9988776655",
+      "email": "sunita.patil@example.com",
+      "address": "Village Wada",
+      "city": "Pune"
+    }
+  },
+  {
+    "name": "Mithu",
+    "type": "Parrot",
+    "breed": "Indian Ringneck",
+    "birthDate": "2020-03-22",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 0.12,
+      "currentWeightKg": 0.13,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 4.5,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Fearful",
+        "children": "Talkative"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "High",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Vocal mimicry"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Seeds & Chilies",
+      "caloricIntakeDaily": 80,
+      "allergies": ["Avocado"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Flying Indoors",
+        "durationMinutes": 20,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 103,
+      "firstName": "Vikram",
+      "lastName": "Malhotra",
+      "phone": "+91-9811223344",
+      "email": "vikram.m@example.com",
+      "address": "Hauz Khas",
+      "city": "Delhi"
+    }
+  },
+  {
+    "name": "Chiku",
+    "type": "Rabbit",
+    "breed": "Dutch",
+    "birthDate": "2022-11-05",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 4,
+      "idealWeightKg": 2.0,
+      "currentWeightKg": 2.1,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Cautious",
+        "children": "Gentle"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.5,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Hay & Carrots",
+      "caloricIntakeDaily": 180,
+      "allergies": ["Iceberg Lettuce"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-02",
+        "activityType": "Hopping",
+        "durationMinutes": 30,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 103,
+      "firstName": "Vikram",
+      "lastName": "Malhotra",
+      "phone": "+91-9811223344",
+      "email": "vikram.m@example.com",
+      "address": "Hauz Khas",
+      "city": "Delhi"
+    }
+  },
+  {
+    "name": "Rocky",
+    "type": "Dog",
+    "breed": "German Shepherd",
+    "birthDate": "2019-06-18",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 35.0,
+      "currentWeightKg": 36.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 5.0,
+      "socialCompatibility": {
+        "dogs": "Dominant",
+        "cats": "Aggressive",
+        "children": "Protective"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 4.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Hip Dysplasia Risk"],
+      "chronicConditions": [],
+      "medications": ["Joint Supplement"]
+    },
+    "dietaryPreferences": {
+      "foodType": "High Protein Kibble",
+      "caloricIntakeDaily": 1600,
+      "allergies": ["Chicken"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-03",
+        "activityType": "Agility Training",
+        "durationMinutes": 60,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 103,
+      "firstName": "Vikram",
+      "lastName": "Malhotra",
+      "phone": "+91-9811223344",
+      "email": "vikram.m@example.com",
+      "address": "Hauz Khas",
+      "city": "Delhi"
+    }
+  },
+  {
+    "name": "Simba",
+    "type": "Cat",
+    "breed": "Maine Coon",
+    "birthDate": "2020-02-14",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 8.0,
+      "currentWeightKg": 8.2,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.5,
+      "socialCompatibility": {
+        "dogs": "Tolerant",
+        "cats": "Friendly",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 1.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Raw Meat Diet",
+      "caloricIntakeDaily": 400,
+      "allergies": ["Grains"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Scratching Post",
+        "durationMinutes": 20,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 103,
+      "firstName": "Vikram",
+      "lastName": "Malhotra",
+      "phone": "+91-9811223344",
+      "email": "vikram.m@example.com",
+      "address": "Hauz Khas",
+      "city": "Delhi"
+    }
+  },
+  {
+    "name": "Luna",
+    "type": "Cat",
+    "breed": "Siamese",
+    "birthDate": "2021-09-09",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 4,
+      "idealWeightKg": 3.5,
+      "currentWeightKg": 3.2,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 5,
+      "trainabilityIndex": 4.0,
+      "socialCompatibility": {
+        "dogs": "Curious",
+        "cats": "Dominant",
+        "children": "Avoidant"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": ["Asthma"],
+      "medications": ["Inhaler"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Wet Food",
+      "caloricIntakeDaily": 220,
+      "allergies": ["Dairy"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-02-28",
+        "activityType": "Chasing String",
+        "durationMinutes": 25,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 104,
+      "firstName": "Meera",
+      "lastName": "Nair",
+      "phone": "+91-9776655443",
+      "email": "meera.nair@example.com",
+      "address": "Marine Drive",
+      "city": "Kochi"
+    }
+  },
+  {
+    "name": "Bella",
+    "type": "Cat",
+    "breed": "Ragdoll",
+    "birthDate": "2019-12-01",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 5.0,
+      "currentWeightKg": 5.8,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.0,
+      "socialCompatibility": {
+        "dogs": "Neutral",
+        "cats": "Friendly",
+        "children": "Tolerant"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": ["Weight Management Supplement"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Diet Wet Food",
+      "caloricIntakeDaily": 200,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-02-28",
+        "activityType": "Nap",
+        "durationMinutes": 300,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 104,
+      "firstName": "Meera",
+      "lastName": "Nair",
+      "phone": "+91-9776655443",
+      "email": "meera.nair@example.com",
+      "address": "Marine Drive",
+      "city": "Kochi"
+    }
+  },
+  {
+    "name": "Nandini",
+    "type": "Cow",
+    "breed": "Tharparkar",
+    "birthDate": "2017-06-15",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 400.0,
+      "currentWeightKg": 420.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Cautious",
+        "cats": "Indifferent",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 12.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Heat Resistant"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Dry Fodder & Grains",
+      "caloricIntakeDaily": 13000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Grazing",
+        "durationMinutes": 360,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 105,
+      "firstName": "Rajesh",
+      "lastName": "Gupta",
+      "phone": "+91-9898989898",
+      "email": "rajesh.gupta@example.com",
+      "address": "Rural District",
+      "city": "Jaipur"
+    }
+  },
+  {
+    "name": "Sheru",
+    "type": "Goat",
+    "breed": "Jamunapari",
+    "birthDate": "2021-04-20",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 60.0,
+      "currentWeightKg": 65.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Aggressive",
+        "cats": "Neutral",
+        "children": "Cautious"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 8.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Leaves & Shrubs",
+      "caloricIntakeDaily": 2800,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Browsing",
+        "durationMinutes": 120,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 105,
+      "firstName": "Rajesh",
+      "lastName": "Gupta",
+      "phone": "+91-9898989898",
+      "email": "rajesh.gupta@example.com",
+      "address": "Rural District",
+      "city": "Jaipur"
+    }
+  },
+  {
+    "name": "Babli",
+    "type": "Goat",
+    "breed": "Barbari",
+    "birthDate": "2022-08-10",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 25.0,
+      "currentWeightKg": 26.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.5,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Neutral",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 8.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": ["Vitamin Syrup"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Green Grass",
+      "caloricIntakeDaily": 1500,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Playing",
+        "durationMinutes": 30,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 105,
+      "firstName": "Rajesh",
+      "lastName": "Gupta",
+      "phone": "+91-9898989898",
+      "email": "rajesh.gupta@example.com",
+      "address": "Rural District",
+      "city": "Jaipur"
+    }
+  },
+  {
+    "name": "Radha",
+    "type": "Cow",
+    "breed": "Kankrej",
+    "birthDate": "2019-01-25",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 450.0,
+      "currentWeightKg": 445.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.0,
+      "socialCompatibility": {
+        "dogs": "Calm",
+        "cats": "Indifferent",
+        "children": "Gentle"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Draft Power"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Hay & Cottonseed Cake",
+      "caloricIntakeDaily": 14500,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Resting",
+        "durationMinutes": 400,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 105,
+      "firstName": "Rajesh",
+      "lastName": "Gupta",
+      "phone": "+91-9898989898",
+      "email": "rajesh.gupta@example.com",
+      "address": "Rural District",
+      "city": "Jaipur"
+    }
+  },
+  {
+    "name": "Charlie",
+    "type": "Dog",
+    "breed": "Golden Retriever",
+    "birthDate": "2021-03-30",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 32.0,
+      "currentWeightKg": 33.5,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 4.5,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Friendly",
+        "children": "Very Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 1.5,
+      "noiseExposureLevel": "High",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": ["Skin Allergy"],
+      "medications": ["Antihistamines"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Hypoallergenic Kibble",
+      "caloricIntakeDaily": 1400,
+      "allergies": ["Chicken", "Beef"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-02",
+        "activityType": "Fetch",
+        "durationMinutes": 40,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 106,
+      "firstName": "Sana",
+      "lastName": "Khan",
+      "phone": "+91-9000888777",
+      "email": "sana.khan@example.com",
+      "address": "Bandra West",
+      "city": "Mumbai"
+    }
+  },
+  {
+    "name": "Snowy",
+    "type": "Rabbit",
+    "breed": "Angora",
+    "birthDate": "2023-02-14",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 4,
+      "idealWeightKg": 3.0,
+      "currentWeightKg": 2.8,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Cautious",
+        "children": "Cuddly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": ["Hairball Paste"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Timothy Hay",
+      "caloricIntakeDaily": 200,
+      "allergies": ["Kale"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-02",
+        "activityType": "Grooming",
+        "durationMinutes": 45,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 106,
+      "firstName": "Sana",
+      "lastName": "Khan",
+      "phone": "+91-9000888777",
+      "email": "sana.khan@example.com",
+      "address": "Bandra West",
+      "city": "Mumbai"
+    }
+  },
+  {
+    "name": "Rio",
+    "type": "Parrot",
+    "breed": "Macaw",
+    "birthDate": "2018-07-07",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 1.0,
+      "currentWeightKg": 1.1,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 5,
+      "trainabilityIndex": 5.0,
+      "socialCompatibility": {
+        "dogs": "Aggressive",
+        "cats": "Aggressive",
+        "children": "Entertaining"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "High",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Loud Caller"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Nuts & Fruits",
+      "caloricIntakeDaily": 250,
+      "allergies": ["Chocolate"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-02",
+        "activityType": "Talking Practice",
+        "durationMinutes": 60,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 106,
+      "firstName": "Sana",
+      "lastName": "Khan",
+      "phone": "+91-9000888777",
+      "email": "sana.khan@example.com",
+      "address": "Bandra West",
+      "city": "Mumbai"
+    }
+  },
+  {
+    "name": "Max",
+    "type": "Dog",
+    "breed": "Rottweiler",
+    "birthDate": "2019-11-22",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 50.0,
+      "currentWeightKg": 52.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 4.5,
+      "socialCompatibility": {
+        "dogs": "Dominant",
+        "cats": "Aggressive",
+        "children": "Protective"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 3.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Raw Meat",
+      "caloricIntakeDaily": 2200,
+      "allergies": ["Grains"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-02-25",
+        "activityType": "Guard Duty",
+        "durationMinutes": 120,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 107,
+      "firstName": "Amitabh",
+      "lastName": "Singh",
+      "phone": "+91-9555444333",
+      "email": "amitabh.singh@example.com",
+      "address": "Civil Lines",
+      "city": "Allahabad"
+    }
+  },
+  {
+    "name": "Cooper",
+    "type": "Dog",
+    "breed": "Beagle",
+    "birthDate": "2021-06-12",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 7,
+      "idealWeightKg": 10.0,
+      "currentWeightKg": 13.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Curious",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 2.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Obesity Prone"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Diet Kibble",
+      "caloricIntakeDaily": 800,
+      "allergies": ["Soy"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-02-25",
+        "activityType": "Scent Tracking",
+        "durationMinutes": 45,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 107,
+      "firstName": "Amitabh",
+      "lastName": "Singh",
+      "phone": "+91-9555444333",
+      "email": "amitabh.singh@example.com",
+      "address": "Civil Lines",
+      "city": "Allahabad"
+    }
+  },
+  {
+    "name": "Ruby",
+    "type": "Dog",
+    "breed": "Doberman",
+    "birthDate": "2020-05-05",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 32.0,
+      "currentWeightKg": 31.0,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 5.0,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Aggressive",
+        "children": "Protective"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 3.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Cardiac Risk"],
+      "chronicConditions": [],
+      "medications": ["Heart Supplements"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Premium Kibble",
+      "caloricIntakeDaily": 1500,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-02-25",
+        "activityType": "Running",
+        "durationMinutes": 40,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 107,
+      "firstName": "Amitabh",
+      "lastName": "Singh",
+      "phone": "+91-9555444333",
+      "email": "amitabh.singh@example.com",
+      "address": "Civil Lines",
+      "city": "Allahabad"
+    }
+  },
+  {
+    "name": "Daisy",
+    "type": "Dog",
+    "breed": "Pomeranian",
+    "birthDate": "2022-09-01",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 2.5,
+      "currentWeightKg": 2.6,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 5,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Neutral",
+        "children": "Cautious"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 0.5,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Small Breed Kibble",
+      "caloricIntakeDaily": 300,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-02-25",
+        "activityType": "Indoor Play",
+        "durationMinutes": 20,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 107,
+      "firstName": "Amitabh",
+      "lastName": "Singh",
+      "phone": "+91-9555444333",
+      "email": "amitabh.singh@example.com",
+      "address": "Civil Lines",
+      "city": "Allahabad"
+    }
+  },
+  {
+    "name": "Oreo",
+    "type": "Cat",
+    "breed": "British Shorthair",
+    "birthDate": "2019-10-10",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 7,
+      "idealWeightKg": 5.0,
+      "currentWeightKg": 6.5,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Neutral",
+        "cats": "Tolerant",
+        "children": "Calm"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": ["Obesity"],
+      "medications": ["Diet Supplements"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Metabolic Diet",
+      "caloricIntakeDaily": 230,
+      "allergies": ["Tuna"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-04",
+        "activityType": "Laser Chasing",
+        "durationMinutes": 10,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 108,
+      "firstName": "Divya",
+      "lastName": "Desai",
+      "phone": "+91-9222333444",
+      "email": "divya.desai@example.com",
+      "address": "Salt Lake",
+      "city": "Kolkata"
+    }
+  },
+  {
+    "name": "Bunny",
+    "type": "Rabbit",
+    "breed": "Lionhead",
+    "birthDate": "2022-04-04",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 4,
+      "idealWeightKg": 1.5,
+      "currentWeightKg": 1.6,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Fearful",
+        "children": "Gentle"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Pellets & Greens",
+      "caloricIntakeDaily": 150,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-04",
+        "activityType": "Room Exploration",
+        "durationMinutes": 30,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 108,
+      "firstName": "Divya",
+      "lastName": "Desai",
+      "phone": "+91-9222333444",
+      "email": "divya.desai@example.com",
+      "address": "Salt Lake",
+      "city": "Kolkata"
+    }
+  },
+  {
+    "name": "Kiwi",
+    "type": "Parrot",
+    "breed": "Lovebird",
+    "birthDate": "2023-01-20",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 0.05,
+      "currentWeightKg": 0.05,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 2.0,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Fearful",
+        "children": "Interactive"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Millet & Fruit",
+      "caloricIntakeDaily": 40,
+      "allergies": ["Apple Seeds"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-04",
+        "activityType": "Singing",
+        "durationMinutes": 15,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 108,
+      "firstName": "Divya",
+      "lastName": "Desai",
+      "phone": "+91-9222333444",
+      "email": "divya.desai@example.com",
+      "address": "Salt Lake",
+      "city": "Kolkata"
+    }
+  },
+  {
+    "name": "Kamadhenu",
+    "type": "Cow",
+    "breed": "Ongole",
+    "birthDate": "2015-12-12",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 500.0,
+      "currentWeightKg": 520.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.2,
+      "socialCompatibility": {
+        "dogs": "Calm",
+        "cats": "Indifferent",
+        "children": "Gentle"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 12.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Disease Resistance"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Grazing & Hay",
+      "caloricIntakeDaily": 16000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Grazing",
+        "durationMinutes": 420,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 109,
+      "firstName": "Karthik",
+      "lastName": "Iyer",
+      "phone": "+91-9444555666",
+      "email": "karthik.iyer@example.com",
+      "address": "Rural Zone",
+      "city": "Coimbatore"
+    }
+  },
+  {
+    "name": "Bhoomi",
+    "type": "Cow",
+    "breed": "Jersey Cross",
+    "birthDate": "2018-05-30",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 400.0,
+      "currentWeightKg": 390.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.8,
+      "socialCompatibility": {
+        "dogs": "Cautious",
+        "cats": "Indifferent",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["High Milk Fat"],
+      "chronicConditions": [],
+      "medications": ["Mineral Mix"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Concentrate Feed",
+      "caloricIntakeDaily": 15000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Milking",
+        "durationMinutes": 45,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 109,
+      "firstName": "Karthik",
+      "lastName": "Iyer",
+      "phone": "+91-9444555666",
+      "email": "karthik.iyer@example.com",
+      "address": "Rural Zone",
+      "city": "Coimbatore"
+    }
+  },
+  {
+    "name": "Moti",
+    "type": "Goat",
+    "breed": "Black Bengal",
+    "birthDate": "2021-11-11",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 25.0,
+      "currentWeightKg": 24.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.2,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Neutral",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 8.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Prolific Breeder"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Jackfruit Leaves",
+      "caloricIntakeDaily": 1800,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Jumping",
+        "durationMinutes": 60,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 109,
+      "firstName": "Karthik",
+      "lastName": "Iyer",
+      "phone": "+91-9444555666",
+      "email": "karthik.iyer@example.com",
+      "address": "Rural Zone",
+      "city": "Coimbatore"
+    }
+  },
+  {
+    "name": "Coco",
+    "type": "Dog",
+    "breed": "Shih Tzu",
+    "birthDate": "2020-08-08",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 6.0,
+      "currentWeightKg": 6.2,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 5,
+      "trainabilityIndex": 3.5,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Neutral",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.5,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": ["Eye Drops"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Wet Food",
+      "caloricIntakeDaily": 450,
+      "allergies": ["Poultry"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-05",
+        "activityType": "Short Walk",
+        "durationMinutes": 15,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 110,
+      "firstName": "Neha",
+      "lastName": "Kapoor",
+      "phone": "+91-9123456789",
+      "email": "neha.kapoor@example.com",
+      "address": "Indiranagar",
+      "city": "Lucknow"
+    }
+  },
+  {
+    "name": "Ginger",
+    "type": "Cat",
+    "breed": "Indian Billi (Mau)",
+    "birthDate": "2021-02-14",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 4.0,
+      "currentWeightKg": 3.8,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Avoidant",
+        "cats": "Territorial",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Resilient"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Fish and Rice",
+      "caloricIntakeDaily": 280,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-05",
+        "activityType": "Zoomies",
+        "durationMinutes": 10,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 110,
+      "firstName": "Neha",
+      "lastName": "Kapoor",
+      "phone": "+91-9123456789",
+      "email": "neha.kapoor@example.com",
+      "address": "Indiranagar",
+      "city": "Lucknow"
+    }
+  },
+  {
+    "name": "Polly",
+    "type": "Parrot",
+    "breed": "Cockatiel",
+    "birthDate": "2022-06-20",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 0.09,
+      "currentWeightKg": 0.09,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.5,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Fearful",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Seed Mix",
+      "caloricIntakeDaily": 50,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-05",
+        "activityType": "Whistling",
+        "durationMinutes": 30,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 110,
+      "firstName": "Neha",
+      "lastName": "Kapoor",
+      "phone": "+91-9123456789",
+      "email": "neha.kapoor@example.com",
+      "address": "Indiranagar",
+      "city": "Lucknow"
+    }
+  },
+  {
+    "name": "Fluffy",
+    "type": "Rabbit",
+    "breed": "Rex",
+    "birthDate": "2023-05-15",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 3.5,
+      "currentWeightKg": 3.4,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 2.8,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Cautious",
+        "children": "Cuddly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Soft Fur"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Hay",
+      "caloricIntakeDaily": 210,
+      "allergies": ["Spinach"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-05",
+        "activityType": "Binky",
+        "durationMinutes": 5,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 110,
+      "firstName": "Neha",
+      "lastName": "Kapoor",
+      "phone": "+91-9123456789",
+      "email": "neha.kapoor@example.com",
+      "address": "Indiranagar",
+      "city": "Lucknow"
+    }
+  },
+  {
+    "name": "Sultan",
+    "type": "Dog",
+    "breed": "Great Dane",
+    "birthDate": "2019-01-01",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 70.0,
+      "currentWeightKg": 72.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 3.8,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Tolerant",
+        "children": "Gentle Giant"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 2.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Bloat Risk"],
+      "chronicConditions": [],
+      "medications": ["Joint Support"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Large Breed Kibble",
+      "caloricIntakeDaily": 3500,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-06",
+        "activityType": "Walking",
+        "durationMinutes": 30,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 111,
+      "firstName": "Rahul",
+      "lastName": "Verma",
+      "phone": "+91-9666777888",
+      "email": "rahul.verma@example.com",
+      "address": "Sector 17",
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "name": "Shera",
+    "type": "Dog",
+    "breed": "German Shepherd",
+    "birthDate": "2020-07-20",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 38.0,
+      "currentWeightKg": 40.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 5.0,
+      "socialCompatibility": {
+        "dogs": "Dominant",
+        "cats": "Aggressive",
+        "children": "Protective"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 4.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "High Energy Food",
+      "caloricIntakeDaily": 1800,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-06",
+        "activityType": "Training",
+        "durationMinutes": 45,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 111,
+      "firstName": "Rahul",
+      "lastName": "Verma",
+      "phone": "+91-9666777888",
+      "email": "rahul.verma@example.com",
+      "address": "Sector 17",
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "name": "Tyson",
+    "type": "Dog",
+    "breed": "Boxer",
+    "birthDate": "2021-12-05",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 30.0,
+      "currentWeightKg": 31.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 4.2,
+      "socialCompatibility": {
+        "dogs": "Playful",
+        "cats": "Curious",
+        "children": "Very Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 3.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Heart Murmur Risk"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Protein Rich",
+      "caloricIntakeDaily": 1500,
+      "allergies": ["Corn"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-06",
+        "activityType": "Fetch",
+        "durationMinutes": 40,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 111,
+      "firstName": "Rahul",
+      "lastName": "Verma",
+      "phone": "+91-9666777888",
+      "email": "rahul.verma@example.com",
+      "address": "Sector 17",
+      "city": "Chandigarh"
+    }
+  },
+  {
+    "name": "Misty",
+    "type": "Cat",
+    "breed": "Russian Blue",
+    "birthDate": "2020-04-18",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 4.0,
+      "currentWeightKg": 4.1,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.5,
+      "socialCompatibility": {
+        "dogs": "Cautious",
+        "cats": "Friendly",
+        "children": "Shy"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Grain Free Wet Food",
+      "caloricIntakeDaily": 250,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-03",
+        "activityType": "Window Watching",
+        "durationMinutes": 120,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 112,
+      "firstName": "Anjali",
+      "lastName": "Mehta",
+      "phone": "+91-9870098700",
+      "email": "anjali.mehta@example.com",
+      "address": "Navrangpura",
+      "city": "Ahmedabad"
+    }
+  },
+  {
+    "name": "Shadow",
+    "type": "Cat",
+    "breed": "Bombay Cat",
+    "birthDate": "2021-10-31",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 5.0,
+      "currentWeightKg": 5.5,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 4.0,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Playful",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Dry Food",
+      "caloricIntakeDaily": 300,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-03",
+        "activityType": "Hide and Seek",
+        "durationMinutes": 20,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 112,
+      "firstName": "Anjali",
+      "lastName": "Mehta",
+      "phone": "+91-9870098700",
+      "email": "anjali.mehta@example.com",
+      "address": "Navrangpura",
+      "city": "Ahmedabad"
+    }
+  },
+  {
+    "name": "Smokey",
+    "type": "Cat",
+    "breed": "Persian",
+    "birthDate": "2019-03-03",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 4.5,
+      "currentWeightKg": 4.8,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.0,
+      "socialCompatibility": {
+        "dogs": "Indifferent",
+        "cats": "Indifferent",
+        "children": "Tolerant"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Eye Tearing"],
+      "chronicConditions": [],
+      "medications": ["Eye Wipes"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Hairball Control Diet",
+      "caloricIntakeDaily": 260,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-03",
+        "activityType": "Sleeping",
+        "durationMinutes": 480,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 112,
+      "firstName": "Anjali",
+      "lastName": "Mehta",
+      "phone": "+91-9870098700",
+      "email": "anjali.mehta@example.com",
+      "address": "Navrangpura",
+      "city": "Ahmedabad"
+    }
+  },
+  {
+    "name": "Chintu",
+    "type": "Goat",
+    "breed": "Sirohi",
+    "birthDate": "2021-02-22",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 50.0,
+      "currentWeightKg": 52.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Neutral",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 7.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Neem Leaves",
+      "caloricIntakeDaily": 2000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Climbing Rocks",
+        "durationMinutes": 60,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 113,
+      "firstName": "Mohan",
+      "lastName": "Das",
+      "phone": "+91-9777888999",
+      "email": "mohan.das@example.com",
+      "address": "Rural District",
+      "city": "Nagpur"
+    }
+  },
+  {
+    "name": "Pintu",
+    "type": "Goat",
+    "breed": "Sirohi",
+    "birthDate": "2022-03-15",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 4,
+      "idealWeightKg": 45.0,
+      "currentWeightKg": 42.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.8,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Neutral",
+        "children": "Cautious"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 7.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": ["Vitamin Tonic"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Shrubs",
+      "caloricIntakeDaily": 1800,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Grazing",
+        "durationMinutes": 180,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 113,
+      "firstName": "Mohan",
+      "lastName": "Das",
+      "phone": "+91-9777888999",
+      "email": "mohan.das@example.com",
+      "address": "Rural District",
+      "city": "Nagpur"
+    }
+  },
+  {
+    "name": "Kaveri",
+    "type": "Cow",
+    "breed": "Hallikar",
+    "birthDate": "2016-08-10",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 420.0,
+      "currentWeightKg": 430.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Cautious",
+        "cats": "Indifferent",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Endurance"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Crop Residue",
+      "caloricIntakeDaily": 14000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Ploughing Practice",
+        "durationMinutes": 60,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 113,
+      "firstName": "Mohan",
+      "lastName": "Das",
+      "phone": "+91-9777888999",
+      "email": "mohan.das@example.com",
+      "address": "Rural District",
+      "city": "Nagpur"
+    }
+  },
+  {
+    "name": "Godavari",
+    "type": "Cow",
+    "breed": "Khillari",
+    "birthDate": "2018-11-20",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 400.0,
+      "currentWeightKg": 410.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Aggressive",
+        "cats": "Indifferent",
+        "children": "Cautious"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Hardy"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Dry Fodder",
+      "caloricIntakeDaily": 13500,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-01",
+        "activityType": "Grazing",
+        "durationMinutes": 300,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 113,
+      "firstName": "Mohan",
+      "lastName": "Das",
+      "phone": "+91-9777888999",
+      "email": "mohan.das@example.com",
+      "address": "Rural District",
+      "city": "Nagpur"
+    }
+  },
+  {
+    "name": "Blue",
+    "type": "Parrot",
+    "breed": "Budgerigar",
+    "birthDate": "2023-04-01",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 0.03,
+      "currentWeightKg": 0.035,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Fearful",
+        "children": "Interactive"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Seeds",
+      "caloricIntakeDaily": 20,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-07",
+        "activityType": "Chattering",
+        "durationMinutes": 45,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 114,
+      "firstName": "Sneha",
+      "lastName": "Reddy",
+      "phone": "+91-9999000111",
+      "email": "sneha.reddy@example.com",
+      "address": "Banjara Hills",
+      "city": "Hyderabad"
+    }
+  },
+  {
+    "name": "Cotton",
+    "type": "Rabbit",
+    "breed": "New Zealand White",
+    "birthDate": "2022-10-10",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 4.0,
+      "currentWeightKg": 4.2,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Cautious",
+        "children": "Tolerant"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Pellets",
+      "caloricIntakeDaily": 250,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-07",
+        "activityType": "Chewing Toys",
+        "durationMinutes": 30,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 114,
+      "firstName": "Sneha",
+      "lastName": "Reddy",
+      "phone": "+91-9999000111",
+      "email": "sneha.reddy@example.com",
+      "address": "Banjara Hills",
+      "city": "Hyderabad"
+    }
+  },
+  {
+    "name": "Penny",
+    "type": "Dog",
+    "breed": "Cocker Spaniel",
+    "birthDate": "2021-02-28",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 13.0,
+      "currentWeightKg": 14.0,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 4.0,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Friendly",
+        "children": "Very Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 1.5,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Ear Infection Prone"],
+      "chronicConditions": ["Chronic Otitis"],
+      "medications": ["Ear Drops"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Kibble",
+      "caloricIntakeDaily": 900,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-07",
+        "activityType": "Ball Play",
+        "durationMinutes": 30,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 114,
+      "firstName": "Sneha",
+      "lastName": "Reddy",
+      "phone": "+91-9999000111",
+      "email": "sneha.reddy@example.com",
+      "address": "Banjara Hills",
+      "city": "Hyderabad"
+    }
+  },
+  {
+    "name": "Felix",
+    "type": "Cat",
+    "breed": "Scottish Fold",
+    "birthDate": "2020-09-09",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 4.0,
+      "currentWeightKg": 4.2,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Tolerant",
+        "cats": "Friendly",
+        "children": "Gentle"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Joint Issues"],
+      "chronicConditions": [],
+      "medications": ["Joint Support"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Wet Food",
+      "caloricIntakeDaily": 250,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-08",
+        "activityType": "Bird Watching",
+        "durationMinutes": 60,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 115,
+      "firstName": "Varun",
+      "lastName": "Joshi",
+      "phone": "+91-9888777666",
+      "email": "varun.joshi@example.com",
+      "address": "Koramangala",
+      "city": "Bangalore"
+    }
+  },
+  {
+    "name": "Oscar",
+    "type": "Dog",
+    "breed": "Dachshund",
+    "birthDate": "2019-12-25",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 9.0,
+      "currentWeightKg": 10.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 3.5,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Aggressive",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 1.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Back Issues"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Weight Control Kibble",
+      "caloricIntakeDaily": 600,
+      "allergies": ["Beef"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-08",
+        "activityType": "Short Walk",
+        "durationMinutes": 20,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 115,
+      "firstName": "Varun",
+      "lastName": "Joshi",
+      "phone": "+91-9888777666",
+      "email": "varun.joshi@example.com",
+      "address": "Koramangala",
+      "city": "Bangalore"
+    }
+  },
+  {
+    "name": "Tulsi",
+    "type": "Cow",
+    "breed": "Punganur",
+    "birthDate": "2021-01-01",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 150.0,
+      "currentWeightKg": 160.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.5,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Indifferent",
+        "children": "Very Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 8.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Miniature Breed"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Green Grass",
+      "caloricIntakeDaily": 5000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-08",
+        "activityType": "Interaction",
+        "durationMinutes": 60,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 115,
+      "firstName": "Varun",
+      "lastName": "Joshi",
+      "phone": "+91-9888777666",
+      "email": "varun.joshi@example.com",
+      "address": "Koramangala",
+      "city": "Bangalore"
+    }
+  },
+  {
+    "name": "Rani",
+    "type": "Goat",
+    "breed": "Beetal",
+    "birthDate": "2022-06-15",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 40.0,
+      "currentWeightKg": 42.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Neutral",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 8.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Tree Leaves",
+      "caloricIntakeDaily": 2000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-08",
+        "activityType": "Grazing",
+        "durationMinutes": 180,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 115,
+      "firstName": "Varun",
+      "lastName": "Joshi",
+      "phone": "+91-9888777666",
+      "email": "varun.joshi@example.com",
+      "address": "Koramangala",
+      "city": "Bangalore"
+    }
+  }
+  {
+    "name": "Bhairava",
+    "type": "Dog",
+    "breed": "Mudhol Hound",
+    "birthDate": "2020-11-10",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 4,
+      "idealWeightKg": 22.0,
+      "currentWeightKg": 21.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 4.0,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Alert",
+        "children": "Protective"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 6.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["High Stamina"],
+      "chronicConditions": [],
+      "medications": ["Dewormer"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Raw Meat & Rice",
+      "caloricIntakeDaily": 1800,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-10",
+        "activityType": "Running",
+        "durationMinutes": 60,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 201,
+      "firstName": "Gopal",
+      "lastName": "Hegde",
+      "phone": "+91-9844002233",
+      "email": "gopal.hegde@example.com",
+      "address": "Bagalkot Road",
+      "city": "Hubli"
+    }
+  },
+  {
+    "name": "Gauri",
+    "type": "Cow",
+    "breed": "Amrit Mahal",
+    "birthDate": "2018-02-15",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 380.0,
+      "currentWeightKg": 390.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Aggressive",
+        "cats": "Indifferent",
+        "children": "Cautious"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 12.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Endurance"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Grazing",
+      "caloricIntakeDaily": 14000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-10",
+        "activityType": "Grazing",
+        "durationMinutes": 360,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 201,
+      "firstName": "Gopal",
+      "lastName": "Hegde",
+      "phone": "+91-9844002233",
+      "email": "gopal.hegde@example.com",
+      "address": "Bagalkot Road",
+      "city": "Hubli"
+    }
+  },
+  {
+    "name": "Krishna",
+    "type": "Cow",
+    "breed": "Krishna Valley",
+    "birthDate": "2019-06-20",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 500.0,
+      "currentWeightKg": 520.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Calm",
+        "cats": "Indifferent",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Draft Capability"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Fodder & Hay",
+      "caloricIntakeDaily": 16000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-10",
+        "activityType": "Work",
+        "durationMinutes": 240,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 201,
+      "firstName": "Gopal",
+      "lastName": "Hegde",
+      "phone": "+91-9844002233",
+      "email": "gopal.hegde@example.com",
+      "address": "Bagalkot Road",
+      "city": "Hubli"
+    }
+  },
+  {
+    "name": "Tommy",
+    "type": "Dog",
+    "breed": "Indian Pariah",
+    "birthDate": "2021-08-15",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 18.0,
+      "currentWeightKg": 18.5,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 4.5,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Friendly",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 8.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Immunity High"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Home Cooked",
+      "caloricIntakeDaily": 1000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-11",
+        "activityType": "Patrolling",
+        "durationMinutes": 120,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 202,
+      "firstName": "Lakshmi",
+      "lastName": "Narayan",
+      "phone": "+91-9900112233",
+      "email": "lakshmi.n@example.com",
+      "address": "Temple Street",
+      "city": "Mysore"
+    }
+  },
+  {
+    "name": "Ramu",
+    "type": "Goat",
+    "breed": "Surti",
+    "birthDate": "2022-01-10",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 30.0,
+      "currentWeightKg": 32.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Neutral",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 6.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Green Leaves",
+      "caloricIntakeDaily": 1200,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-11",
+        "activityType": "Browsing",
+        "durationMinutes": 180,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 202,
+      "firstName": "Lakshmi",
+      "lastName": "Narayan",
+      "phone": "+91-9900112233",
+      "email": "lakshmi.n@example.com",
+      "address": "Temple Street",
+      "city": "Mysore"
+    }
+  },
+  {
+    "name": "Mimi",
+    "type": "Cat",
+    "breed": "Himalayan",
+    "birthDate": "2020-04-05",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 3.5,
+      "currentWeightKg": 3.6,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Avoidant",
+        "cats": "Friendly",
+        "children": "Calm"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": ["Hairball Paste"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Wet Food",
+      "caloricIntakeDaily": 200,
+      "allergies": ["Fish"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-11",
+        "activityType": "Grooming",
+        "durationMinutes": 45,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 203,
+      "firstName": "Riya",
+      "lastName": "Sen",
+      "phone": "+91-9111222333",
+      "email": "riya.sen@example.com",
+      "address": "Salt Lake Sector 5",
+      "city": "Kolkata"
+    }
+  },
+  {
+    "name": "Piku",
+    "type": "Parrot",
+    "breed": "Alexandrine Parakeet",
+    "birthDate": "2019-09-09",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 0.25,
+      "currentWeightKg": 0.26,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 4.2,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Fearful",
+        "children": "Talkative"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Mimicry"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Fruits & Seeds",
+      "caloricIntakeDaily": 100,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-11",
+        "activityType": "Flying Indoors",
+        "durationMinutes": 20,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 203,
+      "firstName": "Riya",
+      "lastName": "Sen",
+      "phone": "+91-9111222333",
+      "email": "riya.sen@example.com",
+      "address": "Salt Lake Sector 5",
+      "city": "Kolkata"
+    }
+  },
+  {
+    "name": "Choco",
+    "type": "Rabbit",
+    "breed": "English Spot",
+    "birthDate": "2022-12-01",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 4,
+      "idealWeightKg": 2.5,
+      "currentWeightKg": 2.4,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Fearful",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Hay & Greens",
+      "caloricIntakeDaily": 200,
+      "allergies": ["Carrots (excess)"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-11",
+        "activityType": "Running",
+        "durationMinutes": 30,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 203,
+      "firstName": "Riya",
+      "lastName": "Sen",
+      "phone": "+91-9111222333",
+      "email": "riya.sen@example.com",
+      "address": "Salt Lake Sector 5",
+      "city": "Kolkata"
+    }
+  },
+  {
+    "name": "Rocky",
+    "type": "Dog",
+    "breed": "Saint Bernard",
+    "birthDate": "2018-11-20",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 80.0,
+      "currentWeightKg": 85.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Tolerant",
+        "children": "Gentle"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 1.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Cool"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Joint Issues"],
+      "chronicConditions": ["Arthritis"],
+      "medications": ["Pain Killers", "Joint Supplements"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Large Breed Formula",
+      "caloricIntakeDaily": 4000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-12",
+        "activityType": "Slow Walk",
+        "durationMinutes": 20,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 204,
+      "firstName": "Col. Pratap",
+      "lastName": "Singh",
+      "phone": "+91-9876598765",
+      "email": "pratap.singh@example.com",
+      "address": "Mall Road",
+      "city": "Shimla"
+    }
+  },
+  {
+    "name": "Simba",
+    "type": "Dog",
+    "breed": "Tibetan Mastiff",
+    "birthDate": "2020-02-15",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 65.0,
+      "currentWeightKg": 68.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Dominant",
+        "cats": "Aggressive",
+        "children": "Protective"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 12.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Cool"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Thick Coat"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Raw Meat Diet",
+      "caloricIntakeDaily": 3500,
+      "allergies": ["Grains"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-12",
+        "activityType": "Guarding",
+        "durationMinutes": 300,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 204,
+      "firstName": "Col. Pratap",
+      "lastName": "Singh",
+      "phone": "+91-9876598765",
+      "email": "pratap.singh@example.com",
+      "address": "Mall Road",
+      "city": "Shimla"
+    }
+  },
+  {
+    "name": "Sweety",
+    "type": "Parrot",
+    "breed": "Eclectus",
+    "birthDate": "2021-05-10",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 0.4,
+      "currentWeightKg": 0.42,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 4.0,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Fearful",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Cool"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": ["Calcium Supplement"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Soft Fruits & Veggies",
+      "caloricIntakeDaily": 150,
+      "allergies": ["Avocado"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-12",
+        "activityType": "Foraging",
+        "durationMinutes": 30,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 204,
+      "firstName": "Col. Pratap",
+      "lastName": "Singh",
+      "phone": "+91-9876598765",
+      "email": "pratap.singh@example.com",
+      "address": "Mall Road",
+      "city": "Shimla"
+    }
+  },
+  {
+    "name": "Zorro",
+    "type": "Cat",
+    "breed": "Sphynx",
+    "birthDate": "2022-08-20",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 3.5,
+      "currentWeightKg": 3.6,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 5,
+      "trainabilityIndex": 4.0,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Friendly",
+        "children": "Cuddly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Hairless"],
+      "chronicConditions": [],
+      "medications": ["Skin Moisturizer"]
+    },
+    "dietaryPreferences": {
+      "foodType": "High Calorie Wet Food",
+      "caloricIntakeDaily": 300,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-13",
+        "activityType": "Cuddling",
+        "durationMinutes": 120,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 205,
+      "firstName": "Tanya",
+      "lastName": "Bhatia",
+      "phone": "+91-9222111000",
+      "email": "tanya.bhatia@example.com",
+      "address": "Koregaon Park",
+      "city": "Pune"
+    }
+  },
+  {
+    "name": "Hazel",
+    "type": "Dog",
+    "breed": "French Bulldog",
+    "birthDate": "2021-03-03",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 10.0,
+      "currentWeightKg": 11.5,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Tolerant",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.5,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Brachycephalic"],
+      "chronicConditions": ["Breathing Issues"],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Grain Free Kibble",
+      "caloricIntakeDaily": 600,
+      "allergies": ["Chicken"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-13",
+        "activityType": "Nap",
+        "durationMinutes": 300,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 205,
+      "firstName": "Tanya",
+      "lastName": "Bhatia",
+      "phone": "+91-9222111000",
+      "email": "tanya.bhatia@example.com",
+      "address": "Koregaon Park",
+      "city": "Pune"
+    }
+  },
+  {
+    "name": "Pepper",
+    "type": "Dog",
+    "breed": "Dalmatian",
+    "birthDate": "2020-01-25",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 25.0,
+      "currentWeightKg": 26.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 3.8,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Cautious",
+        "children": "Energetic"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 3.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Deafness Risk"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Low Purine Diet",
+      "caloricIntakeDaily": 1300,
+      "allergies": ["Organ Meats"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-14",
+        "activityType": "Running",
+        "durationMinutes": 45,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 206,
+      "firstName": "Rohan",
+      "lastName": "Gavaskar",
+      "phone": "+91-9090909090",
+      "email": "rohan.g@example.com",
+      "address": "Dadar",
+      "city": "Mumbai"
+    }
+  },
+  {
+    "name": "Casper",
+    "type": "Cat",
+    "breed": "American Shorthair",
+    "birthDate": "2019-07-14",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 5.0,
+      "currentWeightKg": 5.8,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Tolerant",
+        "cats": "Friendly",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": ["Obesity"],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Weight Management",
+      "caloricIntakeDaily": 240,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-14",
+        "activityType": "Laser Play",
+        "durationMinutes": 15,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 206,
+      "firstName": "Rohan",
+      "lastName": "Gavaskar",
+      "phone": "+91-9090909090",
+      "email": "rohan.g@example.com",
+      "address": "Dadar",
+      "city": "Mumbai"
+    }
+  },
+  {
+    "name": "Nandi",
+    "type": "Cow",
+    "breed": "Rathi",
+    "birthDate": "2017-04-10",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 380.0,
+      "currentWeightKg": 390.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.8,
+      "socialCompatibility": {
+        "dogs": "Cautious",
+        "cats": "Indifferent",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Heat Tolerance"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Dry Fodder",
+      "caloricIntakeDaily": 13000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-15",
+        "activityType": "Grazing",
+        "durationMinutes": 300,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 207,
+      "firstName": "Balram",
+      "lastName": "Yadav",
+      "phone": "+91-9550066000",
+      "email": "balram.y@example.com",
+      "address": "Rural Zone",
+      "city": "Bikaner"
+    }
+  },
+  {
+    "name": "Kajal",
+    "type": "Goat",
+    "breed": "Marwari",
+    "birthDate": "2021-09-05",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 35.0,
+      "currentWeightKg": 36.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Neutral",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 8.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Disease Resistance"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Desert Shrubs",
+      "caloricIntakeDaily": 1500,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-15",
+        "activityType": "Browsing",
+        "durationMinutes": 180,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 207,
+      "firstName": "Balram",
+      "lastName": "Yadav",
+      "phone": "+91-9550066000",
+      "email": "balram.y@example.com",
+      "address": "Rural Zone",
+      "city": "Bikaner"
+    }
+  },
+  {
+    "name": "Bholu",
+    "type": "Cow",
+    "breed": "Hariana",
+    "birthDate": "2018-03-12",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 480.0,
+      "currentWeightKg": 500.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Calm",
+        "cats": "Indifferent",
+        "children": "Gentle"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Dual Purpose"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Fodder & Grain",
+      "caloricIntakeDaily": 15000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-15",
+        "activityType": "Plowing",
+        "durationMinutes": 120,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 207,
+      "firstName": "Balram",
+      "lastName": "Yadav",
+      "phone": "+91-9550066000",
+      "email": "balram.y@example.com",
+      "address": "Rural Zone",
+      "city": "Bikaner"
+    }
+  },
+  {
+    "name": "Bolt",
+    "type": "Dog",
+    "breed": "Greyhound",
+    "birthDate": "2020-05-30",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 4,
+      "idealWeightKg": 30.0,
+      "currentWeightKg": 31.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 3.5,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Chase Prone",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 2.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Speed"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "High Protein",
+      "caloricIntakeDaily": 1600,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-16",
+        "activityType": "Sprinting",
+        "durationMinutes": 30,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 208,
+      "firstName": "Sameer",
+      "lastName": "Khan",
+      "phone": "+91-9899887766",
+      "email": "sameer.khan@example.com",
+      "address": "Defence Colony",
+      "city": "Delhi"
+    }
+  },
+  {
+    "name": "Jerry",
+    "type": "Dog",
+    "breed": "Jack Russell Terrier",
+    "birthDate": "2021-11-20",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 7.0,
+      "currentWeightKg": 7.5,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Very High",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 4.5,
+      "socialCompatibility": {
+        "dogs": "Dominant",
+        "cats": "Chase Prone",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 2.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Active Dog Kibble",
+      "caloricIntakeDaily": 600,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-16",
+        "activityType": "Fetch",
+        "durationMinutes": 60,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 208,
+      "firstName": "Sameer",
+      "lastName": "Khan",
+      "phone": "+91-9899887766",
+      "email": "sameer.khan@example.com",
+      "address": "Defence Colony",
+      "city": "Delhi"
+    }
+  },
+  {
+    "name": "Lola",
+    "type": "Cat",
+    "breed": "Abyssinian",
+    "birthDate": "2022-02-28",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 3.0,
+      "currentWeightKg": 3.1,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 4.0,
+      "socialCompatibility": {
+        "dogs": "Curious",
+        "cats": "Friendly",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Dry Food",
+      "caloricIntakeDaily": 220,
+      "allergies": ["Chicken"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-16",
+        "activityType": "Climbing Cat Tree",
+        "durationMinutes": 45,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 208,
+      "firstName": "Sameer",
+      "lastName": "Khan",
+      "phone": "+91-9899887766",
+      "email": "sameer.khan@example.com",
+      "address": "Defence Colony",
+      "city": "Delhi"
+    }
+  },
+  {
+    "name": "Bijli",
+    "type": "Goat",
+    "breed": "Jakhrana",
+    "birthDate": "2020-12-10",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 45.0,
+      "currentWeightKg": 46.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Neutral",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 8.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["High Milk Yield"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Shrubs & Grains",
+      "caloricIntakeDaily": 1900,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-17",
+        "activityType": "Grazing",
+        "durationMinutes": 200,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 209,
+      "firstName": "Ashok",
+      "lastName": "Meena",
+      "phone": "+91-9444333222",
+      "email": "ashok.meena@example.com",
+      "address": "Rural District",
+      "city": "Alwar"
+    }
+  },
+  {
+    "name": "Badal",
+    "type": "Goat",
+    "breed": "Gaddi",
+    "birthDate": "2021-06-15",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 40.0,
+      "currentWeightKg": 42.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Neutral",
+        "children": "Cautious"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Cool"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Wool Production"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Mountain Grass",
+      "caloricIntakeDaily": 1700,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-17",
+        "activityType": "Climbing",
+        "durationMinutes": 120,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 209,
+      "firstName": "Ashok",
+      "lastName": "Meena",
+      "phone": "+91-9444333222",
+      "email": "ashok.meena@example.com",
+      "address": "Rural District",
+      "city": "Alwar"
+    }
+  },
+  {
+    "name": "Suraj",
+    "type": "Cow",
+    "breed": "Nagori",
+    "birthDate": "2019-04-20",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 450.0,
+      "currentWeightKg": 460.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.8,
+      "socialCompatibility": {
+        "dogs": "Calm",
+        "cats": "Indifferent",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 12.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Strong Draft"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Fodder",
+      "caloricIntakeDaily": 14000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-17",
+        "activityType": "Cart Pulling",
+        "durationMinutes": 180,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 209,
+      "firstName": "Ashok",
+      "lastName": "Meena",
+      "phone": "+91-9444333222",
+      "email": "ashok.meena@example.com",
+      "address": "Rural District",
+      "city": "Alwar"
+    }
+  },
+  {
+    "name": "Prince",
+    "type": "Dog",
+    "breed": "Chihuahua",
+    "birthDate": "2021-10-05",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 2.5,
+      "currentWeightKg": 2.8,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 5,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Neutral",
+        "children": "Avoidant"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.5,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Wet Food",
+      "caloricIntakeDaily": 200,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-18",
+        "activityType": "Lap Sitting",
+        "durationMinutes": 180,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 210,
+      "firstName": "Priya",
+      "lastName": "Saxena",
+      "phone": "+91-9777666555",
+      "email": "priya.saxena@example.com",
+      "address": "Gomti Nagar",
+      "city": "Lucknow"
+    }
+  },
+  {
+    "name": "Whiskers",
+    "type": "Cat",
+    "breed": "Munchkin",
+    "birthDate": "2022-07-22",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 3.0,
+      "currentWeightKg": 3.2,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Tolerant",
+        "cats": "Friendly",
+        "children": "Gentle"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Short Legs"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Dry Food",
+      "caloricIntakeDaily": 200,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-18",
+        "activityType": "Playing with Ball",
+        "durationMinutes": 20,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 210,
+      "firstName": "Priya",
+      "lastName": "Saxena",
+      "phone": "+91-9777666555",
+      "email": "priya.saxena@example.com",
+      "address": "Gomti Nagar",
+      "city": "Lucknow"
+    }
+  },
+  {
+    "name": "Tweety",
+    "type": "Parrot",
+    "breed": "Canary",
+    "birthDate": "2023-01-10",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 0.02,
+      "currentWeightKg": 0.02,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.0,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Fearful",
+        "children": "Observer"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Singer"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Seeds",
+      "caloricIntakeDaily": 15,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-18",
+        "activityType": "Singing",
+        "durationMinutes": 60,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 210,
+      "firstName": "Priya",
+      "lastName": "Saxena",
+      "phone": "+91-9777666555",
+      "email": "priya.saxena@example.com",
+      "address": "Gomti Nagar",
+      "city": "Lucknow"
+    }
+  },
+  {
+    "name": "Buster",
+    "type": "Dog",
+    "breed": "Bulldog",
+    "birthDate": "2019-06-06",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 7,
+      "idealWeightKg": 23.0,
+      "currentWeightKg": 25.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Tolerant",
+        "cats": "Indifferent",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 1.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Respiratory Issues"],
+      "chronicConditions": ["Skin Dermatitis"],
+      "medications": ["Ointment"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Hypoallergenic",
+      "caloricIntakeDaily": 1000,
+      "allergies": ["Grains"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-19",
+        "activityType": "Short Walk",
+        "durationMinutes": 15,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 211,
+      "firstName": "Vivek",
+      "lastName": "Oberoi",
+      "phone": "+91-9333444555",
+      "email": "vivek.oberoi@example.com",
+      "address": "Juhu",
+      "city": "Mumbai"
+    }
+  },
+  {
+    "name": "Socks",
+    "type": "Cat",
+    "breed": "Domestic Shorthair",
+    "birthDate": "2020-03-15",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 4.0,
+      "currentWeightKg": 4.1,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Tolerant",
+        "cats": "Friendly",
+        "children": "Independent"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Fish Mix",
+      "caloricIntakeDaily": 250,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-19",
+        "activityType": "Watching Birds",
+        "durationMinutes": 30,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 211,
+      "firstName": "Vivek",
+      "lastName": "Oberoi",
+      "phone": "+91-9333444555",
+      "email": "vivek.oberoi@example.com",
+      "address": "Juhu",
+      "city": "Mumbai"
+    }
+  },
+  {
+    "name": "Marley",
+    "type": "Dog",
+    "breed": "Labradoodle",
+    "birthDate": "2021-09-01",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 25.0,
+      "currentWeightKg": 26.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 4.5,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Friendly",
+        "children": "Very Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 3.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Hypoallergenic"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Premium Kibble",
+      "caloricIntakeDaily": 1400,
+      "allergies": ["Chicken"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-20",
+        "activityType": "Fetch",
+        "durationMinutes": 45,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 212,
+      "firstName": "Sarah",
+      "lastName": "Fernandes",
+      "phone": "+91-9988001122",
+      "email": "sarah.f@example.com",
+      "address": "Panjim",
+      "city": "Goa"
+    }
+  },
+  {
+    "name": "Leo",
+    "type": "Cat",
+    "breed": "Bengal",
+    "birthDate": "2022-04-10",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 5.0,
+      "currentWeightKg": 5.2,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Very High",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 4.0,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Dominant",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 4.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "High Protein",
+      "caloricIntakeDaily": 350,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-20",
+        "activityType": "Hunting Simulation",
+        "durationMinutes": 60,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 212,
+      "firstName": "Sarah",
+      "lastName": "Fernandes",
+      "phone": "+91-9988001122",
+      "email": "sarah.f@example.com",
+      "address": "Panjim",
+      "city": "Goa"
+    }
+  },
+  {
+    "name": "Thor",
+    "type": "Dog",
+    "breed": "Husky",
+    "birthDate": "2020-11-15",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 25.0,
+      "currentWeightKg": 24.5,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Very High",
+      "separationAnxietyScore": 5,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Prey Drive",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 4.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Cool"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Blue Eyes"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Active Dog Food",
+      "caloricIntakeDaily": 1600,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-21",
+        "activityType": "Running",
+        "durationMinutes": 60,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 213,
+      "firstName": "Arjun",
+      "lastName": "Rampal",
+      "phone": "+91-9123123123",
+      "email": "arjun.rampal@example.com",
+      "address": "Manali",
+      "city": "Manali"
+    }
+  },
+  {
+    "name": "Loki",
+    "type": "Dog",
+    "breed": "Malamute",
+    "birthDate": "2019-12-05",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 38.0,
+      "currentWeightKg": 40.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 3.5,
+      "socialCompatibility": {
+        "dogs": "Dominant",
+        "cats": "Aggressive",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 4.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Cool"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": ["Joint Supplements"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Raw Diet",
+      "caloricIntakeDaily": 2000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-21",
+        "activityType": "Hiking",
+        "durationMinutes": 120,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 213,
+      "firstName": "Arjun",
+      "lastName": "Rampal",
+      "phone": "+91-9123123123",
+      "email": "arjun.rampal@example.com",
+      "address": "Manali",
+      "city": "Manali"
+    }
+  },
+  {
+    "name": "Meena",
+    "type": "Goat",
+    "breed": "Changthangi",
+    "birthDate": "2021-05-20",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 30.0,
+      "currentWeightKg": 32.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Neutral",
+        "children": "Cautious"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 8.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Cool"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Pashmina Wool"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Grass",
+      "caloricIntakeDaily": 1500,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-21",
+        "activityType": "Grazing",
+        "durationMinutes": 240,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 213,
+      "firstName": "Arjun",
+      "lastName": "Rampal",
+      "phone": "+91-9123123123",
+      "email": "arjun.rampal@example.com",
+      "address": "Manali",
+      "city": "Manali"
+    }
+  },
+  {
+    "name": "Naina",
+    "type": "Cow",
+    "breed": "Red Kandhari",
+    "birthDate": "2018-08-15",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 350.0,
+      "currentWeightKg": 360.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.8,
+      "socialCompatibility": {
+        "dogs": "Cautious",
+        "cats": "Indifferent",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Disease Resistant"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Fodder",
+      "caloricIntakeDaily": 13000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-22",
+        "activityType": "Grazing",
+        "durationMinutes": 300,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 214,
+      "firstName": "Suresh",
+      "lastName": "Gowda",
+      "phone": "+91-9666555444",
+      "email": "suresh.gowda@example.com",
+      "address": "Rural District",
+      "city": "Nanded"
+    }
+  },
+  {
+    "name": "Kaali",
+    "type": "Cow",
+    "breed": "Deoni",
+    "birthDate": "2017-02-10",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 420.0,
+      "currentWeightKg": 430.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Calm",
+        "cats": "Indifferent",
+        "children": "Gentle"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Milk Yield"],
+      "chronicConditions": [],
+      "medications": ["Calcium"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Green Fodder",
+      "caloricIntakeDaily": 15000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-22",
+        "activityType": "Milking",
+        "durationMinutes": 45,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 214,
+      "firstName": "Suresh",
+      "lastName": "Gowda",
+      "phone": "+91-9666555444",
+      "email": "suresh.gowda@example.com",
+      "address": "Rural District",
+      "city": "Nanded"
+    }
+  },
+  {
+    "name": "Bhim",
+    "type": "Cow",
+    "breed": "Khillari",
+    "birthDate": "2019-11-20",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 7,
+      "idealWeightKg": 480.0,
+      "currentWeightKg": 500.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.0,
+      "socialCompatibility": {
+        "dogs": "Aggressive",
+        "cats": "Indifferent",
+        "children": "Cautious"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 12.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Dry"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Draft Power"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Dry Fodder",
+      "caloricIntakeDaily": 16000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-22",
+        "activityType": "Plowing",
+        "durationMinutes": 180,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 214,
+      "firstName": "Suresh",
+      "lastName": "Gowda",
+      "phone": "+91-9666555444",
+      "email": "suresh.gowda@example.com",
+      "address": "Rural District",
+      "city": "Nanded"
+    }
+  },
+  {
+    "name": "Buddy",
+    "type": "Dog",
+    "breed": "Shih Tzu",
+    "birthDate": "2022-01-01",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 6.0,
+      "currentWeightKg": 6.5,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 5,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Friendly",
+        "cats": "Friendly",
+        "children": "Playful"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.5,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": ["Eye Drops"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Small Breed Kibble",
+      "caloricIntakeDaily": 400,
+      "allergies": ["Chicken"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-23",
+        "activityType": "Indoor Play",
+        "durationMinutes": 30,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 215,
+      "firstName": "Kavita",
+      "lastName": "Krishnan",
+      "phone": "+91-9876543210",
+      "email": "kavita.k@example.com",
+      "address": "T Nagar",
+      "city": "Chennai"
+    }
+  },
+  {
+    "name": "Snowball",
+    "type": "Cat",
+    "breed": "Persian",
+    "birthDate": "2020-05-15",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 4.0,
+      "currentWeightKg": 4.2,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 2.0,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Tolerant",
+        "children": "Calm"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Flat Face"],
+      "chronicConditions": ["Eye Discharge"],
+      "medications": ["Eye Wipes"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Wet Food",
+      "caloricIntakeDaily": 230,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-23",
+        "activityType": "Grooming",
+        "durationMinutes": 60,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 215,
+      "firstName": "Kavita",
+      "lastName": "Krishnan",
+      "phone": "+91-9876543210",
+      "email": "kavita.k@example.com",
+      "address": "T Nagar",
+      "city": "Chennai"
+    }
+  },
+  {
+    "name": "Mithu",
+    "type": "Parrot",
+    "breed": "Plum-headed Parakeet",
+    "birthDate": "2021-08-08",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 0.08,
+      "currentWeightKg": 0.08,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Fearful",
+        "children": "Observer"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Humid"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Seeds & Fruits",
+      "caloricIntakeDaily": 60,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-23",
+        "activityType": "Whistling",
+        "durationMinutes": 45,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 215,
+      "firstName": "Kavita",
+      "lastName": "Krishnan",
+      "phone": "+91-9876543210",
+      "email": "kavita.k@example.com",
+      "address": "T Nagar",
+      "city": "Chennai"
+    }
+  },
+  {
+    "name": "Sheru",
+    "type": "Dog",
+    "breed": "Kombai",
+    "birthDate": "2019-10-20",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 25.0,
+      "currentWeightKg": 26.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 4.0,
+      "socialCompatibility": {
+        "dogs": "Aggressive",
+        "cats": "Aggressive",
+        "children": "Protective"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 8.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Guard Dog"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Raw Meat & Rice",
+      "caloricIntakeDaily": 1500,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-24",
+        "activityType": "Guarding",
+        "durationMinutes": 360,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 216,
+      "firstName": "Muthu",
+      "lastName": "Velu",
+      "phone": "+91-9000111222",
+      "email": "muthu.velu@example.com",
+      "address": "Rural District",
+      "city": "Madurai"
+    }
+  },
+  {
+    "name": "Rani",
+    "type": "Cow",
+    "breed": "Umblachery",
+    "birthDate": "2018-05-15",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 300.0,
+      "currentWeightKg": 310.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Cautious",
+        "cats": "Indifferent",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 10.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Hardy"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Rice Straw",
+      "caloricIntakeDaily": 12000,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-24",
+        "activityType": "Grazing",
+        "durationMinutes": 300,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 216,
+      "firstName": "Muthu",
+      "lastName": "Velu",
+      "phone": "+91-9000111222",
+      "email": "muthu.velu@example.com",
+      "address": "Rural District",
+      "city": "Madurai"
+    }
+  },
+  {
+    "name": "Appu",
+    "type": "Goat",
+    "breed": "Kanni Adu",
+    "birthDate": "2021-03-10",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 35.0,
+      "currentWeightKg": 34.0,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.8,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Neutral",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Farm",
+      "outdoorAccessHours": 8.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Meat Breed"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Shrubs",
+      "caloricIntakeDaily": 1600,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-24",
+        "activityType": "Browsing",
+        "durationMinutes": 180,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 216,
+      "firstName": "Muthu",
+      "lastName": "Velu",
+      "phone": "+91-9000111222",
+      "email": "muthu.velu@example.com",
+      "address": "Rural District",
+      "city": "Madurai"
+    }
+  },
+  {
+    "name": "Max",
+    "type": "Dog",
+    "breed": "Boxer",
+    "birthDate": "2020-09-09",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 6,
+      "idealWeightKg": 30.0,
+      "currentWeightKg": 32.0,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 4,
+      "trainabilityIndex": 4.0,
+      "socialCompatibility": {
+        "dogs": "Playful",
+        "cats": "Curious",
+        "children": "Very Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 2.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Heart Issues"],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "High Protein Kibble",
+      "caloricIntakeDaily": 1500,
+      "allergies": ["Wheat"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-25",
+        "activityType": "Running",
+        "durationMinutes": 45,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 217,
+      "firstName": "Deepak",
+      "lastName": "Chopra",
+      "phone": "+91-9555666777",
+      "email": "deepak.c@example.com",
+      "address": "Sector 44",
+      "city": "Noida"
+    }
+  },
+  {
+    "name": "Luna",
+    "type": "Cat",
+    "breed": "Ragdoll",
+    "birthDate": "2021-12-25",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 4.5,
+      "currentWeightKg": 4.6,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Low",
+      "separationAnxietyScore": 2,
+      "trainabilityIndex": 3.0,
+      "socialCompatibility": {
+        "dogs": "Tolerant",
+        "cats": "Friendly",
+        "children": "Friendly"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Apartment",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Wet Food",
+      "caloricIntakeDaily": 250,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-25",
+        "activityType": "Nap",
+        "durationMinutes": 300,
+        "intensity": "Low"
+      }
+    ],
+    "owner": {
+      "id": 217,
+      "firstName": "Deepak",
+      "lastName": "Chopra",
+      "phone": "+91-9555666777",
+      "email": "deepak.c@example.com",
+      "address": "Sector 44",
+      "city": "Noida"
+    }
+  },
+  {
+    "name": "Thumper",
+    "type": "Rabbit",
+    "breed": "Holland Lop",
+    "birthDate": "2022-06-15",
+    "gender": "Male",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 1.5,
+      "currentWeightKg": 1.6,
+      "sterilizationStatus": "Neutered"
+    },
+    "behavioralProfile": {
+      "energyLevel": "Medium",
+      "separationAnxietyScore": 1,
+      "trainabilityIndex": 2.5,
+      "socialCompatibility": {
+        "dogs": "Fearful",
+        "cats": "Cautious",
+        "children": "Gentle"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "Low",
+      "climateZone": "Moderate"
+    },
+    "medicalHistory": {
+      "geneticMarkers": [],
+      "chronicConditions": [],
+      "medications": []
+    },
+    "dietaryPreferences": {
+      "foodType": "Hay",
+      "caloricIntakeDaily": 150,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-25",
+        "activityType": "Hopping",
+        "durationMinutes": 30,
+        "intensity": "Medium"
+      }
+    ],
+    "owner": {
+      "id": 217,
+      "firstName": "Deepak",
+      "lastName": "Chopra",
+      "phone": "+91-9555666777",
+      "email": "deepak.c@example.com",
+      "address": "Sector 44",
+      "city": "Noida"
+    }
+  },
+  {
+    "name": "Ruby",
+    "type": "Dog",
+    "breed": "Doberman",
+    "birthDate": "2020-04-01",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 32.0,
+      "currentWeightKg": 31.5,
+      "sterilizationStatus": "Spayed"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 3,
+      "trainabilityIndex": 4.5,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Aggressive",
+        "children": "Protective"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "House",
+      "outdoorAccessHours": 3.0,
+      "noiseExposureLevel": "Medium",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Cardiac Risk"],
+      "chronicConditions": [],
+      "medications": ["Heart Supplement"]
+    },
+    "dietaryPreferences": {
+      "foodType": "High Energy Kibble",
+      "caloricIntakeDaily": 1600,
+      "allergies": ["None"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-26",
+        "activityType": "Training",
+        "durationMinutes": 45,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 218,
+      "firstName": "Nisha",
+      "lastName": "Patel",
+      "phone": "+91-9222333444",
+      "email": "nisha.patel@example.com",
+      "address": "Satellite",
+      "city": "Ahmedabad"
+    }
+  },
+  {
+    "name": "Coco",
+    "type": "Parrot",
+    "breed": "African Grey",
+    "birthDate": "2019-02-14",
+    "gender": "Female",
+    "biometrics": {
+      "bodyConditionScore": 5,
+      "idealWeightKg": 0.45,
+      "currentWeightKg": 0.46,
+      "sterilizationStatus": "Not Applicable"
+    },
+    "behavioralProfile": {
+      "energyLevel": "High",
+      "separationAnxietyScore": 5,
+      "trainabilityIndex": 5.0,
+      "socialCompatibility": {
+        "dogs": "Alert",
+        "cats": "Fearful",
+        "children": "Talkative"
+      }
+    },
+    "environmentalContext": {
+      "dwellingType": "Indoor Cage",
+      "outdoorAccessHours": 0.0,
+      "noiseExposureLevel": "High",
+      "climateZone": "Warm"
+    },
+    "medicalHistory": {
+      "geneticMarkers": ["Intelligent"],
+      "chronicConditions": ["Feather Plucking (Stress)"],
+      "medications": ["Vitamin Drops"]
+    },
+    "dietaryPreferences": {
+      "foodType": "Pellets & Fruits",
+      "caloricIntakeDaily": 180,
+      "allergies": ["Chocolate"]
+    },
+    "activityLog": [
+      {
+        "date": "2024-03-26",
+        "activityType": "Puzzle Solving",
+        "durationMinutes": 30,
+        "intensity": "High"
+      }
+    ],
+    "owner": {
+      "id": 218,
+      "firstName": "Nisha",
+      "lastName": "Patel",
+      "phone": "+91-9222333444",
+      "email": "nisha.patel@example.com",
+      "address": "Satellite",
+      "city": "Ahmedabad"
+    }
+  }
