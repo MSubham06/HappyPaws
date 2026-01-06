@@ -150,3 +150,98 @@ Project Report (PDF): [Click here to open final year project pdf](https://github
 ## Conclusion
 
 HappyPaws demonstrates a modern full-stack web application using React and Spring Boot. The project effectively bridges academic learning with industry-level development practices by showcasing clean architecture, structured design, and real-world application workflows.
+
+---
+# Helping Guides Below 
+
+---
+## 🐾 HappyPaws Database Documentation
+ 
+**Database Schema:** `clinic`  
+**Database Engine:** MySQL 8.0+  
+**Management Tool:** MySQL Workbench
+
+---
+
+## 📋 1. Prerequisites
+
+Before starting, ensure you have the following installed and ready:
+
+* **MySQL Server** (Localhost running on port `3306`)
+* **MySQL Workbench**
+* **Source Data:** Ensure the `database/Dump` folder is present in your project directory.
+    * *Path Example:* `C:\Users\HP\Desktop\HappyPaws\database\Dump`
+
+---
+
+## 📥 2. How to Import the Database
+
+Follow these steps to restore the `clinic` database from the project dump files.
+
+### Step 1: Open Data Import
+1.  Open **MySQL Workbench**.
+2.  Connect to your local instance (e.g., `Local instance MySQL`).
+3.  In the top menu bar, go to **Server** $\rightarrow$ **Data Import**.
+
+### Step 2: Select the Source Folder
+1.  Under **Import Options**, select the radio button:
+    > 🔘 **Import from Dump Project Folder**
+2.  Click the **`...`** button and browse to your project's dump folder:
+    * Select: `.../HappyPaws/database/Dump`
+3.  *Important:* Do **NOT** select "Import from Self-Contained File".
+
+### Step 3: Configure Target Schema
+1.  Look at the **"Default Schema to be Imported To"** section.
+2.  Check the dropdown list for `clinic`.
+    * **If `clinic` exists:** Select it.
+    * **If `clinic` is MISSING:**
+        1.  Click the **New...** button.
+        2.  Type `clinic` as the name.
+        3.  Click **OK**.
+3.  Ensure `clinic` is selected in the dropdown.
+
+### Step 4: Execute Import
+1.  In the **Select Database Objects to Import** box, click on `clinic`.
+2.  Ensure **all table checkboxes** on the right side are checked.
+3.  Verify the dropdown setting below is set to: **Dump Structure and Data**.
+4.  Click the **Start Import** button (bottom right corner).
+
+---
+
+## ✅ 3. Verification
+
+To verify the database is set up correctly:
+
+1.  Go to the **Schemas** tab in the left Navigator panel.
+2.  Right-click empty space $\rightarrow$ **Refresh All**.
+3.  Expand `clinic` $\rightarrow$ `Tables`.
+4.  Right-click `pets` (or any table) $\rightarrow$ **Select Rows - Limit 1000**.
+5.  *Success:* You should see data populated in the results grid.
+
+---
+
+## 📤 4. How to Backup (Export)
+
+If you make changes to the database and want to save a new backup:
+
+1.  Go to **Server** $\rightarrow$ **Data Export**.
+2.  In the left column, click the checkbox for **`clinic`**.
+3.  Under **Export Options**:
+    * Select **Export to Dump Project Folder**.
+    * Choose the path to your `.../HappyPaws/database/Dump` folder.
+4.  Check **"Include Create Schema"**.
+5.  Click **Start Export**.
+
+---
+
+## 🛠️ 5. Troubleshooting Common Errors
+
+| Error | Cause | Solution |
+| :--- | :--- | :--- |
+| **ERROR 1049: Unknown database 'clinic'** | The database schema has not been created yet. | See **Step 3**: Click the **New...** button to create the `clinic` schema first. |
+| **Dump file not found / Access Denied** | The tool is looking for a single `.sql` file but you provided a folder. | In **Step 2**, ensure you selected **"Import from Dump Project Folder"**. |
+| **Table 'clinic.xyz' doesn't exist** | You imported data but not the table structure. | Ensure **Dump Structure and Data** is selected in the dropdown menu. |
+| **Connection Refused** | MySQL Server is not running. | Open **Services** (Windows) and start the `MySQL80` service. |
+
+---
+⚠️ Note : Team Update the process of running and importing as Guide to Help!
