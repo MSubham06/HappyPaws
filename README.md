@@ -332,5 +332,23 @@ Once you have the token, you can access locked pages (like Pets, Owners, Vets).
     mvn spring-boot:run
     ```
 4.  Server will start on: `http://localhost:8082`
+
+
+##🖥️ How Your React Frontend Will Use This
+Now your React code becomes super simple:
+```
+Hypothetical React Code
+handleLogin(response) {
+  localStorage.setItem('token', response.token); // Save the key
+
+  if (response.role === 'ROLE_ADMIN') {
+      navigate('/admin-dashboard'); // Redirect to secret Admin area
+  } else if (response.role === 'ROLE_VET') {
+      navigate('/vet-portal');      // Redirect to Vet area
+  } else {
+      navigate('/my-pets');         // Redirect to Owner area
+  }
+}
+```
 ---
 ⚠️ Note : Team Update the process of running and importing as Guide to Help!
