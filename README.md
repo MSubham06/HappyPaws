@@ -244,4 +244,93 @@ If you make changes to the database and want to save a new backup:
 | **Connection Refused** | MySQL Server is not running. | Open **Services** (Windows) and start the `MySQL80` service. |
 
 ---
+# HappyPaws PetClinic - Backend API
+
+It is built with **Spring Boot** and features a secure authentication system using **Spring Security** and **JSON Web Tokens (JWT)**.
+
+## 🚀 Features
+- **User Registration:** Create new accounts with role-based access.
+- **Secure Login:** Authenticate users and generate JWT tokens.
+- **Protected Endpoints:** Restrict access to pet and owner data using Bearer Tokens.
+- **Stateless Security:** Uses JWT for session management (no server-side sessions).
+  
+---
+
+## 🔑 Authentication Guide
+
+The API is secured. You must **Login** first to get a "Key" (Token), and then use that Key to access data.
+
+### 1. Default Admin Credentials
+Use these credentials to test the system immediately:
+- **Email:** `admin@happypaws.com`
+- **Password:** `securePassword123`
+
+### 2. How to Log In (Get Your Token)
+This step proves your identity and provides you with a **JWT Token**.
+
+* **Endpoint:** `POST /api/auth/login`
+* **URL:** `http://localhost:8082/api/auth/login`
+
+**Steps:**
+1.  Open **Postman**.
+2.  Set request method to **POST**.
+3.  In the **Body** tab, select **raw** -> **JSON**.
+4.  Paste the credentials:
+    ```json
+    {
+      "email": "admin@happypaws.com",
+      "password": "securePassword123"
+    }
+    ```
+5.  Click **Send**.
+6.  **Copy the Response:** The long string starting with `eyJ...` is your Token.
+
+### 3. How to Access Protected Data
+Once you have the token, you can access locked pages (like Pets, Owners, Vets).
+
+* **Endpoint:** `GET /api/pets` (or other protected routes)
+* **URL:** `http://localhost:8082/api/pets`
+
+**Steps:**
+1.  Create a new **GET** request in Postman.
+2.  Go to the **Authorization** tab (under the URL bar).
+3.  In the **Type** dropdown, select **Bearer Token**.
+4.  In the **Token** field on the right, **paste your JWT Token**.
+5.  Click **Send**.
+
+> **Note:** If you get a `403 Forbidden` error, your token may be missing or expired. Tokens are valid for **10 hours**.
+
+---
+
+## 📂 Project Structure (Security)
+
+* **`config/SecurityConfig.java`**: Main security rules. Defines which pages are public (Register/Login) and which are private.
+* **`controller/AuthController.java`**: Handles Login/Register requests.
+* **`util/JwtUtils.java`**: The "Machine" that generates and validates tokens.
+* **`filter/JwtAuthenticationFilter.java`**: The "Guard" that checks every request for a valid token.
+* **`service/CustomUserDetailsService.java`**: Loads user data from the database for verification.
+
+---
+
+## ❓ Troubleshooting
+
+| Error | Cause | Solution |
+| :--- | :--- | :--- |
+| **403 Forbidden (Login)** | Wrong password or email. | Check your JSON body for typos. |
+| **403 Forbidden (Data)** | Missing Token. | Ensure you added the token in the **Authorization** tab as a **Bearer Token**. |
+| **405 Method Not Allowed** | Wrong Request Type. | Check if you are using **GET** instead of **POST** (or vice versa). |
+| **ECONNREFUSED** | Server is down. | Restart the Spring Boot application. |
+
+---
+
+## 🏃‍♂️ How to Run
+
+1.  Clone the repository.
+2.  Update `application.properties` with your MySQL database details.
+3.  Run the application:
+    ```bash
+    mvn spring-boot:run
+    ```
+4.  Server will start on: `http://localhost:8082`
+---
 ⚠️ Note : Team Update the process of running and importing as Guide to Help!
