@@ -155,7 +155,7 @@ HappyPaws demonstrates a modern full-stack web application using React and Sprin
 # Helping Guides Below 
 
 ---
-## 🐾 HappyPaws Database Documentation
+## 🐾 HappyPaws Database Documentation!
  
 **Database Schema:** `clinic`  
 **Database Engine:** MySQL 8.0+  
@@ -244,7 +244,7 @@ If you make changes to the database and want to save a new backup:
 | **Connection Refused** | MySQL Server is not running. | Open **Services** (Windows) and start the `MySQL80` service. |
 
 ---
-# HappyPaws PetClinic - Backend API
+## Backend API
 
 Welcome to the backend API for **HappyPaws PetClinic**. This system is built with **Spring Boot** and features a secure, robust authentication system using **Spring Security** and **JSON Web Tokens (JWT)**.
 
