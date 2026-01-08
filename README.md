@@ -278,12 +278,17 @@ This step proves your identity and provides you with a **JWT Token**.
 4.  Paste the credentials:
     ```json
     {
-      "email": "admin@happypaws.com",
-      "password": "securePassword123"
+     "email": "admin@happypaws.com",
+     "password": "admin123"
     }
     ```
 5.  Click **Send**.
 6.  **Copy the Response:** The long string starting with `eyJ...` is your Token.
+
+{
+    "role": "ROLE_ADMIN",
+    "token": "```eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBoYXBweXBhd3MuY29tIiwiaWF0IjoxNzY3ODUwNTA5LCJleHAiOjE3Njc4ODY1MDl9.qtR15YjS4HgPA56mjWp56NRFcy3VVXzX6KoTm1EtVc8```"
+}
 
 ### 3. How to Access Protected Data
 Once you have the token, you can access locked pages (like Pets, Owners, Vets).
