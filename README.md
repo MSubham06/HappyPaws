@@ -246,24 +246,33 @@ If you make changes to the database and want to save a new backup:
 ---
 # HappyPaws PetClinic - Backend API
 
-It is built with **Spring Boot** and features a secure authentication system using **Spring Security** and **JSON Web Tokens (JWT)**.
+Welcome to the backend API for **HappyPaws PetClinic**. This system is built with **Spring Boot** and features a secure, robust authentication system using **Spring Security** and **JSON Web Tokens (JWT)**.
 
-## 🚀 Features
-- **User Registration:** Create new accounts with role-based access.
-- **Secure Login:** Authenticate users and generate JWT tokens.
-- **Protected Endpoints:** Restrict access to pet and owner data using Bearer Tokens.
-- **Stateless Security:** Uses JWT for session management (no server-side sessions).
-  
+It serves as the foundation for the PetClinic application, managing Users (Admins, Vets, Owners), Pets, and medical history.
+
+---
+
+## 🚀 Key Features
+
+* **User Registration:** Create new accounts with strict role-based access (`ADMIN`, `VET`, `OWNER`).
+* **Secure Login:** Authenticate users and generate **JWT (JSON Web Tokens)** for stateless session management.
+* **Protected Endpoints:** Restrict access to sensitive data (like medical records) using Bearer Tokens.
+* **Role-Based Access Control (RBAC):**
+    * **Admins:** Have full control to hire (create) Vets and view all system data.
+    * **Vets:** Can view appointments and update pet medical records.
+    * **Owners:** Can create their profile and view *only* their own pets and data.
+* **Profile Linking:** The system automatically links a generic "User Login" to a specific "Owner" or "Vet" profile, ensuring data privacy.
+
 ---
 
 ## 🔑 Authentication Guide
 
-The API is secured. You must **Login** first to get a "Key" (Token), and then use that Key to access data.
+The API is secured by default. To interact with it, you must **Login** first to get a "Key" (Token), and then use that Key to access data.
 
 ### 1. Default Admin Credentials
-Use these credentials to test the system immediately:
-- **Email:** `admin@happypaws.com`
-- **Password:** `securePassword123`
+Use these credentials to test the system immediately or create new Vets:
+* **Email:** `admin@happypaws.com`
+* **Password:** `admin123` (or the password you set during registration)
 
 ### 2. How to Log In (Get Your Token)
 This step proves your identity and provides you with a **JWT Token**.
@@ -278,22 +287,25 @@ This step proves your identity and provides you with a **JWT Token**.
 4.  Paste the credentials:
     ```json
     {
-     "email": "admin@happypaws.com",
-     "password": "admin123"
+      "email": "admin@happypaws.com",
+      "password": "admin123"
     }
     ```
 5.  Click **Send**.
 6.  **Copy the Response:** The long string starting with `eyJ...` is your Token.
 
+**Sample Response:**
+```json
 {
     "role": "ROLE_ADMIN",
-    "token": "```eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBoYXBweXBhd3MuY29tIiwiaWF0IjoxNzY3ODUwNTA5LCJleHAiOjE3Njc4ODY1MDl9.qtR15YjS4HgPA56mjWp56NRFcy3VVXzX6KoTm1EtVc8```"
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBoYXBweXBhd3MuY29tIiwiaWF0IjoxNzY3ODUwNTA5LCJleHAiOjE3Njc4ODY1MDl9.qtR15YjS4HgPA56mjWp56NRFcy3VVXzX6KoTm1EtVc8"
 }
 
+---
 ### 3. How to Access Protected Data
 Once you have the token, you can access locked pages (like Pets, Owners, Vets).
 
-* **Endpoint:** `GET /api/pets` (or other protected routes)
+* **Endpoint:** `GET /api/pets` (or other protected routes like `/api/owners/me`)
 * **URL:** `http://localhost:8082/api/pets`
 
 **Steps:**
@@ -303,27 +315,54 @@ Once you have the token, you can access locked pages (like Pets, Owners, Vets).
 4.  In the **Token** field on the right, **paste your JWT Token**.
 5.  Click **Send**.
 
-> **Note:** If you get a `403 Forbidden` error, your token may be missing or expired. Tokens are valid for **10 hours**.
+> **Note:** If you get a `403 Forbidden` error, your token may be missing, expired, or you don't have the correct Role (e.g., trying to access Admin routes as an Owner).
+
+---
+
+## 🛠️ Development Journey & Challenges Solved
+
+We encountered and solved several real-world challenges while building this backend. Here is how we fixed them:
+
+### 1. Role Prefix Mismatch (The "403 Forbidden" Mystery)
+* **Problem:** Our database stored roles simply as `OWNER` and `ADMIN`. However, Spring Security's `hasRole()` method automatically adds a `ROLE_` prefix, causing it to look for `ROLE_OWNER`. This caused valid users to get `403 Forbidden` errors even with correct tokens.
+* **Solution:** We updated our Controllers to use `@PreAuthorize("hasRole('OWNER')")` and ensured our token generation logic aligns with Spring's expectations by issuing tokens that include the prefix (e.g., `ROLE_OWNER`).
+
+### 2. User-to-Profile Linking
+* **Problem:** We needed a way to connect a generic "Login Account" (User table) to a specific "Profile" (Owner or Vet table) so that when a user logs in, the system knows *which* specific doctor or owner they are.
+* **Solution:**
+    * We added a `user_id` foreign key to the `owners` and `vets` tables.
+    * We implemented a custom `findByUserId` method in our Repositories.
+    * We updated the `OwnerController` and `VetController` to automatically link new profiles to the authenticated user's email upon creation.
+
+### 3. Secure "Me" Endpoints
+* **Problem:** Standard APIs often use IDs in the URL (e.g., `/api/owners/5`), which allows users to guess other IDs and see private data.
+* **Solution:** We created a special `/api/owners/me` endpoint. Instead of asking for an ID, this endpoint looks at the **Security Context** of the logged-in user, extracts their ID securely, and returns *only* their own profile.
 
 ---
 
 ## 📂 Project Structure (Security)
 
-* **`config/SecurityConfig.java`**: Main security rules. Defines which pages are public (Register/Login) and which are private.
-* **`controller/AuthController.java`**: Handles Login/Register requests.
+This project follows a standard layered architecture:
+
+* **`config/SecurityConfig.java`**: The "Gatekeeper". Defines which pages are public (Register/Login) and which are private. It also configures CORS and Session Management.
+* **`controller/AuthController.java`**: Handles Login and Registration requests.
+* **`controller/OwnerController.java` & `VetController.java`**: Protected endpoints that use `PreAuthorize` to enforce role checks.
 * **`util/JwtUtils.java`**: The "Machine" that generates and validates tokens.
-* **`filter/JwtAuthenticationFilter.java`**: The "Guard" that checks every request for a valid token.
-* **`service/CustomUserDetailsService.java`**: Loads user data from the database for verification.
+* **`filter/JwtAuthenticationFilter.java`**: The "Guard" that checks every single incoming request for a valid Bearer Token.
+* **`service/CustomUserDetailsService.java`**: Loads user data from the database to verify passwords during login.
 
 ---
 
 ## ❓ Troubleshooting
 
+Common errors you might face while testing:
+
 | Error | Cause | Solution |
 | :--- | :--- | :--- |
-| **403 Forbidden (Login)** | Wrong password or email. | Check your JSON body for typos. |
-| **403 Forbidden (Data)** | Missing Token. | Ensure you added the token in the **Authorization** tab as a **Bearer Token**. |
+| **403 Forbidden (Login)** | Wrong password or email. | Check your JSON body for typos. Register the user if they don't exist. |
+| **403 Forbidden (Data)** | Role Mismatch or Missing Token. | Ensure you are using the correct Token (Admin vs Owner). Check `SecurityConfig`. |
 | **405 Method Not Allowed** | Wrong Request Type. | Check if you are using **GET** instead of **POST** (or vice versa). |
+| **400 Bad Request** | Missing fields or duplicates. | Check if the email is already registered. |
 | **ECONNREFUSED** | Server is down. | Restart the Spring Boot application. |
 
 ---
