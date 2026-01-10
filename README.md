@@ -300,6 +300,7 @@ This step proves your identity and provides you with a **JWT Token**.
     "role": "ROLE_ADMIN",
     "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBoYXBweXBhd3MuY29tIiwiaWF0IjoxNzY3ODUwNTA5LCJleHAiOjE3Njc4ODY1MDl9.qtR15YjS4HgPA56mjWp56NRFcy3VVXzX6KoTm1EtVc8"
 }
+```
 
 ---
 ### 3. How to Access Protected Data
