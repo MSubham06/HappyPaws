@@ -395,4 +395,21 @@ handleLogin(response) {
 }
 ```
 ---
+# 🗺️ HappyPaws Frontend Roadmap
+
+This document describes how each frontend page connects to backend APIs and its purpose.
+
+## Page-to-API Mapping
+
+| Page Name           | Who sees it? | API Used                         | Purpose |
+|---------------------|-------------|----------------------------------|---------|
+| Landing Page        | Everyone    | None (Static)                    | Marketing, "Get Started" button, Clinic Info |
+| Login / Register    | Everyone    | POST /auth/login                 | Authenticate users & get Token |
+| Owner Dashboard     | Owners      | GET /owners/me, GET /pets        | View My Profile and My Pets list |
+| Pet Details         | Owners      | GET /pets/{id}, GET /visits      | See specific pet's medical history |
+| Add Pet Form        | Owners      | POST /pets                       | Register a new pet |
+| Admin Dashboard     | Admins      | GET /vets, POST /vets            | Hire new Vets, View all Owners |
+| Vet Dashboard       | Vets        | GET /visits                     | See upcoming appointments/patients |
+
+---
 ⚠️ Note : Team Update the process of running and importing as Guide to Help!
