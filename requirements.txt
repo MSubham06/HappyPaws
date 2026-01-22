@@ -1,0 +1,51 @@
+PROJECT: HappyPaws - Smart Veterinary Management System
+DEVELOPER: Subham
+COLLEGE: SVCET
+
+=========================================
+1. SYSTEM REQUIREMENTS (Hardware)
+=========================================
+- Processor: Intel Core i5 or higher / AMD Ryzen 5
+- RAM: 8GB minimum (16GB recommended for development)
+- Storage: 500MB free space
+- Internet Connection: Required for initial dependency installation
+
+=========================================
+2. SOFTWARE REQUIREMENTS
+=========================================
+- Operating System: Windows 10/11, macOS, or Linux
+- Java Development Kit (JDK): Version 17 or higher
+- Node.js: Version 16.0.0 or higher
+- Database: MySQL Community Server 8.0
+- IDE: VS Code (Frontend) and IntelliJ IDEA / Eclipse (Backend)
+- API Testing: Postman (Optional)
+- Browser: Google Chrome, Edge, or Firefox
+
+=========================================
+3. PROJECT DEPENDENCIES
+=========================================
+
+[FRONTEND - React.js]
+- react: ^18.2.0
+- react-dom: ^18.2.0
+- react-router-dom: ^6.20.0 (Routing)
+- axios: ^1.6.0 (API Calls)
+- bootstrap: ^5.3.0 (Styling Framework)
+
+[BACKEND - Spring Boot]
+- Spring Boot Starter Web: 3.x
+- Spring Boot Starter Data JPA: (Database ORM)
+- Spring Boot Starter Security: (Authentication)
+- MySQL Connector Java: (Database Driver)
+- Lombok: (Code reduction)
+- JJWT (io.jsonwebtoken): (Token generation)
+
+=========================================
+4. FUNCTIONAL REQUIREMENTS
+=========================================
+- User Authentication (Login/Register with Roles: Admin, Vet, Owner)
+- Dashboard System (Separate views for each role)
+- Pet Management (Create, Read, Update, Delete Pet Profiles)
+- Vet Management (Register Vets, Set Fees, Specialization)
+- Visit Tracking (Record Appointments, Diagnosis, Treatment)
+- Search & Filter (Find pets/vets by name or ID)
