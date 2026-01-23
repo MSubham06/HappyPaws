@@ -1,0 +1,256 @@
+id,birth_date,name,type,owner_id,energy_level,separation_anxiety_score,cats,children,dogs,trainability_index,body_condition_score,current_weight_kg,ideal_weight_kg,sterilization_status,breed,caloric_intake_daily,food_type,climate_zone,dwelling_type,noise_exposure_level,outdoor_access_hours,gender,diagnosis
+1,2020-04-01,Ruby,Dog,1,High,3,Aggressive,Protective,Alert,4.5,5,31.5,32.0,Spayed,Doberman,1600,High Energy Kibble,Warm,House,Medium,3.0,Female,
+2,2019-02-14,Coco,Parrot,1,High,5,Fearful,Talkative,Alert,5.0,5,0.46,0.45,Not Applicable,African Grey,180,Pellets & Fruits,Warm,Indoor Cage,High,0.0,Female,
+3,2019-05-15,Tiger,Dog,2,High,2,Alert,Protective,Friendly,4.0,5,21.5,20.0,Neutered,Indian Pariah,1100,Home Cooked (Chicken & Rice,,,,,,
+4,2021-08-20,Kitty,Cat,2,Low,1,Neutral,Calm,Fearful,2.5,6,4.5,4.0,Spayed,Persian,250,Wet Food,Moderate,Apartment,Low,0.0,Female,
+5,2020-01-10,Bruno,Dog,2,Medium,4,Friendly,Very Friendly,Friendly,4.8,7,34.0,30.0,Neutered,Labrador Retriever,900,Diet Dry Food,Warm,House,Medium,2.0,Male,
+6,2016-04-12,Ganga,Cow,3,Medium,1,Indifferent,Gentle,Calm,3.0,5,410.0,400.0,Not Applicable,Gir,15000,Green Fodder & Oil Cake,Hot,Farm,Low,10.0,Female,
+7,2018-09-09,Yamuna,Cow,3,Medium,1,Indifferent,Friendly,Cautious,2.8,6,365.0,350.0,Not Applicable,Red Sindhi,14000,Dry Fodder,Hot,Farm,Low,10.0,Female,
+8,2022-01-15,Raju,Goat,3,High,2,Neutral,Playful,Alert,3.5,5,36.5,35.0,Not Applicable,Osmanabadi,2500,Leaves and Grains,Dry,Farm,Low,8.0,Male,
+9,2020-03-22,Mithu,Parrot,4,High,4,Fearful,Talkative,Fearful,4.5,5,0.13,0.12,Not Applicable,Indian Ringneck,80,Seeds & Chilies,Humid,Indoor Cage,High,0.0,Male,
+10,2022-11-05,Chiku,Rabbit,4,Medium,2,Cautious,Gentle,Fearful,3.0,4,2.1,2.0,Neutered,Dutch,180,Hay & Carrots,Moderate,Apartment,Low,0.5,Male,
+11,2019-06-18,Rocky,Dog,4,High,3,Aggressive,Protective,Dominant,5.0,5,36.0,35.0,Neutered,German Shepherd,1600,High Protein Kibble,Warm,House,Medium,4.0,Male,
+12,2020-02-14,Simba,Cat,4,Medium,2,Friendly,Friendly,Tolerant,3.5,5,8.2,8.0,Neutered,Maine Coon,400,Raw Meat Diet,Moderate,House,Medium,1.0,Male,
+13,2021-09-09,Luna,Cat,5,High,5,Dominant,Avoidant,Curious,4.0,4,3.2,3.5,Spayed,Siamese,220,Wet Food,Humid,Apartment,Low,0.0,Female,
+14,2019-12-01,Bella,Cat,5,Low,1,Friendly,Tolerant,Neutral,2.0,6,5.8,5.0,Spayed,Ragdoll,200,Diet Wet Food,Humid,Apartment,Low,0.0,Female,
+15,2017-06-15,Nandini,Cow,6,Medium,1,Indifferent,Friendly,Cautious,2.5,5,420.0,400.0,Not Applicable,Tharparkar,13000,Dry Fodder & Grains,Dry,Farm,Low,12.0,Female,
+16,2021-04-20,Sheru,Goat,6,High,1,Neutral,Cautious,Aggressive,3.0,6,65.0,60.0,Not Applicable,Jamunapari,2800,Leaves & Shrubs,Dry,Farm,Low,8.0,Male,
+17,2022-08-10,Babli,Goat,6,Medium,2,Neutral,Friendly,Alert,3.5,5,26.0,25.0,Not Applicable,Barbari,1500,Green Grass,Dry,Farm,Low,8.0,Female,
+18,2019-01-25,Radha,Cow,6,Medium,1,Indifferent,Gentle,Calm,2.0,5,445.0,450.0,Not Applicable,Kankrej,14500,Hay & Cottonseed Cake,Dry,Farm,Low,10.0,Female,
+19,2021-03-30,Charlie,Dog,7,High,4,Friendly,Very Friendly,Friendly,4.5,6,33.5,32.0,Neutered,Golden Retriever,1400,Hypoallergenic Kibble,Humid,Apartment,High,1.5,Male,
+20,2023-02-14,Snowy,Rabbit,7,Medium,3,Cautious,Cuddly,Fearful,2.5,4,2.8,3.0,Spayed,Angora,200,Timothy Hay,Humid,Indoor Cage,Low,0.0,Female,
+21,2018-07-07,Rio,Parrot,7,High,5,Aggressive,Entertaining,Aggressive,5.0,5,1.1,1.0,Not Applicable,Macaw,250,Nuts & Fruits,Humid,Indoor Cage,High,0.0,Male,
+22,2019-11-22,Max,Dog,8,Medium,2,Aggressive,Protective,Dominant,4.5,5,52.0,50.0,Neutered,Rottweiler,2200,Raw Meat,Moderate,House,Medium,3.0,Male,
+23,2021-06-12,Cooper,Dog,8,High,4,Curious,Playful,Friendly,3.0,7,13.0,10.0,Neutered,Beagle,800,Diet Kibble,Moderate,House,Medium,2.0,Male,
+24,2020-06-12,Bella,Dog,8,High,2,Tolerant,Protective,Alert,4.8,6,31.8,32.0,Spayed,Doberman,1450,Premium Kibble,Moderate,House,Medium,3.5,Female,
+25,2021-05-10,Milo,Cat,9,Low,2,Friendly,Gentle,Tolerant,3.0,5,4.7,4.5,Neutered,Scottish Fold,240,Wet Food,Humid,Apartment,Low,0.0,Male,
+26,2022-09-15,Thumper,Rabbit,9,Medium,1,Cautious,Friendly,Fearful,2.5,5,1.65,1.6,Neutered,Mini Lop,160,Pellets & Greens,Humid,Indoor Cage,Medium,0.0,Male,
+27,2023-01-05,Skye,Parrot,9,High,1,Fearful,Interactive,Fearful,2.0,5,0.035,0.035,Not Applicable,Budgerigar,30,Seed Mix,Humid,Indoor Cage,Low,0.0,Female,
+28,2017-11-20,Gauri,Cow,10,High,1,Indifferent,Friendly,Indifferent,2.5,6,410.0,400.0,Not Applicable,Kangayam,14000,Grazing & Hay,Warm,Farm,Low,12.0,Female,
+29,2021-06-15,Velu,Goat,10,High,1,Neutral,Playful,Alert,3.0,5,32.0,30.0,Not Applicable,Salem Black,1800,Shrubs,Warm,Farm,Low,8.0,Male,
+30,2020-02-28,Raja,Dog,10,High,3,Aggressive,Protective,Dominant,4.0,5,34.0,35.0,Neutered,Rajapalayam,1600,Raw Meat & Rice,Warm,Farm,Low,10.0,Male,
+31,2021-12-10,Pixie,Dog,11,Medium,4,Neutral,Friendly,Fearful,3.0,5,2.3,2.2,Spayed,Pomeranian,250,Small Breed Kibble,Moderate,Apartment,Medium,0.5,Female,
+32,2019-08-05,Cleo,Cat,11,Low,1,Territorial,Independent,Avoidant,3.0,6,4.5,4.0,Spayed,Domestic Shorthair,220,Dry Food,Moderate,Apartment,Low,0.0,Female,
+33,2022-04-20,Sunshine,Parrot,11,High,3,Fearful,Playful,Fearful,3.5,5,0.11,0.11,Not Applicable,Sun Conure,90,Fruit Mix,Moderate,Indoor Cage,Medium,0.0,Male,
+34,2020-01-15,Kaiser,Dog,12,Medium,2,Aggressive,Protective,Dominant,4.5,5,56.0,55.0,Neutered,Rottweiler,2100,High Protein,Moderate,House,Low,3.0,Male,
+35,2019-07-30,Duke,Dog,12,Low,3,Tolerant,Gentle Giant,Friendly,3.0,6,78.0,75.0,Neutered,Great Dane,3800,Large Breed Formula,Moderate,House,Low,1.5,Male,
+36,2021-03-25,Olive,Cat,13,Medium,2,Friendly,Shy,Cautious,3.5,5,3.6,3.5,Spayed,Russian Blue,230,Grain Free Wet Food,Warm,Apartment,Medium,0.0,Female,
+37,2022-08-14,Jasper,Cat,13,High,1,Playful,Friendly,Friendly,4.0,5,4.6,4.5,Neutered,Bombay Cat,280,Dry Food,Warm,Apartment,Medium,0.0,Male,
+38,2021-04-18,Bheema,Goat,14,High,1,Indifferent,Friendly,Alert,2.5,5,42.0,40.0,Not Applicable,Berari,2000,Shrubs,Dry,Farm,Low,8.0,Male,
+39,2018-09-22,Lakshmi,Cow,14,Medium,1,Indifferent,Gentle,Calm,2.8,6,390.0,380.0,Not Applicable,Gaolao,13500,Fodder,Dry,Farm,Low,10.0,Female,
+40,2020-01-10,Saraswati,Cow,14,Medium,1,Indifferent,Very Friendly,Friendly,3.5,5,165.0,160.0,Not Applicable,Punganur,5500,Green Grass,Dry,Farm,Low,8.0,Female,
+41,2019-05-30,Bluey,Parrot,15,High,4,Fearful,Playful,Alert,4.0,5,1.55,1.5,Not Applicable,Hyacinth Macaw,300,Macadamia Nuts,Humid,Indoor Cage,Medium,0.0,Male,
+42,2022-11-20,Cinnabon,Rabbit,15,Medium,1,Cautious,Tolerant,Fearful,2.0,5,4.1,4.0,Spayed,Cinnamon,220,Greens,Humid,Indoor Cage,Low,0.0,Female,
+43,2021-08-10,Zoe,Dog,15,High,4,Curious,Friendly,Friendly,3.5,6,11.0,10.0,Spayed,Beagle,750,Kibble,Humid,Apartment,High,1.5,Female,
+44,2020-11-05,Rusty,Dog,16,Medium,4,Aggressive,Playful,Alert,3.0,6,12.0,11.0,Neutered,Dachshund,550,Weight Control Kibble,Moderate,Apartment,Medium,1.0,Male,
+45,2021-03-22,Mist,Cat,16,Low,2,Friendly,Gentle,Tolerant,2.5,5,3.9,3.8,Spayed,Scottish Fold,220,Wet Food,Moderate,Apartment,Low,0.0,Female,
+46,2019-06-15,Bhairava,Dog,17,Very High,1,Prey Drive,Friendly,Friendly,4.0,4,21.5,22.0,Not Applicable,Mudhol Hound,1800,Raw Meat & Rice,Dry,Farm,Low,8.0,Male,
+47,2018-01-20,Krishna,Cow,17,High,1,Indifferent,Friendly,Calm,3.0,6,460.0,450.0,Not Applicable,Hallikar,15000,Dry Fodder,Dry,Farm,Low,12.0,Male,
+48,2021-08-15,Tommy,Dog,18,Medium,1,Friendly,Playful,Friendly,4.5,5,18.5,18.0,Neutered,Indian Pariah,1000,Home Cooked,Moderate,House,Medium,8.0,Male,
+49,2022-01-10,Ramu,Goat,18,High,1,Neutral,Friendly,Fearful,3.0,5,32.0,30.0,Not Applicable,Surti,1200,Green Leaves,Humid,Farm,Low,6.0,Male,
+50,2020-04-05,Mimi,Cat,19,Low,3,Friendly,Calm,Avoidant,2.5,5,3.6,3.5,Spayed,Himalayan,200,Wet Food,Moderate,Apartment,Low,0.0,Female,
+51,2019-09-09,Piku,Parrot,19,High,4,Fearful,Talkative,Alert,4.2,5,0.26,0.25,Not Applicable,Alexandrine Parakeet,100,Fruits & Seeds,Humid,Indoor Cage,Medium,0.0,Male,
+52,2022-12-01,Choco,Rabbit,19,High,2,Fearful,Playful,Fearful,3.0,4,2.4,2.5,Neutered,English Spot,200,Hay & Greens,Humid,Indoor Cage,Medium,0.0,Male,
+53,2018-11-20,Rocky,Dog,20,Low,4,Tolerant,Gentle,Friendly,3.0,6,85.0,80.0,Neutered,Saint Bernard,4000,Large Breed Formula,Cool,House,Low,1.0,Male,
+54,2020-02-15,Simba,Dog,20,Medium,2,Aggressive,Protective,Dominant,2.5,5,68.0,65.0,Neutered,Tibetan Mastiff,3500,Raw Meat Diet,Cool,Farm,Low,12.0,Male,
+55,2021-05-10,Sweety,Parrot,20,Medium,3,Fearful,Friendly,Alert,4.0,5,0.42,0.4,Not Applicable,Eclectus,150,Soft Fruits & Veggies,Cool,Indoor Cage,Low,0.0,Female,
+56,2022-08-20,Zorro,Cat,21,High,5,Friendly,Cuddly,Friendly,4.0,5,3.6,3.5,Neutered,Sphynx,300,High Calorie Wet Food,Moderate,Apartment,Low,0.0,Male,
+57,2021-03-03,Hazel,Dog,21,Low,4,Tolerant,Playful,Friendly,3.0,6,11.5,10.0,Spayed,French Bulldog,600,Grain Free Kibble,Moderate,Apartment,Medium,0.5,Female,
+58,2020-01-25,Pepper,Dog,22,High,3,Cautious,Energetic,Friendly,3.8,5,26.0,25.0,Neutered,Dalmatian,1300,Low Purine Diet,Warm,House,Medium,3.0,Male,
+59,2019-07-14,Casper,Cat,22,Medium,2,Friendly,Friendly,Tolerant,3.0,6,5.8,5.0,Neutered,American Shorthair,240,Weight Management,Humid,Apartment,Medium,0.0,Male,
+60,2017-04-10,Nandi,Cow,23,Medium,1,Indifferent,Friendly,Cautious,2.8,5,390.0,380.0,Not Applicable,Rathi,13000,Dry Fodder,Dry,Farm,Low,10.0,Female,
+61,2021-09-05,Kajal,Goat,23,High,1,Neutral,Friendly,Alert,3.0,5,36.0,35.0,Not Applicable,Marwari,1500,Desert Shrubs,Dry,Farm,Low,8.0,Female,
+62,2018-03-12,Bholu,Cow,23,Medium,1,Indifferent,Gentle,Calm,2.5,6,500.0,480.0,Not Applicable,Hariana,15000,Fodder & Grain,Dry,Farm,Low,10.0,Male,
+63,2020-05-30,Bolt,Dog,24,High,3,Chase Prone,Friendly,Friendly,3.5,4,31.0,30.0,Neutered,Greyhound,1600,High Protein,Moderate,House,Low,2.0,Male,
+64,2021-11-20,Jerry,Dog,24,Very High,4,Chase Prone,Playful,Dominant,4.5,5,7.5,7.0,Neutered,Jack Russell Terrier,600,Active Dog Kibble,Moderate,Apartment,Medium,2.0,Male,
+65,2022-02-28,Lola,Cat,24,High,2,Friendly,Playful,Curious,4.0,5,3.1,3.0,Spayed,Abyssinian,220,Dry Food,Moderate,Apartment,Medium,0.0,Female,
+66,2020-12-10,Bijli,Goat,25,High,1,Neutral,Friendly,Alert,3.0,5,46.0,45.0,Not Applicable,Jakhrana,1900,Shrubs & Grains,Dry,Farm,Low,8.0,Female,
+67,2021-06-15,Badal,Goat,25,High,1,Neutral,Cautious,Fearful,2.5,6,42.0,40.0,Not Applicable,Gaddi,1700,Mountain Grass,Cool,Farm,Low,10.0,Male,
+68,2019-04-20,Suraj,Cow,25,Medium,1,Indifferent,Friendly,Calm,2.8,6,460.0,450.0,Not Applicable,Nagori,14000,Fodder,Dry,Farm,Low,12.0,Male,
+69,2021-10-05,Prince,Dog,26,Medium,5,Neutral,Avoidant,Fearful,2.5,5,2.8,2.5,Neutered,Chihuahua,200,Wet Food,Moderate,Apartment,Low,0.5,Male,
+70,2022-07-22,Whiskers,Cat,26,Medium,2,Friendly,Gentle,Tolerant,3.0,6,3.2,3.0,Spayed,Munchkin,200,Dry Food,Moderate,Apartment,Low,0.0,Female,
+71,2023-01-10,Tweety,Parrot,26,Medium,1,Fearful,Observer,Fearful,2.0,5,0.02,0.02,Not Applicable,Canary,15,Seeds,Moderate,Indoor Cage,Low,0.0,Male,
+72,2019-06-06,Buster,Dog,27,Low,2,Indifferent,Friendly,Tolerant,2.5,7,25.0,23.0,Neutered,Bulldog,1000,Hypoallergenic,Warm,House,Low,1.0,Male,
+73,2020-03-15,Socks,Cat,27,Medium,1,Friendly,Independent,Tolerant,3.0,5,4.1,4.0,Spayed,Domestic Shorthair,250,Fish Mix,Humid,Apartment,Low,0.0,Female,
+74,2021-09-01,Marley,Dog,28,High,3,Friendly,Very Friendly,Friendly,4.5,5,26.0,25.0,Neutered,Labradoodle,1400,Premium Kibble,Moderate,House,Medium,3.0,Male,
+75,2022-04-10,Leo,Cat,28,Very High,2,Dominant,Playful,Friendly,4.0,5,5.2,5.0,Neutered,Bengal,350,High Protein,Humid,House,Low,4.0,Male,
+76,2020-11-15,Thor,Dog,29,Very High,5,Prey Drive,Friendly,Friendly,3.0,5,24.5,25.0,Neutered,Husky,1600,Active Dog Food,Cool,House,Medium,4.0,Male,
+77,2019-12-05,Loki,Dog,29,High,4,Aggressive,Friendly,Dominant,3.5,6,40.0,38.0,Neutered,Malamute,2000,Raw Diet,Cool,House,Medium,4.0,Male,
+78,2021-05-20,Meena,Goat,29,Medium,1,Neutral,Cautious,Fearful,2.5,5,32.0,30.0,Not Applicable,Changthangi,1500,Grass,Cool,Farm,Low,8.0,Female,
+79,2018-08-15,Naina,Cow,30,Medium,1,Indifferent,Friendly,Cautious,2.8,5,360.0,350.0,Not Applicable,Red Kandhari,13000,Fodder,Dry,Farm,Low,10.0,Female,
+80,2017-02-10,Kaali,Cow,30,Medium,1,Indifferent,Gentle,Calm,2.5,6,430.0,420.0,Not Applicable,Deoni,15000,Green Fodder,Dry,Farm,Low,10.0,Female,
+81,2019-11-20,Bhim,Cow,30,High,1,Indifferent,Cautious,Aggressive,2.0,7,500.0,480.0,Not Applicable,Khillari,16000,Dry Fodder,Dry,Farm,Low,12.0,Male,
+82,2022-01-01,Buddy,Dog,31,Medium,5,Friendly,Playful,Friendly,3.0,5,6.5,6.0,Neutered,Shih Tzu,400,Small Breed Kibble,Moderate,Apartment,Low,0.5,Male,
+83,2020-05-15,Snowball,Cat,31,Low,3,Tolerant,Calm,Fearful,2.0,5,4.2,4.0,Spayed,Persian,230,Wet Food,Humid,Apartment,Low,0.0,Female,
+84,2021-08-08,Mithu,Parrot,31,High,2,Fearful,Observer,Fearful,3.0,5,0.08,0.08,Not Applicable,Plum-headed Parakeet,60,Seeds & Fruits,Humid,Indoor Cage,Medium,0.0,Male,
+85,2019-10-20,Sheru,Dog,32,High,2,Aggressive,Protective,Aggressive,4.0,5,26.0,25.0,Neutered,Kombai,1500,Raw Meat & Rice,Warm,Farm,Low,8.0,Male,
+86,2018-05-15,Rani,Cow,32,Medium,1,Indifferent,Friendly,Cautious,2.5,5,310.0,300.0,Not Applicable,Umblachery,12000,Rice Straw,Warm,Farm,Low,10.0,Female,
+87,2021-03-10,Appu,Goat,32,High,1,Neutral,Friendly,Alert,2.8,5,34.0,35.0,Not Applicable,Kanni Adu,1600,Shrubs,Warm,Farm,Low,8.0,Male,
+88,2020-09-09,Max,Dog,33,High,4,Curious,Very Friendly,Playful,4.0,6,32.0,30.0,Neutered,Boxer,1500,High Protein Kibble,Moderate,House,Low,2.0,Male,
+89,2021-12-25,Luna,Cat,33,Low,2,Friendly,Friendly,Tolerant,3.0,5,4.6,4.5,Spayed,Ragdoll,250,Wet Food,Moderate,Apartment,Low,0.0,Female,
+90,2022-06-15,Thumper,Rabbit,33,Medium,1,Cautious,Gentle,Fearful,2.5,5,1.6,1.5,Neutered,Holland Lop,150,Hay,Moderate,Indoor Cage,Low,0.0,Male,
+91,2020-04-01,Ruby,Dog,34,High,3,Aggressive,Protective,Alert,4.5,5,31.5,32.0,Spayed,Doberman,1600,High Energy Kibble,Warm,House,Medium,3.0,Female,
+92,2019-02-14,Coco,Parrot,34,High,5,Fearful,Talkative,Alert,5.0,5,0.46,0.45,Not Applicable,African Grey,180,Pellets & Fruits,Warm,Indoor Cage,High,0.0,Female,
+93,2022-05-20,Oreo,Rabbit,34,High,2,Cautious,Friendly,Fearful,2.5,5,1.2,1.1,Neutered,Netherland Dwarf,140,Hay,Moderate,Indoor Cage,Medium,0.0,Male,
+94,2020-09-12,Mittu,Parrot,34,Medium,2,Fearful,Talkative,Fearful,3.5,5,0.26,0.25,Not Applicable,Alexandrine Parakeet,110,Seeds & Nuts,Moderate,Indoor Cage,Medium,0.0,Male,
+95,2019-12-05,Snowy,Cat,34,Low,1,Tolerant,Gentle,Fearful,2.0,6,4.3,4.0,Spayed,Persian,220,Wet Food,Humid,Apartment,Low,0.0,Female,
+96,2018-06-10,Rusty,Dog,35,Medium,4,Friendly,Friendly,Friendly,4.0,5,30.0,28.0,Neutered,Golden Retriever,1300,Dry Food,Moderate,House,Medium,2.0,Male,Arthritis
+97,2021-02-15,Daisy,Dog,36,High,2,Friendly,Playful,Friendly,5.0,4,22.0,24.0,Spayed,Border Collie,1000,Active Kibble,Cool,Farm,High,4.0,Female,Injury
+98,2020-11-20,Bailey,Dog,36,Low,5,Fearful,Cautious,Fearful,3.0,6,12.0,10.0,Neutered,Beagle,600,Diet Food,Warm,Apartment,Low,1.0,Male,Obesity
+99,2019-04-05,Charlie,Dog,37,High,3,Aggressive,Protective,Dominant,4.0,5,35.0,34.0,Neutered,German Shepherd,1500,High Protein,Moderate,House,Medium,3.0,Male,Dermatitis
+100,2022-01-30,Lola,Dog,37,Medium,1,Friendly,Gentle,Friendly,3.0,5,8.0,8.0,Spayed,Pug,400,Small Breed,Warm,Apartment,Low,0.5,Female,Gingivitis
+101,2017-09-12,Rocky,Dog,38,Medium,2,Tolerant,Friendly,Tolerant,4.0,5,40.0,38.0,Neutered,Rottweiler,1800,Raw Diet,Cool,House,Low,2.0,Male,Osteoarthritis
+102,2021-07-25,Sadie,Dog,38,High,4,Friendly,Playful,Friendly,5.0,5,25.0,24.0,Spayed,Australian Shepherd,1200,Active Kibble,Moderate,Farm,High,5.0,Female,Parasitic Worms
+103,2020-03-18,Toby,Dog,39,Low,3,Friendly,Friendly,Friendly,3.0,7,15.0,12.0,Neutered,Cocker Spaniel,700,Weight Mgmt,Warm,House,Medium,1.0,Male,Overweight
+104,2019-12-01,Molly,Dog,39,High,2,Friendly,Playful,Friendly,4.0,5,28.0,27.0,Spayed,Boxer,1400,Standard Kibble,Moderate,House,Medium,2.0,Female,Gastritis
+105,2022-05-10,Bear,Dog,40,Medium,1,Friendly,Gentle,Friendly,3.0,5,50.0,48.0,Neutered,Newfoundland,2500,Large Breed,Cool,House,Low,1.0,Male,Allergy
+106,2019-03-15,Buddy,Dog,41,Medium,3,Friendly,Friendly,Friendly,4.0,6,32.0,28.0,Neutered,Golden Retriever,1350,Dry Food,Moderate,House,Medium,2.0,Male,Arthritis
+107,2021-07-20,Daisy,Dog,41,High,2,Friendly,Playful,Friendly,5.0,4,18.0,18.0,Spayed,Border Collie,1100,Active Kibble,Cool,Farm,High,4.0,Female,Dermatitis
+108,2020-11-10,Rocky,Dog,42,Low,4,Fearful,Cautious,Fearful,3.0,7,14.0,10.0,Neutered,Beagle,650,Diet Food,Warm,Apartment,Low,1.0,Male,Obesity
+109,2018-05-05,Sadie,Dog,42,High,3,Aggressive,Protective,Dominant,4.0,5,36.0,34.0,Spayed,German Shepherd,1550,High Protein,Moderate,House,Medium,3.0,Female,Hip Dysplasia
+110,2022-02-28,Bear,Dog,43,Medium,1,Friendly,Gentle,Friendly,3.0,5,9.0,8.0,Neutered,Pug,450,Small Breed,Warm,Apartment,Low,0.5,Male,Otitis Externa
+111,2017-09-15,Duke,Dog,43,Medium,2,Tolerant,Friendly,Tolerant,4.0,5,42.0,40.0,Neutered,Rottweiler,1900,Raw Diet,Cool,House,Low,2.0,Male,Osteoarthritis
+112,2021-06-12,Molly,Dog,44,High,4,Friendly,Playful,Friendly,5.0,5,24.0,23.0,Spayed,Australian Shepherd,1250,Active Kibble,Moderate,Farm,High,5.0,Female,Conjunctivitis
+113,2020-04-18,Tucker,Dog,44,Low,3,Friendly,Friendly,Friendly,3.0,7,16.0,12.0,Neutered,Cocker Spaniel,750,Weight Mgmt,Warm,House,Medium,1.0,Male,Overweight
+114,2019-12-25,Bailey,Dog,45,High,2,Friendly,Playful,Friendly,4.0,5,29.0,27.0,Spayed,Boxer,1450,Standard Kibble,Moderate,House,Medium,2.0,Female,Gastritis
+115,2022-08-10,Oliver,Dog,45,Medium,1,Friendly,Gentle,Friendly,3.0,5,52.0,50.0,Neutered,Newfoundland,2600,Large Breed,Cool,House,Low,1.0,Male,Allergy
+116,2020-01-20,Jack,Dog,46,High,3,Friendly,Friendly,Friendly,4.0,5,7.0,6.0,Neutered,Jack Russell,500,Active Kibble,Moderate,Apartment,Medium,2.0,Male,Dental Malocclusion
+117,2018-11-15,Lucy,Dog,46,Low,2,Tolerant,Gentle,Tolerant,3.0,6,28.0,25.0,Spayed,Bulldog,1100,Hypoallergenic,Warm,House,Low,1.0,Female,Skin Infection
+118,2021-03-30,Winston,Dog,47,Medium,4,Friendly,Playful,Friendly,4.0,5,12.0,11.0,Neutered,French Bulldog,700,Grain Free,Moderate,Apartment,Low,1.0,Male,Brachycephalic Syndrome
+119,2019-07-05,Ginger,Dog,47,High,2,Friendly,Friendly,Friendly,4.0,5,22.0,20.0,Spayed,Vizsla,1300,High Energy,Moderate,House,High,3.0,Female,Ear Mites
+120,2022-05-12,Teddy,Dog,48,Medium,1,Friendly,Gentle,Friendly,3.0,5,5.0,4.5,Neutered,Pomeranian,300,Small Breed,Warm,Apartment,Low,0.5,Male,Luxating Patella
+121,2017-10-25,Zeus,Dog,48,Medium,2,Aggressive,Protective,Dominant,4.0,5,45.0,42.0,Neutered,Doberman,1800,High Protein,Warm,House,Medium,2.0,Male,Cardiomyopathy
+122,2021-09-18,Chloe,Dog,49,High,4,Friendly,Playful,Friendly,5.0,5,26.0,24.0,Spayed,Siberian Husky,1400,Active Kibble,Cool,House,Medium,4.0,Female,Zinc Deficiency
+123,2020-02-14,Buster,Dog,49,Low,3,Friendly,Friendly,Friendly,3.0,7,34.0,30.0,Neutered,Labrador Retriever,1200,Diet Food,Moderate,House,Medium,2.0,Male,Obesity
+124,2019-06-01,Lola,Dog,50,High,2,Friendly,Playful,Friendly,4.0,5,10.0,9.0,Spayed,Boston Terrier,600,Standard Kibble,Moderate,Apartment,Low,1.0,Female,Cherry Eye
+125,2022-11-20,Archie,Dog,50,Medium,1,Friendly,Gentle,Friendly,3.0,5,30.0,28.0,Neutered,Golden Retriever,1300,Dry Food,Moderate,House,Medium,2.0,Male,Hot Spot
+126,2020-08-15,Roxy,Dog,51,High,3,Aggressive,Protective,Alert,4.0,5,25.0,24.0,Spayed,Pitbull,1500,High Protein,Warm,House,Medium,2.0,Female,Skin Allergies
+127,2018-04-10,Bruno,Dog,51,Low,2,Tolerant,Gentle,Tolerant,3.0,6,40.0,36.0,Neutered,Bernese Mountain Dog,2000,Large Breed,Cool,House,Low,2.0,Male,Hip Dysplasia
+128,2021-12-05,Penny,Dog,52,Medium,4,Friendly,Playful,Friendly,4.0,5,8.0,7.0,Spayed,Cavalier King Charles,500,Small Breed,Moderate,Apartment,Low,1.0,Female,Mitral Valve Disease
+129,2019-10-22,Gus,Dog,52,High,2,Friendly,Friendly,Friendly,4.0,5,20.0,18.0,Neutered,Springer Spaniel,1100,Active Kibble,Moderate,House,High,3.0,Male,Ear Infection
+130,2022-03-15,Ruby,Dog,53,Medium,1,Friendly,Gentle,Friendly,3.0,5,6.0,5.5,Spayed,Shih Tzu,350,Small Breed,Warm,Apartment,Low,0.5,Female,Dry Eye
+131,2017-12-10,Koda,Dog,53,Medium,2,Aggressive,Protective,Dominant,4.0,5,38.0,35.0,Neutered,Akita,1700,Raw Diet,Cool,House,Medium,2.0,Male,Hypothyroidism
+132,2021-05-28,Hazel,Dog,54,High,4,Friendly,Playful,Friendly,5.0,5,18.0,16.0,Spayed,Australian Cattle Dog,1200,Active Kibble,Warm,Farm,High,5.0,Female,Deafness
+133,2020-01-05,Oscar,Dog,54,Low,3,Friendly,Friendly,Friendly,3.0,7,12.0,9.0,Neutered,Dachshund,550,Weight Mgmt,Moderate,Apartment,Low,1.0,Male,IVDD
+134,2019-08-18,Mia,Dog,55,High,2,Friendly,Playful,Friendly,4.0,5,24.0,22.0,Spayed,Vizsla,1350,High Energy,Moderate,House,High,3.0,Female,Separation Anxiety
+135,2022-06-30,Finn,Dog,55,Medium,1,Friendly,Gentle,Friendly,3.0,5,32.0,30.0,Neutered,Labrador Retriever,1400,Dry Food,Moderate,House,Medium,2.0,Male,Lyme Disease
+136,2020-09-12,Nala,Dog,56,High,3,Aggressive,Protective,Alert,4.0,5,28.0,26.0,Spayed,Boxer,1500,High Protein,Warm,House,Medium,2.0,Female,Mast Cell Tumor
+137,2018-03-25,Sam,Dog,56,Low,2,Tolerant,Gentle,Tolerant,3.0,6,35.0,32.0,Neutered,Golden Retriever,1600,Large Breed,Moderate,House,Low,2.0,Male,Arthritis
+138,2021-11-08,Lily,Dog,57,Medium,4,Friendly,Playful,Friendly,4.0,5,5.0,4.5,Spayed,Maltese,300,Small Breed,Moderate,Apartment,Low,0.5,Female,Dental Disease
+139,2019-05-15,Diesel,Dog,57,High,2,Friendly,Friendly,Friendly,4.0,5,45.0,42.0,Neutered,Rottweiler,1900,Raw Diet,Cool,House,Medium,2.0,Male,Osteosarcoma
+140,2022-02-10,Zoe,Dog,58,Medium,1,Friendly,Gentle,Friendly,3.0,5,14.0,13.0,Spayed,Beagle,800,Standard Kibble,Moderate,House,Medium,2.0,Female,Epilepsy
+141,2017-11-22,Moose,Dog,58,Medium,2,Aggressive,Protective,Dominant,4.0,5,55.0,50.0,Neutered,Mastiff,2500,Large Breed,Cool,House,Low,1.0,Male,Bloat
+142,2021-07-14,Stella,Dog,59,High,4,Friendly,Playful,Friendly,5.0,5,22.0,20.0,Spayed,Border Collie,1200,Active Kibble,Moderate,Farm,High,4.0,Female,Collie Eye Anomaly
+143,2020-04-05,Hank,Dog,59,Low,3,Friendly,Friendly,Friendly,3.0,7,28.0,24.0,Neutered,Basset Hound,1000,Diet Food,Moderate,House,Low,1.0,Male,Ear Infection
+144,2019-09-30,Coco,Dog,60,High,2,Friendly,Playful,Friendly,4.0,5,4.0,3.5,Spayed,Chihuahua,250,Small Breed,Warm,Apartment,Low,0.5,Female,Patellar Luxation
+145,2022-04-25,Blue,Dog,60,Medium,1,Friendly,Gentle,Friendly,3.0,5,26.0,24.0,Neutered,Australian Shepherd,1300,Dry Food,Moderate,Farm,High,4.0,Male,Cataracts
+146,2020-12-15,Rosie,Dog,61,High,3,Aggressive,Protective,Alert,4.0,5,30.0,28.0,Spayed,Doberman,1600,High Protein,Warm,House,Medium,3.0,Female,Von Willebrand Disease
+147,2018-06-20,Thor,Dog,61,Low,2,Tolerant,Gentle,Tolerant,3.0,6,60.0,55.0,Neutered,Great Dane,2800,Large Breed,Cool,House,Low,1.0,Male,Dilated Cardiomyopathy
+148,2021-10-10,Gracie,Dog,62,Medium,4,Friendly,Playful,Friendly,4.0,5,9.0,8.0,Spayed,Pug,500,Small Breed,Moderate,Apartment,Low,1.0,Female,Pug Dog Encephalitis
+149,2019-02-28,Simba,Dog,62,High,2,Friendly,Friendly,Friendly,4.0,5,32.0,30.0,Neutered,Golden Retriever,1400,Standard Kibble,Moderate,House,Medium,2.0,Male,Ichthyosis
+150,2022-09-05,Belle,Dog,63,Medium,1,Friendly,Gentle,Friendly,3.0,5,20.0,18.0,Spayed,Springer Spaniel,1100,Dry Food,Moderate,House,Medium,2.0,Female,Phosphofructokinase Deficiency
+151,2020-05-18,Otis,Dog,63,High,3,Aggressive,Protective,Alert,4.0,5,10.0,9.0,Neutered,Boston Terrier,600,Active Kibble,Moderate,Apartment,Low,1.0,Male,Hemivertebrae
+152,2018-01-12,Maggie,Dog,64,Low,2,Tolerant,Gentle,Tolerant,3.0,6,34.0,30.0,Spayed,Labrador Retriever,1300,Diet Food,Moderate,House,Medium,2.0,Female,Exercise Induced Collapse
+153,2021-08-22,Rex,Dog,64,Medium,4,Friendly,Playful,Friendly,4.0,5,36.0,34.0,Neutered,German Shepherd,1500,High Protein,Moderate,House,Medium,3.0,Male,Degenerative Myelopathy
+154,2019-11-15,Sophie,Dog,65,High,2,Friendly,Friendly,Friendly,4.0,5,7.0,6.0,Spayed,Cavalier King Charles,400,Small Breed,Moderate,Apartment,Low,1.0,Female,Syringomyelia
+155,2022-01-30,Chewy,Dog,65,Medium,1,Friendly,Gentle,Friendly,3.0,5,5.0,4.5,Neutered,Yorkshire Terrier,300,Small Breed,Warm,Apartment,Low,0.5,Male,Portosystemic Shunt
+156,2022-10-01,Charlie,Dog,9,Medium,9,Playful,Friendly,Neutral,2.6,8,37.0,14.3,Spayed,Bulldog,926,Home Cooked,Warm,Studio,Low,5.4,Female,
+157,2024-05-31,Cooper,Dog,9,Medium,1,Aggressive,Alert,Calm,4.6,4,11.2,13.5,Not Applicable,Cocker Spaniel,908,Premium Kibble,Dry,Apartment,Low,3.1,Female,
+158,2014-11-08,Kobe,Dog,7,Medium,4,Alert,Fearful,Friendly,4.9,8,23.4,21.6,Neutered,Street Dog,2182,High Energy Kibble,Warm,Farm,Low,3.6,Female,
+159,2023-04-28,Rascal,Dog,2,Medium,3,Playful,Fearful,Alert,2.2,4,35.3,26.6,Not Applicable,Terrier,822,Premium Kibble,Humid,Studio,High,6.4,Female,
+160,2018-12-06,Mickey,Dog,18,Low,8,Neutral,Alert,Neutral,4.2,6,32.6,35.3,Not Applicable,Chihuahua,1443,Diet Dry Food,Hot,Apartment,High,5.2,Male,
+161,2018-08-01,Rocky,Dog,13,Low,4,Fearful,Fearful,Aggressive,2.4,6,29.9,30.7,Not Applicable,Beagle,2070,Home Cooked,Hot,Apartment,Medium,5.4,Female,
+162,2013-01-22,Jackson,Dog,4,Medium,8,Calm,Alert,Aggressive,2.2,4,10.3,41.4,Neutered,Schnauzer,1185,High Energy Kibble,Hot,Studio,High,3.1,Male,
+163,2022-01-08,Lucy,Dog,3,Low,2,Neutral,Alert,Friendly,2.8,6,10.1,23.8,Neutered,Siberian Husky,1805,High Energy Kibble,Hot,Studio,Medium,6.4,Male,
+164,2023-04-04,Molly,Dog,11,Low,3,Alert,Alert,Aggressive,3.7,6,44.8,36.4,Not Applicable,Bulldog,1254,Mixed Diet,Dry,Farm,Medium,1.1,Male,
+165,2013-09-25,Ace,Dog,8,Low,8,Calm,Alert,Aggressive,3.1,3,14.1,37.3,Spayed,Akita,939,Home Cooked,Humid,Studio,High,2.3,Female,
+166,2024-04-10,Duke,Dog,7,Medium,7,Friendly,Calm,Calm,3.5,7,14.2,46.3,Not Applicable,Dachshund,1178,Premium Kibble,Moderate,Studio,High,0.7,Female,
+167,2021-02-03,Bailey,Dog,4,Very High,3,Alert,Friendly,Alert,3.0,4,15.1,11.0,Neutered,Chihuahua,817,High Energy Kibble,Hot,Apartment,Low,3.6,Male,
+168,2012-05-26,Oscar,Dog,12,High,8,Fearful,Friendly,Playful,3.9,4,39.5,38.5,Spayed,Shepherd,905,Home Cooked,Cool,Apartment,High,8.0,Male,
+169,2013-11-19,Buddy,Dog,15,High,8,Alert,Alert,Aggressive,2.5,5,37.1,48.6,Spayed,Bulldog,1813,Raw Diet,Dry,Farm,Medium,6.6,Male,
+170,2022-11-16,Rusty,Dog,5,Medium,10,Friendly,Calm,Playful,2.2,5,40.6,36.5,Neutered,Poodle,1359,High Energy Kibble,Warm,Apartment,Medium,5.2,Female,
+171,2018-02-02,Cooper,Dog,8,High,1,Aggressive,Aggressive,Playful,5.0,4,35.9,17.2,Spayed,Poodle,2167,High Energy Kibble,Warm,Farm,High,4.2,Female,
+172,2015-03-18,Oscar,Dog,7,High,8,Playful,Friendly,Alert,4.5,7,30.4,33.9,Spayed,Golden Retriever,1269,Diet Dry Food,Dry,Apartment,High,5.6,Male,
+173,2015-02-16,Bruno,Dog,13,High,3,Friendly,Friendly,Fearful,3.5,3,11.8,25.2,Spayed,Street Dog,1087,Premium Kibble,Moderate,Studio,Medium,5.7,Female,
+174,2013-06-23,Lucy,Dog,14,Very High,4,Friendly,Calm,Aggressive,2.3,3,40.1,42.2,Neutered,Great Dane,1238,Premium Kibble,Humid,Studio,Low,6.5,Male,
+175,2023-04-08,Shadow,Dog,16,Low,1,Playful,Calm,Calm,2.5,4,20.1,11.6,Not Applicable,Shepherd,1609,High Energy Kibble,Cool,Farm,Medium,7.7,Male,
+176,2020-08-12,Max,Dog,5,Low,9,Calm,Alert,Neutral,2.3,6,36.5,32.1,Neutered,Dalmatian,1561,Raw Diet,Dry,Studio,Medium,7.5,Male,
+177,2021-12-18,Charlie,Dog,14,Low,1,Aggressive,Neutral,Calm,3.0,8,27.3,33.5,Spayed,Rottweiler,1964,Premium Kibble,Hot,House,High,7.5,Male,
+178,2018-02-28,Ace,Dog,15,Very High,4,Calm,Aggressive,Friendly,2.9,4,17.5,30.7,Not Applicable,Doberman,1773,Mixed Diet,Hot,Studio,Medium,6.7,Female,
+179,2023-03-30,Bella,Dog,18,Medium,10,Calm,Calm,Playful,4.9,5,34.4,35.8,Not Applicable,Rottweiler,2170,High Energy Kibble,Warm,Studio,Medium,1.2,Male,
+180,2015-01-04,Lucy,Dog,9,Medium,9,Friendly,Aggressive,Alert,4.2,8,20.9,15.7,Spayed,Indian Pariah,1158,Diet Dry Food,Warm,Apartment,Medium,6.8,Male,
+181,2017-12-30,Charlie,Dog,15,Low,1,Alert,Friendly,Fearful,3.8,7,47.8,39.0,Neutered,Schnauzer,1174,Diet Dry Food,Humid,House,High,6.1,Female,
+182,2012-11-17,Callie,Dog,10,Low,7,Alert,Neutral,Fearful,4.8,3,32.6,49.2,Not Applicable,Golden Retriever,1480,Diet Dry Food,Warm,Farm,Medium,4.7,Male,
+183,2017-04-13,Rusty,Dog,19,Medium,1,Friendly,Friendly,Playful,2.5,6,16.1,24.4,Neutered,Rottweiler,1867,Diet Dry Food,Moderate,House,Low,3.8,Female,
+184,2019-09-18,Baxter,Dog,18,Medium,7,Friendly,Playful,Aggressive,3.6,5,39.8,48.9,Neutered,Siberian Husky,1450,Raw Diet,Hot,House,Medium,6.2,Female,
+185,2024-02-13,Jackson,Dog,7,Very High,5,Aggressive,Aggressive,Calm,2.1,8,48.6,26.3,Not Applicable,Boxer,2173,Premium Kibble,Cool,Apartment,High,4.4,Male,
+186,2019-04-06,Rusty,Dog,10,Low,10,Aggressive,Playful,Fearful,4.1,3,42.7,13.8,Not Applicable,Boxer,1729,Mixed Diet,Warm,Apartment,Low,1.4,Male,
+187,2019-08-19,Rascal,Dog,15,High,6,Fearful,Playful,Calm,3.1,8,19.2,35.1,Spayed,Shepherd,2095,Home Cooked,Hot,Farm,High,3.3,Male,
+188,2018-02-23,Bella,Dog,14,Low,9,Calm,Friendly,Friendly,4.4,4,21.2,18.1,Neutered,Mixed Breed,1322,Diet Dry Food,Cool,Apartment,Low,1.3,Female,
+189,2024-11-09,Callie,Dog,3,Low,1,Calm,Calm,Neutral,2.0,4,45.8,14.4,Not Applicable,Schnauzer,1904,Raw Diet,Warm,Studio,Medium,7.4,Female,
+190,2013-10-03,Callie,Dog,2,Low,6,Alert,Friendly,Alert,3.5,3,12.7,34.0,Not Applicable,Spaniel,1455,Home Cooked,Humid,Apartment,High,5.2,Female,
+191,2021-11-12,Shadow,Dog,11,Very High,5,Neutral,Calm,Aggressive,2.5,8,44.4,23.2,Spayed,Maltese,967,Premium Kibble,Humid,House,Medium,4.9,Female,
+192,2012-11-04,Bailey,Dog,12,Medium,10,Fearful,Friendly,Calm,4.9,7,39.6,34.5,Spayed,Spaniel,920,Premium Kibble,Dry,Farm,Medium,2.2,Female,
+193,2017-12-31,Cooper,Dog,17,Low,10,Fearful,Friendly,Fearful,4.8,5,49.3,17.4,Neutered,Husky,1042,Premium Kibble,Dry,Studio,Low,6.8,Male,
+194,2018-10-01,Ace,Dog,11,Low,8,Alert,Friendly,Aggressive,4.1,4,30.8,37.9,Not Applicable,Shih Tzu,2152,High Energy Kibble,Cool,House,Medium,3.4,Female,
+195,2014-03-21,Kobe,Dog,9,Very High,7,Fearful,Playful,Fearful,3.8,8,22.7,40.4,Not Applicable,Cocker Spaniel,1145,Diet Dry Food,Dry,Studio,Medium,1.1,Male,
+196,2014-12-31,Scooby,Dog,11,Very High,1,Playful,Playful,Friendly,2.5,6,13.1,15.7,Not Applicable,Poodle,976,Premium Kibble,Cool,Apartment,Medium,2.4,Female,
+197,2017-09-07,Mickey,Dog,12,Medium,1,Playful,Alert,Playful,3.5,6,24.8,44.9,Not Applicable,Great Dane,1759,High Energy Kibble,Dry,House,Medium,0.2,Female,
+198,2023-10-10,Mickey,Dog,10,Low,8,Neutral,Alert,Playful,3.0,6,27.1,10.0,Not Applicable,Akita,1311,Mixed Diet,Moderate,Farm,Medium,7.3,Female,
+199,2021-04-13,Charlie,Dog,12,Medium,7,Alert,Calm,Alert,3.4,4,44.6,39.7,Neutered,Spaniel,1817,Raw Diet,Moderate,Farm,High,1.1,Female,
+200,2021-03-19,Angel,Dog,14,Low,2,Fearful,Friendly,Playful,3.9,8,45.0,39.2,Spayed,Shepherd,1173,Mixed Diet,Dry,Studio,Low,0.3,Female,
+201,2024-04-07,Lucy,Dog,3,Low,6,Friendly,Neutral,Friendly,3.7,7,23.8,49.3,Not Applicable,Pug,942,Mixed Diet,Dry,House,Low,2.6,Male,
+202,2017-05-26,Buddy,Dog,13,Low,6,Calm,Friendly,Alert,3.8,8,40.4,47.8,Not Applicable,Cocker Spaniel,1633,Home Cooked,Hot,House,Low,6.6,Male,
+203,2022-05-30,Diesel,Dog,3,Medium,4,Neutral,Friendly,Fearful,2.6,5,45.1,17.9,Spayed,Spaniel,1389,Home Cooked,Moderate,Apartment,High,0.8,Female,
+204,2012-06-20,Lucy,Dog,5,Low,10,Aggressive,Fearful,Calm,3.4,8,18.4,18.5,Not Applicable,Rottweiler,1920,Home Cooked,Cool,Apartment,Low,2.7,Male,
+205,2022-07-21,Scout,Dog,19,High,6,Friendly,Playful,Aggressive,2.0,6,47.4,47.9,Spayed,Great Dane,1927,Premium Kibble,Dry,House,Medium,1.5,Female,
+206,2021-04-18,Angel,Dog,1,Low,5,Playful,Alert,Fearful,4.7,5,13.4,20.3,Neutered,Doberman,818,Raw Diet,Moderate,Apartment,Medium,1.3,Male,
+207,2015-12-15,Pepper,Dog,17,Low,7,Neutral,Calm,Fearful,3.0,5,15.6,39.4,Not Applicable,Rottweiler,1925,High Energy Kibble,Dry,House,High,4.3,Male,
+208,2016-09-24,Diesel,Dog,2,Low,9,Fearful,Friendly,Friendly,3.4,5,46.5,36.1,Spayed,Maltese,938,Diet Dry Food,Dry,Farm,Medium,5.6,Female,
+209,2012-07-30,Bella,Dog,11,Medium,10,Playful,Alert,Playful,4.4,3,14.2,42.0,Not Applicable,Yorkshire Terrier,2105,Home Cooked,Warm,Apartment,Medium,7.3,Male,
+210,2022-03-24,Bella,Dog,12,Low,6,Neutral,Fearful,Alert,2.5,6,47.6,26.9,Spayed,Rottweiler,1094,High Energy Kibble,Warm,Apartment,High,7.5,Female,
+211,2018-03-24,Baxter,Dog,1,High,6,Alert,Fearful,Neutral,2.9,8,44.4,23.1,Neutered,Street Dog,1075,Raw Diet,Warm,House,Medium,5.3,Male,
+212,2014-08-03,Pepper,Dog,9,Low,4,Calm,Calm,Playful,2.7,4,49.5,43.3,Not Applicable,Street Dog,1421,Premium Kibble,Warm,Apartment,High,4.9,Female,
+213,2014-05-01,Simba,Dog,4,High,7,Neutral,Friendly,Aggressive,4.6,3,25.2,32.7,Neutered,Dalmatian,1631,Home Cooked,Humid,Farm,Low,1.1,Female,
+214,2014-05-23,Charlie,Dog,17,Low,3,Friendly,Aggressive,Playful,2.1,7,32.3,26.9,Not Applicable,German Shepherd,1289,Premium Kibble,Cool,Apartment,Low,0.1,Male,
+215,2021-03-16,Callie,Dog,8,High,8,Friendly,Alert,Alert,4.2,4,41.1,37.7,Neutered,Indian Pariah,1972,Premium Kibble,Cool,Studio,Medium,7.0,Female,
+216,2020-01-13,Baxter,Dog,12,Very High,4,Alert,Calm,Friendly,2.8,4,32.3,34.1,Spayed,Spaniel,1584,Diet Dry Food,Cool,Apartment,Low,6.8,Male,
+217,2021-05-20,Oscar,Dog,3,Low,1,Neutral,Fearful,Aggressive,3.5,6,38.0,39.0,Neutered,Husky,863,High Energy Kibble,Moderate,Studio,High,2.0,Male,
+218,2017-06-17,Oscar,Dog,10,High,1,Alert,Neutral,Fearful,3.2,5,31.7,25.4,Neutered,Rottweiler,969,Home Cooked,Hot,Apartment,Medium,0.7,Female,
+219,2012-10-26,Callie,Dog,4,Very High,2,Alert,Friendly,Calm,3.1,8,13.1,18.5,Neutered,Chihuahua,1611,Mixed Diet,Dry,Studio,Medium,1.5,Male,
+220,2016-04-26,Rocky,Dog,15,Low,7,Playful,Neutral,Fearful,4.4,3,21.0,29.4,Not Applicable,Mixed Breed,1879,Mixed Diet,Warm,Farm,High,1.1,Male,
+221,2021-11-08,Rusty,Dog,7,Medium,10,Alert,Neutral,Aggressive,2.7,7,22.6,36.4,Neutered,Beagle,1293,Home Cooked,Cool,Farm,High,3.1,Female,
+222,2022-01-02,Rusty,Dog,14,Very High,6,Fearful,Playful,Fearful,3.3,8,30.5,25.6,Spayed,Beagle,2009,Premium Kibble,Dry,House,High,4.5,Male,
+223,2017-06-30,Ace,Dog,13,High,3,Fearful,Alert,Calm,3.7,3,11.9,21.6,Not Applicable,Cocker Spaniel,804,Premium Kibble,Hot,Apartment,Medium,0.2,Female,
+224,2016-03-29,Callie,Dog,3,Very High,10,Neutral,Alert,Neutral,3.5,4,49.5,13.6,Not Applicable,Yorkshire Terrier,1195,High Energy Kibble,Moderate,House,Low,7.0,Male,
+225,2021-07-23,Teddy,Dog,7,Medium,3,Aggressive,Aggressive,Fearful,4.1,4,28.8,21.8,Neutered,Maltese,1507,Premium Kibble,Warm,Farm,High,5.2,Female,
+226,2024-12-29,Duke,Dog,10,Medium,8,Neutral,Alert,Aggressive,2.5,4,13.4,11.4,Spayed,Shih Tzu,836,Mixed Diet,Humid,House,Low,5.6,Male,
+227,2020-11-03,Shadow,Dog,6,High,6,Alert,Neutral,Alert,3.5,5,30.4,27.4,Not Applicable,Maltese,1072,Raw Diet,Hot,Studio,Medium,2.9,Male,
+228,2017-07-15,Jackson,Dog,3,Medium,5,Calm,Fearful,Playful,2.2,5,17.3,48.6,Spayed,Terrier,1892,Raw Diet,Warm,Farm,Low,5.8,Female,
+229,2020-07-22,Rocky,Dog,17,Low,3,Friendly,Alert,Calm,2.2,3,23.7,33.2,Spayed,Mixed Breed,1155,Home Cooked,Moderate,Apartment,Medium,5.2,Male,
+230,2013-06-02,Kobe,Dog,9,Low,5,Calm,Alert,Fearful,5.0,5,44.7,37.2,Neutered,Labrador Retriever,1310,Diet Dry Food,Dry,Studio,High,5.0,Male,
+231,2023-01-08,Diesel,Dog,10,Medium,4,Fearful,Calm,Alert,3.9,7,33.0,21.1,Spayed,Mixed Breed,1523,Home Cooked,Dry,House,High,7.7,Female,
+232,2022-04-16,Angel,Dog,4,Very High,4,Neutral,Friendly,Friendly,3.8,3,35.6,13.6,Neutered,Akita,1483,Mixed Diet,Cool,House,High,1.7,Male,
+233,2024-09-30,Lucy,Dog,6,Low,10,Fearful,Fearful,Alert,2.9,4,22.7,44.5,Not Applicable,Street Dog,1653,Mixed Diet,Warm,House,Medium,7.9,Female,
+234,2021-03-06,Molly,Dog,16,Medium,6,Calm,Neutral,Alert,3.6,3,44.5,18.2,Neutered,Maltese,1446,Premium Kibble,Moderate,Apartment,High,3.0,Male,
+235,2014-08-10,Teddy,Dog,9,High,4,Friendly,Calm,Calm,2.5,7,19.1,20.5,Not Applicable,Husky,1850,Raw Diet,Humid,Studio,Medium,7.0,Female,
+236,2013-06-03,Callie,Dog,11,Very High,3,Fearful,Alert,Alert,3.3,5,18.8,46.4,Spayed,Cocker Spaniel,1169,Raw Diet,Moderate,House,Medium,1.7,Female,
+237,2023-02-10,Cooper,Dog,17,Low,9,Aggressive,Fearful,Alert,4.3,6,38.0,21.9,Neutered,Pomeranian,1225,Mixed Diet,Cool,Studio,Medium,7.3,Male,
+238,2018-01-01,Rocky,Dog,19,Very High,5,Fearful,Aggressive,Friendly,2.9,7,27.0,25.8,Neutered,Shih Tzu,1853,Raw Diet,Hot,House,High,6.8,Female,
+239,2021-10-22,Pepper,Dog,12,Medium,2,Friendly,Fearful,Neutral,2.5,8,27.9,27.7,Spayed,German Shepherd,2062,Diet Dry Food,Dry,Farm,High,0.7,Male,
+240,2018-01-21,Duke,Dog,8,High,9,Playful,Alert,Playful,3.3,4,32.0,25.0,Not Applicable,Akita,1051,Home Cooked,Cool,Studio,Medium,4.0,Female,
+241,2018-05-05,Buddy,Dog,17,Very High,2,Playful,Aggressive,Fearful,2.2,7,40.8,23.1,Spayed,Bulldog,1901,Home Cooked,Warm,Apartment,Medium,5.8,Female,
+242,2024-11-23,Bruno,Dog,10,High,7,Neutral,Neutral,Calm,2.7,4,13.9,24.3,Neutered,Chihuahua,1081,Mixed Diet,Moderate,Studio,Low,4.1,Male,
+243,2013-05-23,Diesel,Dog,18,Low,6,Calm,Friendly,Aggressive,3.1,3,33.5,26.6,Not Applicable,Bulldog,1329,High Energy Kibble,Hot,Farm,Medium,1.6,Female,
+244,2022-12-07,Shadow,Dog,19,Medium,1,Calm,Fearful,Aggressive,2.8,8,30.5,29.6,Not Applicable,Rottweiler,2132,Premium Kibble,Warm,Apartment,High,1.6,Male,
+245,2023-08-26,Lucy,Dog,8,Very High,10,Neutral,Fearful,Fearful,3.0,4,10.5,40.8,Neutered,Mixed Breed,1411,Premium Kibble,Hot,Farm,Low,4.8,Male,
+246,2022-06-29,Mickey,Dog,13,Medium,6,Alert,Fearful,Fearful,4.0,8,22.9,46.2,Spayed,Boxer,864,Raw Diet,Hot,House,Low,5.0,Male,
+247,2018-10-27,Scout,Dog,19,Low,8,Playful,Fearful,Playful,2.5,4,25.5,46.6,Neutered,Cocker Spaniel,2013,High Energy Kibble,Humid,Farm,Low,5.7,Male,
+248,2016-07-12,Oscar,Dog,8,Very High,5,Aggressive,Alert,Calm,3.0,8,44.5,42.2,Neutered,Doberman,951,Diet Dry Food,Hot,Farm,Low,0.1,Female,
+249,2020-07-01,Lucy,Dog,5,High,7,Aggressive,Aggressive,Playful,3.6,4,22.2,48.4,Spayed,Akita,1779,Raw Diet,Humid,Farm,Medium,6.5,Male,
+250,2020-01-17,Bailey,Dog,6,Medium,8,Friendly,Fearful,Alert,3.7,3,44.3,44.2,Spayed,Akita,1949,Home Cooked,Moderate,Apartment,Low,6.0,Female,
+251,2024-02-21,Daisy,Dog,14,Medium,10,Aggressive,Alert,Calm,4.6,6,19.1,38.5,Spayed,Maltese,950,Raw Diet,Warm,Studio,Medium,2.8,Male,
+252,2025-01-07,Charlie,Dog,4,High,9,Aggressive,Fearful,Calm,3.5,8,26.7,34.7,Not Applicable,Poodle,2013,Premium Kibble,Dry,Apartment,High,2.9,Female,
+253,2015-01-06,Oscar,Dog,10,Medium,1,Playful,Alert,Aggressive,4.6,3,19.7,34.5,Spayed,Doberman,1769,Home Cooked,Dry,Studio,High,0.7,Male,
+254,2014-06-03,Mickey,Dog,12,Medium,1,Playful,Calm,Friendly,4.3,8,42.0,24.2,Not Applicable,Pug,2121,Raw Diet,Dry,Studio,Medium,7.5,Female,
+255,2012-05-19,Max,Dog,4,Very High,7,Neutral,Alert,Fearful,2.5,7,22.0,37.0,Spayed,Akita,1160,Mixed Diet,Hot,Apartment,High,1.6,Female,
