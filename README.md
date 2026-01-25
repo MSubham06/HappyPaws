@@ -413,4 +413,21 @@ This document describes how each frontend page connects to backend APIs and its 
 | Vet Dashboard       | Vets        | GET /visits                     | See upcoming appointments/patients |
 
 ---
+# 🐾 HappyPaws ML Service
+
+This is the **Machine Learning microservice** for the HappyPaws Pet Care platform. It provides a real-time AI "Brain" that connects your React frontend to a custom-trained medical model.
+
+
+
+## 🚀 Quick Start
+
+### 1. Prerequisites
+Ensure you have **Python 3.11** or higher installed.
+
+### 2. Installation
+Open your terminal in the `ml_service` directory and run:
+```bash
+pip install flask flask-cors pandas scikit-learn numpy
+```
+---
 ⚠️ Note : Team Update the process of running and importing as Guide to Help!.
