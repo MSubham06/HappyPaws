@@ -413,4 +413,4 @@ This document describes how each frontend page connects to backend APIs and its 
 | Vet Dashboard       | Vets        | GET /visits                     | See upcoming appointments/patients |
 
 ---
-⚠️ Note : Team Update the process of running and importing as Guide to Help!
+⚠️ Note : Team Update the process of running and importing as Guide to Help!.
