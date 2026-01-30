@@ -18,7 +18,8 @@ public class Vet {
     @Column(nullable = false)
     private String lastName;
 
-    // 👇 CHANGE 1: Add the email field here
+    // ✅ Email field for linking/login
+    @Column(unique = true)
     private String email; 
 
     @Enumerated(EnumType.STRING)
@@ -49,10 +50,7 @@ public class Vet {
     public String getLastName() { return lastName; }
     public void setLastName(String lastName) { this.lastName = lastName; }
 
-    // 👇 CHANGE 2: Add Getter for Email
     public String getEmail() { return email; }
-
-    // 👇 CHANGE 3: Add Setter for Email
     public void setEmail(String email) { this.email = email; }
 
     public Gender getGender() { return gender; }

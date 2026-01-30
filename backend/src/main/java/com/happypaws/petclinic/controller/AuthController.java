@@ -9,7 +9,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,21 +17,21 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/auth")
+@CrossOrigin(origins = "http://localhost:3000")
 public class AuthController {
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
     private final AuthenticationManager authenticationManager;
-    private final UserDetailsService userDetailsService;
     private final JwtUtils jwtUtils;
 
+    // ✅ REMOVED: userDetailsService (Not used directly here)
     public AuthController(UserRepository userRepository, PasswordEncoder passwordEncoder, 
                           AuthenticationManager authenticationManager, 
-                          UserDetailsService userDetailsService, JwtUtils jwtUtils) {
+                          JwtUtils jwtUtils) {
         this.userRepository = userRepository;
         this.passwordEncoder = passwordEncoder;
         this.authenticationManager = authenticationManager;
-        this.userDetailsService = userDetailsService;
         this.jwtUtils = jwtUtils;
     }
 
@@ -54,23 +53,23 @@ public class AuthController {
 
     @PostMapping("/login")
     public ResponseEntity<Map<String, String>> login(@RequestBody AuthRequest request) {
-        // 1. Authenticate the user
+        // 1. Authenticate the user (AuthenticationManager uses UserDetailsService internally)
         Authentication authentication = authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(request.getEmail(), request.getPassword())
         );
 
-        // 2. Get User Details
+        // 2. Get User Details from the authenticated object
         UserDetails userDetails = (UserDetails) authentication.getPrincipal();
 
         // 3. Generate Token
         String token = jwtUtils.generateToken(userDetails);
 
-        // 4. Get Role (We extract the first role/authority)
+        // 4. Get Role
         String role = userDetails.getAuthorities().stream()
                 .findFirst()
                 .get().getAuthority();
 
-        // 5. Create Response Map with BOTH Token and Role
+        // 5. Create Response
         Map<String, String> response = new HashMap<>();
         response.put("token", token);
         response.put("role", role);

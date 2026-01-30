@@ -1,0 +1,142 @@
+/* src/index.css */
+
+/* =========================================
+   1. GLOBAL VARIABLES & RESET
+   ========================================= */
+   :root {
+    --primary-red: #ff4747;
+    --primary-hover: #e03e3e;
+    --success-green: #2ecc71;
+    --accent-yellow: #f1c40f;
+    --info-blue: #3498db;
+    --dark-bg: #0b0f19;
+    --card-bg: #151a25;
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-blur: 16px;
+    --text-main: #ffffff;
+    --text-muted: #b0b3b8;
+    --radius-lg: 12px; /* Reduced radius */
+    --radius-md: 8px;
+  }
+  
+  /* ✅ CRITICAL: Box Sizing Fix */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    /* ✅ GLOBAL SCALE DOWN: Sets base size to 14px (default is 16px) */
+    font-size: 14px; 
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--dark-bg);
+    color: var(--text-main);
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    
+    background-image: 
+      radial-gradient(circle at 15% 50%, rgba(255, 71, 71, 0.08), transparent 25%),
+      radial-gradient(circle at 85% 30%, rgba(52, 152, 219, 0.08), transparent 25%);
+  }
+  
+  a { text-decoration: none; color: inherit; }
+  
+  /* =========================================
+      2. GLASS CARD UTILITY (Compact)
+      ========================================= */
+  .glass-card {
+    background: var(--glass-bg);
+    
+    /* ✅ FIXED: Webkit prefix must come BEFORE the standard property */
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    backdrop-filter: blur(var(--glass-blur));
+    
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  /* =========================================
+      3. BUTTONS (Compact)
+      ========================================= */
+  .btn-primary, .btn-danger, .btn-info, .btn-outline-light {
+    border: none;
+    font-weight: 600;
+    /* ✅ REDUCED PADDING for smaller buttons */
+    padding: 8px 16px; 
+    border-radius: var(--radius-md);
+    transition: all 0.2s;
+    font-size: 0.9rem; /* Smaller text */
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .btn-primary { background-color: var(--primary-red); color: white; }
+  .btn-primary:hover { background-color: var(--primary-hover); transform: translateY(-1px); }
+  
+  .btn-outline-light { border: 1px solid var(--glass-border); color: var(--text-muted); background: transparent; }
+  .btn-outline-light:hover { background-color: rgba(255, 255, 255, 0.1); color: white; }
+  
+  .btn-danger { background-color: rgba(255, 71, 71, 0.15); color: var(--primary-red); border: 1px solid rgba(255, 71, 71, 0.3); }
+  .btn-danger:hover { background-color: var(--primary-red); color: white; }
+  
+  /* =========================================
+      4. FORMS & INPUTS (Compact)
+      ========================================= */
+  .form-control, select, input {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid var(--glass-border) !important;
+    color: white !important;
+    border-radius: var(--radius-md) !important;
+    
+    /* ✅ REDUCED PADDING for smaller inputs */
+    padding: 8px 12px !important; 
+    font-size: 0.9rem !important;
+    height: auto;
+  }
+
+  /* ✅ GLOBAL PLACEHOLDER STYLE */
+  ::placeholder {
+    color: rgba(255, 255, 255, 0.4) !important;
+    opacity: 1; /* Firefox */
+  }
+  
+  .form-control:focus, select:focus, input:focus {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-color: var(--primary-red) !important;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 71, 71, 0.1) !important;
+  }
+  
+  label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: var(--text-muted);
+    display: block;
+  }
+  
+  /* =========================================
+      5. TABLES (Compact)
+      ========================================= */
+  .table { color: var(--text-muted); width: 100%; border-collapse: collapse; }
+  .table th, .table td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--glass-border); font-size: 0.9rem; }
+  .table th { font-weight: 600; color: white; text-transform: uppercase; font-size: 0.75rem; background: rgba(0,0,0,0.2); }
+  
+  /* =========================================
+      6. SCROLLBARS
+      ========================================= */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: var(--dark-bg); }
+  ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.15); border-radius: 3px; }

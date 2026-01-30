@@ -1,0 +1,81 @@
+/* src/components/Navbar.css */
+
+/* The main container */
+.premium-navbar {
+  background-color: rgba(11, 15, 25, 0.85);
+  -webkit-backdrop-filter: blur(12px); 
+  backdrop-filter: blur(12px); 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1rem 1rem; 
+  transition: all 0.3s ease-in-out;
+}
+
+/* Logo Image */
+.navbar-logo-img {
+  height: 40px; 
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  display: block; 
+  /* ✅ OPTIONAL: Adjust this if you want the logo even closer to the edge */
+  margin-left: 0; 
+  padding-bottom: 5px;
+}
+
+.navbar-logo-img:hover {
+  transform: scale(1.05);
+}
+
+/* Navigation Links */
+.custom-nav-link {
+  color: #e2e8f0 !important; 
+  text-transform: uppercase;
+  font-weight: 600; 
+  font-size: 0.9rem; 
+  letter-spacing: 0.05em;
+  
+  /* ✅ REMOVED: margin-left: 1rem; (This was causing the extra large gap) */
+  transition: color 0.3s ease, transform 0.2s ease;
+  position: relative;
+}
+
+.custom-nav-link:hover {
+  color: #ff4747 !important; 
+  transform: translateY(-1px);
+}
+
+.custom-nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 4px;
+  background-color: #ff4747;
+  border-radius: 50%;
+}
+
+.highlight-link:hover {
+  text-shadow: 0 0 12px rgba(255, 71, 71, 0.4);
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  /* ✅ Reduced margin-right to pull content tighter if needed */
+  margin-right: 1rem; 
+}

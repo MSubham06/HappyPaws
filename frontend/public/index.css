@@ -1,0 +1,109 @@
+/* =========================================
+   1. GLOBAL VARIABLES
+   ========================================= */
+   :root {
+    /* 🎨 Brand Colors */
+    --primary-red: #ff4747;
+    --primary-hover: #e03e3e;
+    --success-green: #2ecc71;
+    --accent-yellow: #f1c40f;
+    --info-blue: #3498db;
+  
+    /* 🌑 Backgrounds */
+    --dark-bg: #0b0f19;
+    --card-bg: #151a25;
+    
+    /* 🧊 Glassmorphism */
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-blur: 16px;
+    
+    /* 🔤 Typography */
+    --text-main: #ffffff;
+    --text-muted: #b0b3b8;
+    
+    /* 📐 Spacing */
+    --radius-lg: 16px;
+    --radius-md: 10px;
+  }
+  
+  /* =========================================
+      2. RESET & BODY
+      ========================================= */
+  body {
+    margin: 0;
+    font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--dark-bg);
+    color: var(--text-main);
+    /* Subtle mesh gradient background */
+    background-image: 
+      radial-gradient(circle at 15% 50%, rgba(255, 71, 71, 0.05), transparent 25%),
+      radial-gradient(circle at 85% 30%, rgba(52, 152, 219, 0.05), transparent 25%);
+    min-height: 100vh;
+  }
+  
+  a { text-decoration: none; color: inherit; }
+  
+  /* =========================================
+      3. ANIMATIONS (Crucial for Transitions)
+      ========================================= */
+  /* This defines HOW the element moves */
+  @keyframes fadeSlideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px); /* Start lower */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End in natural position */
+    }
+  }
+  
+  /* This applies the animation to any element with this class */
+  .page-transition {
+    animation: fadeSlideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    will-change: transform, opacity; /* Performance optimization */
+  }
+  
+  /* =========================================
+      4. GLASS CARD UTILITIES
+      ========================================= */
+  .glass-card {
+    background: var(--glass-bg);
+    
+    /* ✅ FIXED: Vendor prefix (-webkit-) must come BEFORE the standard property */
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    backdrop-filter: blur(var(--glass-blur));
+    
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .glass-card:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  /* =========================================
+      5. BUTTONS & FORMS
+      ========================================= */
+  .btn-primary {
+    background-color: var(--primary-red);
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: var(--primary-hover);
+  }
+  
+  .form-control {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    color: white;
+  }
+  .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: var(--primary-red);
+    box-shadow: 0 0 0 4px rgba(255, 71, 71, 0.1);
+  }

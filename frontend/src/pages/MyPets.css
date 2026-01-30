@@ -1,0 +1,224 @@
+/* src/pages/MyPets.css */
+
+/* --- 1. CONTAINER --- */
+.mypets-container {
+    min-height: 100vh;
+    padding: 20px;
+    padding-top: 1rem; 
+    background-color: #0b0f19;
+    color: #ecf0f1;
+    font-family: 'Inter', sans-serif;
+    background-image: radial-gradient(circle at 50% 10%, rgba(52, 152, 219, 0.08), transparent 40%);
+}
+
+/* --- 2. HEADER (Fixed Alignment) --- */
+.mypets-header {
+    /* ✅ CHANGED: Removed flex/space-between to stack text left */
+    display: block; 
+    text-align: left; 
+    margin-bottom: 30px;
+    
+    /* Center the block itself on screen, but keep text left inside it */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mypets-header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+.mypets-header p {
+    margin: 8px 0 0 0; /* Slight gap top */
+    color: #9ca3af;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* --- 3. GRID --- */
+.pets-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 30px; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* =========================================
+   🆔 ID CARD DESIGN
+   ========================================= */
+.id-card {
+    background: #111621; 
+    border: 1px solid #1f2937;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none; 
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+/* ✅ CHANGED: Border color is now RED (#ff4747) on hover */
+.id-card:hover {
+    transform: translateY(-3px);
+    border-color: #ff4747; 
+}
+
+/* 1. Header Strip */
+.id-card-header {
+    background: rgba(255, 255, 255, 0.02);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1f2937;
+}
+
+.id-card-header span {
+    color: #6b7280;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.active-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #10b981; 
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(16, 185, 129, 0.5);
+}
+
+/* 2. Photo Section */
+.id-photo-section {
+    padding: 30px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.id-avatar {
+    width: 90px;
+    height: 90px;
+    background: #1f2937;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 15px;
+    border: 2px solid #374151;
+}
+
+.id-name {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.id-type {
+    color: #ff4747; /* Red accent text */
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+/* 3. Details Grid */
+.id-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.id-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 8px;
+}
+
+.id-row:last-child {
+    border-bottom: none;
+}
+
+.id-label {
+    font-size: 0.85rem;
+    color: #6b7280;
+    font-weight: 600;
+}
+
+.id-value {
+    font-size: 0.9rem;
+    color: #e5e7eb;
+    font-weight: 700;
+    text-align: right;
+    text-transform: capitalize;
+}
+
+/* 4. Action Button */
+.btn-view-profile {
+    margin: 20px;
+    margin-top: auto;
+    background: #1f2937;
+    border: 1px solid #374151;
+    color: #e5e7eb;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.2s ease;
+}
+
+/* ✅ CHANGED: Button hover is now Red */
+.btn-view-profile:hover {
+    background: #ff4747;
+    border-color: #ff4747;
+    color: white;
+}
+
+/* ADD NEW CARD */
+.add-pet-card {
+    background: #111621;
+    border: 2px dashed #374151;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 420px; 
+    cursor: pointer;
+    transition: all 0.s ease;
+    color: #6b7280;
+}
+
+.add-pet-card:hover {
+    border-color: #ff4747;
+    color: #ff4747;
+    background: rgba(255, 71, 71, 0.05);
+}
+
+.add-pet-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 15px;
+    text-transform: uppercase;
+}

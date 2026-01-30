@@ -1,0 +1,252 @@
+/* src/pages/BookAppointment.css */
+
+.booking-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-color: #0b0f19;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding-top: 80px; 
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    font-family: 'Inter', sans-serif;
+    
+    z-index: 50;
+    overflow: hidden; 
+}
+
+/* CARD LAYOUT */
+.booking-card {
+    background: #111621;
+    border: 1px solid #1f2937;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 900px; 
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    color: white;
+    
+    display: grid;
+    grid-template-columns: 1.5fr 1fr; 
+    
+    overflow: hidden; 
+    max-height: 85vh; 
+}
+
+/* --- LEFT SIDE: FORM --- */
+.booking-form-section {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto; 
+}
+
+.card-header { 
+    text-align: left; 
+    margin-bottom: 25px; 
+}
+
+.booking-card h2 { 
+    margin: 0 0 5px 0; 
+    font-size: 2.2rem; 
+    color: #ff4747; 
+    font-weight: 800; 
+    letter-spacing: -1px; 
+    text-transform: uppercase;
+}
+
+.booking-card p { 
+    color: #9ca3af; 
+    margin: 0; 
+    font-size: 0.95rem; 
+}
+
+/* --- RIGHT SIDE: IMAGE --- */
+.booking-image-section {
+    background-color: #1f2937;
+    position: relative;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+    overflow: hidden;
+    height: 100%; 
+}
+
+.vet-illustration {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(0.9);
+}
+
+.image-gradient-overlay {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 40px 30px 30px; 
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 10%, rgba(0,0,0,0) 100%);
+    text-align: left;
+}
+
+/* ALERTS */
+.alert { 
+    padding: 15px; 
+    margin-bottom: 25px; 
+    border-radius: 8px; 
+    font-weight: bold; 
+    text-align: center; 
+    font-size: 0.95rem; 
+}
+.alert.success { background: rgba(16, 185, 129, 0.15); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.3); }
+.alert.error { background: rgba(255, 71, 71, 0.15); color: #ff4747; border: 1px solid rgba(255, 71, 71, 0.3); }
+
+/* FORM ELEMENTS */
+.form-group { 
+    margin-bottom: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 8px; 
+}
+
+.form-group label { 
+    font-size: 0.85rem; 
+    font-weight: 700; 
+    color: #9ca3af; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px; 
+}
+
+/* DROPDOWNS & INPUTS */
+.form-group select, 
+.form-group input {
+    background: #0b0f19;
+    border: 1px solid #333;
+    padding: 14px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.2s;
+    width: 100%;
+    cursor: pointer;
+    color-scheme: dark; 
+    
+    /* ✅ FIXED: Prefix comes first, standard property last */
+    -webkit-appearance: none; 
+    appearance: none; 
+}
+
+/* Custom Arrow for Select (Red #ff4747) */
+.form-group select {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23ff4747%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 0.8rem auto;
+}
+
+/* Focus State */
+.form-group select:focus, 
+.form-group input:focus { 
+    border-color: #ff4747; 
+    box-shadow: 0 0 0 3px rgba(255, 71, 71, 0.15); 
+}
+
+option { 
+    background-color: #0b0f19; 
+    color: white; 
+    padding: 10px; 
+}
+
+.form-row { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 25px; 
+}
+
+/* DATE ICON */
+.minimal-date-input::-webkit-calendar-picker-indicator {
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%23ff4747%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M3.5%200a.5.5%200%200%201%20.5.5V1h8V.5a.5.5%200%200%201%201%200V1h1a2%202%200%200%201%202%202v11a2%202%200%200%201-2%202H2a2%202%200%200%201-2-2V3a2%202%200%200%201%202-2h1V.5a.5.5%200%200%201%20.5-.5zM1%204v10a1%201%200%200%200%201%201h12a1%201%200%200%200%201-1V4H1z%22%2F%3E%3C%2Fsvg%3E');
+    filter: none; 
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+}
+
+/* BUTTONS */
+.action-buttons { 
+    display: flex; 
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+.btn-confirm {
+    flex: 1; 
+    background: #ff4747; 
+    color: white; 
+    border: none; 
+    padding: 14px;
+    border-radius: 10px; 
+    font-weight: 700; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: 0.2s;
+}
+
+.btn-confirm:hover { 
+    background: #e03e3e; 
+    transform: translateY(-2px); 
+    box-shadow: 0 5px 15px rgba(255, 71, 71, 0.3);
+}
+
+.btn-confirm:disabled { background: #555; cursor: not-allowed; }
+
+.btn-cancel {
+    flex: 1; 
+    background: transparent; 
+    color: #ccc; 
+    border: 1px solid #333; 
+    padding: 14px;
+    border-radius: 10px; 
+    font-weight: 700; 
+    cursor: pointer; 
+    transition: 0.2s;
+}
+.btn-cancel:hover { background: rgba(255,255,255,0.05); color: white; border-color: #666; }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .booking-container {
+        height: auto;
+        overflow-y: auto;
+        padding: 40px 20px;
+        padding-top: 100px;
+        position: relative;
+    }
+    .booking-card {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        max-height: none; 
+    }
+    .booking-image-section {
+        height: 200px; 
+        order: -1; 
+    }
+    .booking-form-section { padding: 30px; }
+    .form-row { grid-template-columns: 1fr; gap: 15px; }
+}

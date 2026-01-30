@@ -1,0 +1,291 @@
+/* src/pages/VetDashboard.css */
+
+/* ================= VARIABLES ================= */
+:root {
+  --bg-dark: #0b0f19;
+  --bg-card: #151a25;
+  --bg-input: #1e2330;
+  --primary-red: #ff4747;
+  --primary-red-hover: #ff6b6b;
+  --text-white: #ffffff;
+  --text-muted: #9ca3af;
+  --border-color: #2d3748;
+}
+
+/* ================= CONTAINER ================= */
+.vet-dashboard-container {
+  min-height: 100vh;
+  background-color: var(--bg-dark);
+  color: var(--text-white);
+  padding: 30px 20px;
+  font-family: 'Inter', sans-serif;
+  
+  /* ✅ REDUCED TOP PADDING */
+  padding-top: 20px; 
+}
+
+/* ================= HEADER ================= */
+.dashboard-title {
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: var(--text-white);
+}
+
+/* ================= TABS ================= */
+.tabs-container {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.tab-btn {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+}
+
+.tab-btn:hover {
+  color: var(--text-white);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.tab-btn.active {
+  background: var(--bg-card);
+  color: var(--primary-red);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ================= GRID CARDS ================= */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  animation: fadeIn 0.4s ease-out;
+}
+
+.info-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 24px;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  color: var(--text-white);
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-red);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  padding-bottom: 12px;
+}
+
+.card-id {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.card-body h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+  color: var(--text-white);
+}
+
+.card-subtitle {
+  color: var(--primary-red);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  display: block;
+  letter-spacing: 0.5px;
+}
+
+.card-details p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  color: #d1d5db;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-actions {
+  margin-top: 20px;
+}
+
+/* ================= BUTTONS ================= */
+.add-btn {
+  background: linear-gradient(135deg, var(--primary-red), #d93838);
+  border: none;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.add-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 71, 71, 0.4);
+}
+
+.btn-group .btn {
+  padding: 10px 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 0;
+}
+
+.btn-group .btn:first-child { border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
+.btn-group .btn:last-child { border-top-right-radius: 8px; border-bottom-right-radius: 8px; }
+
+/* Inactive State */
+.btn-outline-secondary {
+  color: var(--text-muted) !important;
+  border-color: var(--border-color) !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--bg-input) !important;
+  color: var(--text-white) !important;
+  border-color: var(--text-muted) !important;
+}
+
+/* Active State */
+.btn-danger {
+  background-color: var(--primary-red) !important;
+  border-color: var(--primary-red) !important;
+  color: white !important;
+}
+
+/* ================= TABLES ================= */
+.glass-table {
+  background: var(--bg-card);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.table-header {
+  background: rgba(255, 255, 255, 0.03);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.table-row {
+  border-bottom: 1px solid var(--border-color);
+  transition: background 0.2s;
+  color: var(--text-white);
+}
+
+.table-row:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.date-badge {
+  background: #1f2937;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border: 1px solid #374151;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+/* ================= PROFILE CARD ================= */
+.glass-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  color: var(--text-white);
+}
+
+/* ================= FORCE TEXT VISIBILITY (Critical Fixes) ================= */
+.modal-content, 
+.modal-body, 
+.modal-header, 
+.modal-footer {
+    background-color: #1a1f2b !important;
+    color: var(--text-white) !important;
+    border-color: var(--border-color) !important;
+}
+
+pre {
+    color: #a6e3a1 !important;
+    background-color: #111 !important;
+    border: 1px solid #333 !important;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+label, .form-label {
+    color: var(--text-muted) !important;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.form-control, .form-select {
+    background-color: var(--bg-input) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-white) !important;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: var(--primary-red) !important;
+    box-shadow: 0 0 0 2px rgba(255, 71, 71, 0.25) !important;
+}
+
+.text-muted {
+    color: #9ca3af !important; /* Ensure secondary text is visible gray */
+}
+
+.btn-close-white {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

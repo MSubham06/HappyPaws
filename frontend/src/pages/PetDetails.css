@@ -1,0 +1,136 @@
+/* src/pages/PetDetails.css */
+
+.pet-details-container {
+    min-height: 100vh;
+    padding: 30px;
+    padding-top: 40px;
+    background-color: #0b0f19;
+    color: #ecf0f1;
+    font-family: 'Inter', sans-serif;
+}
+
+.details-header-row { margin-bottom: 20px; }
+.btn-back {
+    background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #ccc;
+    padding: 12px 24px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1rem;
+}
+.btn-back:hover { background: rgba(255,255,255,0.1); color: white; }
+
+/* --- 1. HEADER CARD (Full Width) --- */
+.pet-header-card {
+    background: #111621;
+    border: 1px solid #1f2937;
+    border-radius: 16px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.header-left { display: flex; align-items: center; gap: 30px; }
+.header-avatar {
+    width: 100px; height: 100px; background: #ff4747; color: white;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    font-size: 3rem; font-weight: 800;
+}
+.header-info h1 { margin: 0; font-size: 3rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; }
+.header-info p { margin: 5px 0 0; color: #9ca3af; font-size: 1.3rem; }
+
+.header-stats { display: flex; gap: 50px; }
+.h-stat { display: flex; flex-direction: column; align-items: flex-end; }
+.h-label { color: #6b7280; font-size: 1rem; text-transform: uppercase; font-weight: 700; }
+.h-value { font-size: 1.8rem; font-weight: 800; color: white; }
+
+/* --- DASHBOARD GRID --- */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* 2/3 Stats, 1/3 Info */
+    gap: 30px;
+}
+
+/* --- CARDS COMMON --- */
+.main-stats-card, .info-card, .medical-history-card {
+    background: #111621;
+    border: 1px solid #1f2937;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+h3 { margin-top: 0; font-size: 1.4rem; color: #9ca3af; text-transform: uppercase; letter-spacing: 1px; font-weight: 800; margin-bottom: 25px; border-bottom: 1px solid #1f2937; padding-bottom: 15px; }
+
+/* --- 2. MAIN STATS (Big Chart) --- */
+.main-stats-card { grid-column: 1; }
+.charts-layout { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; align-items: center; }
+
+/* BIGGER CHART HEIGHT */
+.radar-section { height: 500px; /* ✅ Increased to 500px */ }
+
+/* TEXT STATS (Alongside Chart) */
+.text-stats-section { display: flex; flex-direction: column; justify-content: center; height: 100%; }
+.stat-bar-container { margin-bottom: 25px; }
+.stat-header { display: flex; justify-content: space-between; font-size: 1.1rem; margin-bottom: 8px; color: #e5e7eb; font-weight: 700; }
+.bar-bg { height: 12px; background: #374151; border-radius: 6px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 6px; }
+
+.social-summary { margin-top: 40px; display: flex; justify-content: space-between; background: #0b0f19; padding: 20px; border-radius: 12px; }
+.s-tag { font-size: 1.1rem; color: #ccc; }
+.s-tag strong { margin-left: 8px; font-size: 1.2rem; }
+.s-tag strong.red { color: #ff4747; }
+.s-tag strong.green { color: #2ecc71; }
+
+/* --- 3. SIDE INFO COLUMN --- */
+.side-info-column { grid-column: 2; display: flex; flex-direction: column; gap: 30px; }
+
+/* Diet */
+.diet-grid { margin-bottom: 25px; }
+.d-row { display: flex; justify-content: space-between; font-size: 1.1rem; padding: 10px 0; border-bottom: 1px dashed #333; }
+
+.weight-display-box {
+    background: #0b0f19; border: 1px solid #333; border-radius: 12px; padding: 25px;
+    display: flex; align-items: center; justify-content: space-between;
+}
+.w-item { display: flex; flex-direction: column; align-items: center; }
+.w-label { font-size: 0.9rem; color: #6b7280; font-weight: 700; margin-bottom: 5px; }
+.w-val { font-size: 2rem; font-weight: 800; }
+.w-val.white { color: white; }
+.w-val.green { color: #2ecc71; }
+.w-vs { color: #4b5563; font-style: italic; font-size: 1.1rem; }
+
+/* Env & Meds */
+.env-grid { margin-bottom: 25px; display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+.e-item { background: #1f2937; padding: 15px; border-radius: 8px; font-size: 1.1rem; text-align: center; color: #ccc; }
+.e-item span { display: block; font-size: 0.85rem; color: #9ca3af; margin-bottom: 4px; text-transform: uppercase; font-weight: 700; }
+
+.tags-box { margin-bottom: 20px; }
+.t-label { display: block; font-size: 1rem; color: #ccc; margin-bottom: 10px; font-weight: 700; }
+.t-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.tag { padding: 6px 12px; border-radius: 6px; font-size: 0.95rem; font-weight: 700; }
+.tag.red { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
+.tag.yellow { background: rgba(245, 158, 11, 0.2); color: #f59e0b; }
+.tag.blue { background: rgba(59, 130, 246, 0.2); color: #3b82f6; }
+.muted { color: #4b5563; font-style: italic; font-size: 1rem; }
+
+/* --- 4. MEDICAL TABLE --- */
+.medical-history-card { grid-column: span 2; }
+.visits-table { width: 100%; border-collapse: collapse; }
+.visits-table th { color: #9ca3af; font-size: 1rem; padding: 18px; border-bottom: 2px solid #374151; text-align: left; }
+.visits-table td { padding: 18px; border-bottom: 1px solid #1f2937; font-size: 1.1rem; color: #e5e7eb; }
+.visit-badge { padding: 6px 14px; border-radius: 8px; font-size: 0.9rem; font-weight: 800; text-transform: uppercase; }
+.visit-badge.emergency { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
+.visit-badge.routine { background: rgba(59, 130, 246, 0.2); color: #3b82f6; }
+.visit-badge.follow_up { background: rgba(245, 158, 11, 0.2); color: #f59e0b; }
+.text-center { text-align: center; }
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+    .dashboard-grid { grid-template-columns: 1fr; }
+    .main-stats-card, .side-info-column, .medical-history-card { grid-column: span 1; }
+    .charts-layout { grid-template-columns: 1fr; }
+    .radar-section { height: 400px; }
+    .pet-header-card { flex-direction: column; text-align: center; gap: 20px; }
+    .header-left { flex-direction: column; }
+    .header-stats { width: 100%; justify-content: space-around; }
+}

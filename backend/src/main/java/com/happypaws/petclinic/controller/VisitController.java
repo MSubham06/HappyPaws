@@ -56,9 +56,10 @@ public class VisitController {
         visitService.deleteVisit(id);
         return "Visit deleted successfully with id: " + id;
     }
+    
     @PostMapping("/bulk")
     public List<Visit> createVisits(@RequestBody List<Visit> visits) {
-    return visitService.createVisits(visits);
+        return visitService.createVisits(visits);
     }
 
 }

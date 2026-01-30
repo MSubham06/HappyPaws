@@ -8,6 +8,9 @@ import java.util.Optional;
 @Repository
 public interface OwnerRepository extends JpaRepository<Owner, Long> {
     
-    // Finds the Owner profile linked to a specific User Login ID
+    // ✅ CRITICAL FIX: Find Owner by Email (since linked by email, not just user_id)
+    Optional<Owner> findByEmail(String email);
+
+    // Keep this as a backup
     Optional<Owner> findByUserId(Long userId);
 }
