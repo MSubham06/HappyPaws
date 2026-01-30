@@ -1,6 +1,10 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8082/api";
+// 🚀 PRODUCTION BACKEND URL
+const API_URL = "https://happypaws-backend-z4ik.onrender.com/api";
+
+// 🧠 PRODUCTION ML SERVICE URL
+const ML_API_URL = "https://happypaws-ml-dmjm.onrender.com";
 
 const api = axios.create({
   baseURL: API_URL,
@@ -17,6 +21,15 @@ api.interceptors.request.use(
   },
   (error) => Promise.reject(error)
 );
+
+// ==========================
+// 🤖 AI / ML SERVICE
+// ==========================
+export const getPrediction = async (symptoms) => {
+    // This call goes to the Python Flask Service, not the Spring Boot Backend
+    const response = await axios.post(`${ML_API_URL}/predict`, { symptoms });
+    return response.data;
+};
 
 // ==========================
 // 🔐 AUTHENTICATION
@@ -77,7 +90,7 @@ export const updateVet = async (id, vetData) => {
 
 export const deleteVet = async (id) => api.delete(`/vets/${id}`);
 
-// ✅ NEW: Vet Dashboard Functions
+// Vet Dashboard Functions
 export const getVetProfile = async () => {
     const response = await api.get("/vets/me");
     return response.data;
@@ -155,7 +168,6 @@ export const createPet = async (petData) => {
   const response = await api.post("/pets", petData);
   return response.data;
 };
-// Alias for createPet (for backward compatibility if used elsewhere)
 export const addPet = createPet; 
 
 export const updatePet = async (id, petData) => {
