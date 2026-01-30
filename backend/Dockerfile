@@ -7,7 +7,9 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 # 2. Run the App
-FROM openjdk:17-jdk-slim
+# ✅ CHANGED: Switched from 'openjdk:17-jdk-slim' to 'eclipse-temurin:17-jdk-jammy'
+FROM eclipse-temurin:17-jdk-jammy
+WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","/app.jar"]
