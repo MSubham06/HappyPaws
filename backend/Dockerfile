@@ -7,9 +7,14 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 # 2. Run the App
-# ✅ CHANGED: Switched from 'openjdk:17-jdk-slim' to 'eclipse-temurin:17-jdk-jammy'
 FROM eclipse-temurin:17-jdk-jammy
 WORKDIR /app
+
+# Copy the built JAR file to the current directory (/app/app.jar)
 COPY --from=build /app/target/*.jar app.jar
+
+# Expose the port
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/app.jar"]
+
+# ✅ FIXED: Run the jar from the current directory
+ENTRYPOINT ["java","-jar","app.jar"]
