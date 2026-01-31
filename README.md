@@ -1,5 +1,5 @@
 # HappyPaws – Spring PetClinic Application
-Care for Every Paw!🐾🤝
+Care for Every Paw!
 
 **[Visit Website](https://msubham06.github.io/HappyPaws/)**
 
